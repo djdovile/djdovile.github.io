@@ -13,19 +13,17 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "VU TSPMI prof."
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "VU profesorė, sienos, pasaulio tvarka, saugumas"
     # Social accounts (used for meta tags like Twitter Cards)
-    social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+    social: {}
+    name: Dovilė Jakniūnaitė
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -35,7 +33,7 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
+    pack: "coffee"
     # Optional: Override theme pack colors
     colors:
       primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
@@ -86,16 +84,16 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: center # left | center | right
+    align: right # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: true
+    theme_toggle: false
     theme_picker: true
     language_switcher: true
     # Call-to-action button
     cta:
-      enable: false
-      text: ""
+      enable: true
+      text: "Get"
       url: ""
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -165,7 +163,7 @@ hugoblox:
       enable: true
     # Academic citations
     citations:
-      style: apa # apa | mla | chicago | ieee
+      style: chicago # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH

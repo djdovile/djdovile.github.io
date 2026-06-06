@@ -1,6 +1,6 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: 'Projektai'
+date: 2026-06-06
 type: landing
 
 # Page sections
