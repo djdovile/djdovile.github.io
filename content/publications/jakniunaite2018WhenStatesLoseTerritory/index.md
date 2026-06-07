@@ -45,6 +45,7 @@ image:
   preview_only: false
 projects: []
 slides: ""
-draft: false---
+draft: false
+---
 
 Jakniūnaitė, Dovilė. 2018. “When States Lose Territory: Georgia’s Post-2008 Adjustment.” *Baltic Journal of Political Science* 6: 60-74.

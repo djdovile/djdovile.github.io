@@ -13,7 +13,7 @@ publication: "*Lietuvos ir Rusijos sutartis: d\u0117l tarpvalstybini\u0173 santy
 publication_short: ""
 abstract: ""
 summary: Publication summary.
-...
+
 tags:
   - Academic
   - Research
@@ -44,6 +44,7 @@ image:
   preview_only: false
 projects: []
 slides: ""
-draft: false---
+draft: false
+---
 
 Jakniūnaitė, Dovilė. 2021. “Nuo stabiliai blogų prie jokių: Lietuvos ir Rusijos santykiai 2004-2021 metais.” *Lietuvos ir Rusijos sutartis: dėl tarpvalstybinių santykių pagrindų*, sudarė Vytautas Sinkevičius and Vladimir Jarmolenko, 163–83. Vilnius: Mykolo Riomerio Universitetas.

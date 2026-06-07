@@ -45,6 +45,7 @@ image:
   preview_only: false
 projects: []
 slides: ""
-draft: false---
+draft: false
+---
 
 Jakniūnaitė, Dovilė, and Evaldas Nekrašas. 2010. “Kaip tirti tarptautinius santykius konstruktyvistiškai: filosofinių prielaidų ir teorinių nuostatų analizė.” *Politologija* 59: 29–58.

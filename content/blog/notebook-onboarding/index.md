@@ -41,7 +41,7 @@ Hugo Blox changes that. With the `{{</* notebook */>}}` shortcode, you can rende
 
 Below is a live example of a notebook rendered right here in this post. Notice how the markdown, code, and outputs (text, HTML, and JSON) are all preserved and styled.
 
-{{< notebook
+< notebook
     src="hugoblox-onboarding.ipynb"
     title="Launch Readiness Analysis"
     show_metadata=true
@@ -49,7 +49,7 @@ Below is a live example of a notebook rendered right here in this post. Notice h
     dense=false
     download_label="Download notebook"
     show_outputs=true
->}}
+>
 
 ## How to add a notebook
 

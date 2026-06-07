@@ -12,7 +12,7 @@ publication: '*Lithuanian Foreign Policy Review*'
 publication_short: ""
 abstract: ""
 summary: Publication summary.
-...
+
 tags:
   - geopolitics
   - baltic
@@ -44,6 +44,7 @@ image:
   preview_only: false
 projects: []
 slides: ""
-draft: false---
+draft: false
+---
 
 Miglinaitė, Raimonda, and Dovilė Jakniūnaitė. 2014. “Lithuania at the United Nations Security Council: Strategy or Accident?” *Lithuanian Foreign Policy Review* 32: 33–48.

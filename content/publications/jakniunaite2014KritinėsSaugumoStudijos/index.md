@@ -15,8 +15,8 @@ abstract: |
 summary: "\u0160iame straipsnyje pristatomi naujausi saugumo studij\u0173 tyrimai ir diskusijos,\
   \ siekiant pasi\u016Blyti n..."
 tags:
-  - Academic
-  - Research
+  - saugumo studijos
+
 featured: false
 doI: 10.47459/lmsa.2014.12.2
 

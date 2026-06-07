@@ -1,6 +1,6 @@
 ---
 title: Lithuania
-...
+
 authors:
   - me
 author_notes:
@@ -13,7 +13,7 @@ publication: '*Europe''s Coherence Gap in External  Crisis and Conflict Manageme
 publication_short: ""
 abstract: ""
 summary: Publication summary.
-...
+
 tags:
   - baltic
 featured: false
@@ -43,6 +43,7 @@ image:
   preview_only: false
 projects: []
 slides: ""
-draft: false---
+draft: false
+---
 
 Jakniūnaitė, Dovilė. 2020. “Lithuania.” In *Europe’s Coherence Gap in External  Crisis and Conflict Management: Political Rhetoric and Institutional Practives in the EU and Its Member States*, edited by Bertelsmann Stiftung, 224–36. Bertelsmann Stiftung.

@@ -13,8 +13,8 @@ abstract: ""
 summary: Publication summary.
 
 tags:
-  - Academic
-  - Research
+  - TST
+  
 featured: false
 hugoblox:
   ids:

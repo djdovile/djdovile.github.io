@@ -20,7 +20,7 @@ tags:
   - eu
 featured: false
 doI: https://doi.org/10.7220/2335-8769.76.5
-...
+
 hugoblox:
   ids:
     arxiv: ""
@@ -47,6 +47,7 @@ image:
   preview_only: false
 projects: []
 slides: ""
-draft: false---
+draft: false
+---
 
 Jakniūnaitė, Dovilė, and Justinas Lingevičius. 2021. “Skaitmeninė geopolitinė konkurencija dirbtinio intelekto amžiuje: Jungtinių Amerikos Valstijų, Kinijos ir Europos Sąjungos vizijos.” *Darbai ir dienos* 76.

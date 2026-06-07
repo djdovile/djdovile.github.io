@@ -13,7 +13,7 @@ publication: '*Politologija*'
 publication_short: ""
 abstract: ""
 summary: Publication summary.
-...
+
 tags:
   - Academic
   - Research
@@ -44,6 +44,7 @@ image:
   preview_only: false
 projects: []
 slides: ""
-draft: false---
+draft: false
+---
 
 Jakniūnaitė, Dovilė, and Gražina Miniotaitė. 2001. “Lietuvos saugumo politika ir identitetas šiuolaikinių saugumo studijų požiūriu.” *Politologija* 23: 21–43.
