@@ -1,5 +1,5 @@
 ---
-title: Courses
+title: Mano kursai
 summary: My courses
 type: landing
 

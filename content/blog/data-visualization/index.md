@@ -249,4 +249,4 @@ Add engaging call-to-action buttons to your data visualization posts:
 {{</* button url="https://colab.research.google.com/" new_tab="true" style="primary" rounded="full" align="center" icon="rocket-launch" */>}}Open in Colab{{</* /button */>}}
 ```
 
-## Did you find this page helpful? Consider sharing it 🙌
+
