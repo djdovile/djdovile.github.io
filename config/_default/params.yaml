@@ -36,7 +36,7 @@ hugoblox:
     pack: "coffee"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: "indigo" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
       secondary: ""
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
@@ -59,7 +59,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Theme pack: name from data/fonts/
-    pack: "academic"
+    pack: "modern"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -67,11 +67,11 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "sm"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "spacious"
+    spacing: "comfortable"
     # Avatar shape in author profiles
-    avatar_shape: circle # circle | square | rounded
+    avatar_shape: rounded # circle | square | rounded
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
@@ -84,16 +84,16 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: right # left | center | right
+    align: center # left | center | right
     # Feature toggles
     search: true
     theme_toggle: false
-    theme_picker: true
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:
       enable: true
-      text: "Get"
+      text: "Prenumeruok naujienlaiškį"
       url: ""
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -105,7 +105,7 @@ hugoblox:
     style: minimal # minimal | columns | centered
     language_switcher: true
     # Custom footer text (HTML supported)
-    text: ""
+    text: "..."
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -116,7 +116,7 @@ hugoblox:
     notice: "© {year} {name}. This work is licensed under {license}"
     license:
       type: cc # cc | custom
-      allow_derivatives: false
+      allow_derivatives: true
       share_alike: true
       allow_commercial: false
 
@@ -163,7 +163,7 @@ hugoblox:
       enable: true
     # Academic citations
     citations:
-      style: chicago # apa | mla | chicago | ieee
+      style: apa # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
@@ -238,8 +238,8 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006" # Go time format
-    time_format: "3:04 PM"
+    date_format: "2006-01-02" # Go time format
+    time_format: "15:04"
     address_format: en-us
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -285,4 +285,4 @@ hugoblox:
 
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
-    affiliate_code: ""
+    #affiliate_code: ""

@@ -1,3 +1,6 @@
 {
-    "ownable.gitAutoSync.enabled": true
+    "ownable.gitAutoSync.enabled": false,
+    "yaml.schemas": {
+        "https://www.schemastore.org/hugo.json": "file:///c%3A/Users/Vartotojas/Documents/dj-bio/config/_default/hugo.yaml"
+    }
 }

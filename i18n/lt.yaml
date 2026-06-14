@@ -1,0 +1,583 @@
+# Navigation
+
+- id: toggle_navigation
+  translation: Perjungti navigaciją
+
+- id: table_of_contents
+  translation: Turinys
+
+- id: on_this_page
+  translation: Turinys
+
+- id: back_to_top
+  translation: Grįžti į puslapio viršų
+
+- id: home
+  translation: Pradžia
+
+- id: close
+  translation: uždaryti
+
+- id: languages
+  translation: Kalbos
+
+# General
+
+- id: related
+  translation: Susiję
+
+- id: minute_read
+  translation: min. skaitymo
+
+# minute:
+#  one: minutė skaitymo
+#   few: minutės skaitymo
+#   many: minučių skaitymo
+#   other: minučių skaitymo
+
+- id: previous
+  translation: Ankstesnis
+
+- id: next
+  translation: Kitas
+
+- id: figure
+  translation: "Pav. %d:"
+
+- id: edit_page
+  translation: Redaguoti puslapį
+
+# Callouts - All Obsidian-compatible types
+
+- id: callout_note
+  translation: Pastaba
+
+- id: callout_abstract
+  translation: Santrauka
+
+- id: callout_summary
+  translation: Trumpai
+
+- id: callout_info
+  translation: Info
+
+- id: callout_todo
+  translation: Todo
+
+- id: callout_tip
+  translation: Tip
+
+- id: callout_success
+  translation: Success
+
+- id: callout_question
+  translation: Klausimas
+
+- id: callout_warning
+  translation: Įspėjimas
+
+- id: callout_failure
+  translation: Failure
+
+- id: callout_danger
+  translation: Danger
+
+- id: callout_bug
+  translation: Klaida
+
+- id: callout_example
+  translation: Pavyzdys
+
+- id: callout_quote
+  translation: Ciata
+
+- id: callout_important
+  translation: Svarbu
+
+- id: callout_caution
+  translation: Dėmesio
+
+# Themes
+
+- id: theme_selector
+  translation: pasirinkti temą
+
+- id: theme_light
+  translation: Šviesi
+
+- id: theme_dark
+  translation: Tamsi
+
+- id: theme_auto
+  translation: Automatiškai
+
+# Buttons
+
+- id: btn_preprint
+  translation: Preprintas
+
+- id: btn_pdf
+  translation: PDF
+
+- id: btn_cite
+  translation: Cituoti
+
+- id: btn_slides
+  translation: Skaidrės
+
+- id: btn_video
+  translation: Video
+
+- id: btn_code
+  translation: Kodas
+
+- id: btn_dataset
+  translation: Duomenų rinkinys
+
+- id: btn_project
+  translation: Projektas
+
+- id: btn_poster
+  translation: Plakatas
+
+- id: btn_source
+  translation: Nuoroda
+
+- id: btn_doi
+  translation: DOI
+
+- id: btn_site
+  translation: Site
+
+- id: btn_canonical
+  translation: Canonical
+
+- id: btn_crosspost
+  translation: Crosspost
+
+- id: btn_discussion
+  translation: Discussion
+
+- id: btn_event
+  translation: Renginys
+
+- id: btn_calendar
+  translation: Calendar
+
+- id: btn_registration
+  translation: Registracija
+
+- id: btn_demo
+  translation: Demo
+
+- id: btn_model
+  translation: Modelis
+
+- id: btn_hal
+  translation: HAL
+
+- id: btn_dblp
+  translation: DBLP
+
+- id: btn_isbn
+  translation: ISBN
+
+- id: btn_osf
+  translation: OSF
+
+- id: btn_zenodo
+  translation: Zenodo
+
+- id: btn_kaggle
+  translation: Kaggle
+
+- id: btn_openalex
+  translation: OpenAlex
+
+- id: btn_semanticscholar
+  translation: Semantic Scholar
+
+- id: btn_pwc
+  translation: Papers With Code
+
+- id: btn_copy
+  translation: Kopijuoti
+
+- id: btn_copied
+  translation: Nukopijuota
+
+- id: btn_download
+  translation: Parsisiųsti
+
+# About widget
+
+- id: interests
+  translation: Moksliniai interesai
+
+- id: education
+  translation: Išsilavinimas
+
+- id: user_profile_latest
+  translation: Naujausi
+
+- id: about_me
+  translation: Apie
+
+- id: user_profile_latest
+  translation: Latest
+
+# Accomplishments widget
+
+- id: see_certificate
+  translation: Peržiūrėti sertifikatą
+
+# Experience widget
+
+- id: present
+  translation: Parodyti
+
+# Pages widget
+
+- id: read_more
+  translation: Daugiau
+
+- id: more_pages
+  translation: Žiūrėti visus
+
+- id: more_posts
+  translation: Žiūrėti visus įrašus
+
+- id: more_talks
+  translation: Žiūrėti visus pasisakymus
+
+- id: more_publications
+  translation: Žiūrėti visas publikacijas
+
+# Contact widget
+
+- id: contact_name
+  translation: Vardas
+
+- id: contact_email
+  translation: el. paštas
+
+- id: contact_message
+  translation: Žinutė
+
+- id: contact_attachment
+  translation: Attach file
+
+- id: contact_send
+  translation: Siųsti
+
+- id: book_appointment
+  translation: Rezervuoti susitikimą
+
+# Publication/Event details
+
+- id: abstract
+  translation: Santrauka
+
+- id: publication
+  translation: Publikacija
+
+- id: publication_type
+  translation: Tipas
+
+- id: date
+  translation: Data
+
+- id: last_updated
+  translation: Atnaujinta
+
+- id: event
+  translation: Renginys
+
+- id: location
+  translation: Vieta
+
+- id: pub_paper_conference
+  translation: Konferencijos publikacija
+
+- id: pub_article_journal
+  translation: Mokslinis straipsnis
+
+- id: pub_article
+  translation: Straipsnis
+
+- id: pub_report
+  translation: Ataskaita
+
+- id: pub_book
+  translation: Knyga
+
+- id: pub_chapter
+  translation: Knygos skyrius
+
+- id: pub_thesis
+  translation: Disertacija
+
+- id: pub_patent
+  translation: Patentas
+
+# Project details
+
+- id: open_project_site
+  translation: Projekto puslapis
+
+# Content types for default archive page titles and search results
+
+- id: blog
+  translation: Blog
+
+- id: posts
+  translation: Įrašai
+
+- id: publications
+  translation: Publikacijos
+
+- id: events
+  translation: Renginiai
+
+- id: talks
+  translation: Pasisakymai
+
+- id: projects
+  translation: Projektai
+
+- id: slides
+  translation: Skaidrės
+
+- id: authors
+  translation: autoriai
+
+- id: qa
+  translation: Klausimai/Atsakymai
+
+- id: questions
+  translation: Klausimai
+
+- id: faq
+  translation: DUK
+
+- id: faqs
+  translation: DUKai
+
+- id: docs
+  translation: Documentacija
+
+- id: question
+  translation: Klausimas
+
+- id: answer
+  translation: Atsakymas
+
+- id: accepted_answer
+  translation: Accepted Answer
+
+- id: other_answers
+  translation: Other Answers
+
+- id: related_questions
+  translation: Related Questions
+
+- id: browse_by_category
+  translation: Pagal temą
+
+- id: search_questions
+  translation: Search questions...
+
+- id: no_questions_yet
+  translation: No questions yet. Check back soon!
+
+- id: questions_count
+  translation: klausimų
+
+# Slides
+
+- id: back_to_slides
+  translation: Sugrįžti į prezentaciją
+
+- id: featured
+  translation: Featured
+
+- id: details
+  translation: Details
+
+- id: present_slides
+  translation: Rodyti
+
+- id: present_fullscreen
+  translation: Rodyti (pilname ekrane)
+
+- id: export_pdf_print
+  translation: Eksportuoti į PDF (spausdinti)
+
+- id: slides_print_hint
+  translation: Opens in print mode - use browser Print > Save as PDF
+
+- id: slides_search_placeholder
+  translation: Search decks by title...
+
+- id: slides_no_decks
+  translation: No slide decks found
+
+- id: slides_no_matches
+  translation: No decks match your filters
+
+- id: clear_filters
+  translation: išvalyti filtrus
+
+- id: topics
+  translation: Topics
+
+- id: related_resources
+  translation: Related Resources
+
+- id: copy_link
+  translation: Copy Link
+
+- id: copy_citation
+  translation: Copy citation
+
+- id: how_to_cite
+  translation: How to cite
+
+- id: citation
+  translation: Citation
+
+- id: bibtex
+  translation: BibTeX
+
+- id: download_cite_bib
+  translation: Download cite.bib
+
+- id: lecture
+  translation: Paskaita
+
+- id: enter_fullscreen
+  translation: Enter fullscreen
+
+- id: exit_fullscreen
+  translation: Exit fullscreen
+
+- id: speaker_notes_hint
+  translation: for speaker notes
+
+- id: slides_not_found
+  translation: Nerasta
+
+# Search
+
+- id: search
+  translation: Paieška
+
+- id: search_placeholder
+  translation: Ieškoti...
+
+- id: search_results
+  translation: Rasta
+
+- id: search_no_results
+  translation: Nieko nerasta
+
+- id: search_common_queries
+  translation: Common searches
+
+# Error 404
+
+- id: page_not_found
+  translation: Puslapis nerastas
+
+- id: 404_recommendations
+  translation: Galbūt jūs ieškojote šito?
+
+# Cookie consent
+
+- id: cookie_message
+  translation: Šis puslapis naudoja slapukus.
+
+- id: cookie_dismiss
+  translation: Supratau!
+
+- id: cookie_learn
+  translation: Sužinoti daugiau
+
+# Dev Hero block
+
+- id: scroll_to_content
+  translation: Scroll to content
+
+- id: developer
+  translation: Developer
+
+# Portfolio block
+
+- id: portfolio_link_code
+  translation: Code
+
+- id: portfolio_link_live
+  translation: Live
+
+- id: portfolio_link_demo
+  translation: Demo
+
+- id: portfolio_link_default
+  translation: Link
+
+- id: portfolio_view_all
+  translation: žiūrėti visus projektus
+
+# Feedback widget
+
+- id: feedback_widget_title
+  translation: Feedback
+
+- id: feedback_widget_question
+  translation: Was this page helpful?
+
+- id: feedback_widget_answer_positive
+  translation: 😍 Yes
+
+- id: feedback_widget_answer_negative
+  translation: 😡 No
+
+# AI Features
+
+- id: ai_insight
+  translation: AI Insight
+
+# Content Metadata
+- id: content_type
+  translation: Content Type
+- id: difficulty
+  translation: Difficulty
+- id: prerequisites
+  translation: Prerequisites
+
+# Card metadata
+- id: trending
+  translation: Trending
+
+- id: article
+  translation: straipsnis
+
+- id: articles
+  translation: straipsniai
+
+- id: browse
+  translation: Browse
+
+- id: all
+  translation: All
+
+- id: helpful
+  translation: helpful
+
+# Published with
+
+- id: published_with
+  translation: Skurta su Hugo ir {hugoblox}
+
+- id: poweredby_button
+  translation: "."

@@ -4,18 +4,21 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+title: "Dovilė Jakniūnaitė"
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: "https://example.com/"
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguage: lt
+defaultContentLanguageInSubdir: true
+disableDefaultLanguageRedirect: true
 removePathAccents: true
+
+printI18nWarnings: true
+enableMissingTranslationPlaceholders: true
 
 ############################
 ## PAGE OPTIONS
@@ -36,7 +39,7 @@ build:
 enableGitInfo: false
 summaryLength: 30
 pagination:
-  pagerSize: 10
+  pagerSize: 20
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
