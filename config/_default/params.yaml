@@ -20,7 +20,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "VU TSPMI prof."
     # Site meta description for search engines and social sharing
-    description: "VU profesorė, sienos, pasaulio tvarka, saugumas"
+    description: "Sienos ir tapatybės"
     # Social accounts (used for meta tags like Twitter Cards)
     social: {}
     name: Dovilė Jakniūnaitė
@@ -36,8 +36,8 @@ hugoblox:
     pack: "coffee"
     # Optional: Override theme pack colors
     colors:
-      primary: "indigo" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
+      primary: "#B72818" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#4B75FF"
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
@@ -92,7 +92,7 @@ hugoblox:
     language_switcher: true
     # Call-to-action button
     cta:
-      enable: true
+      enable: false
       text: "Prenumeruok naujienlaiškį"
       url: ""
 
@@ -105,7 +105,7 @@ hugoblox:
     style: minimal # minimal | columns | centered
     language_switcher: true
     # Custom footer text (HTML supported)
-    text: "..."
+    text: " "
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -160,7 +160,7 @@ hugoblox:
       enable: true
     # Reading time estimates
     reading_time:
-      enable: true
+      enable: false
     # Academic citations
     citations:
       style: apa # apa | mla | chicago | ieee
@@ -203,12 +203,6 @@ hugoblox:
     plausible:
       domain: ""
     fathom:
-      site_id: ""
-    pirsch:
-      site_id: ""
-    clarity:
-      project_id: ""
-    baidu:
       site_id: ""
 
   # ────────────────────────────────────────────────────────────────────────────
