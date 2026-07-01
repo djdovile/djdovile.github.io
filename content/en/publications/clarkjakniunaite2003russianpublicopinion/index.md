@@ -23,7 +23,6 @@ tags:
 featured: false
 hugoblox:
   ids:
-    arxiv: ''
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

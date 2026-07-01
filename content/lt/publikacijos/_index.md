@@ -1,6 +1,5 @@
 ---
 title: Publikacijos
-cms_exclude: true
 
 # View.
 view: citation

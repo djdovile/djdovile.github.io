@@ -42,9 +42,9 @@ sections:
       title: "Knygos"
       filters:
         folders:
-          - "publications"
+          - "publikacijos"
         featured_only: false
-        type: books
+        type: book
     design:
       view: "article-grid"
       columns: 2
@@ -57,7 +57,7 @@ sections:
       text: ""
       filters:
         folders:
-          - "publications"
+          - "publikacijos"
         exclude_featured: false
     design:
       view: "citation"

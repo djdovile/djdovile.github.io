@@ -29,7 +29,6 @@ tags:
 featured: true
 hugoblox:
   ids:
-    arxiv: ''
     doi:
     - 10.33067/SE.4.2024.8
 image:

@@ -24,7 +24,6 @@ tags:
 featured: false
 hugoblox:
   ids:
-    arxiv: ''
     doi: 10.13109/9783666311277.263
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
