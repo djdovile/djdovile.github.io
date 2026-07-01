@@ -45,6 +45,9 @@ node_modules/
 pagefind/
 static/pagefind/
 
+# Local reference material
+_Helpful Resources/
+
 # ============================================================================
 # Operating System
 # ============================================================================
