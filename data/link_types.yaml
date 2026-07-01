@@ -4,7 +4,7 @@ types:
     icon: hero/document-text
   preprint:
     label_i18n: btn_preprint
-    icon: hero/document-text
+    icon: hero/document-duplicate
   doi:
     label_i18n: btn_doi
     icon: hero/link
@@ -28,7 +28,7 @@ types:
     icon: hero/photo
   project:
     label_i18n: btn_project
-    icon: hero/link
+    icon: hero/archive-box
   site:
     label_i18n: btn_site
     icon: hero/link
@@ -147,4 +147,3 @@ derived:
     label_i18n: btn_demo
     icon: hero/link
     url_template: "https://huggingface.co/spaces/{id}"
-

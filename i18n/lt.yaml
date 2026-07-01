@@ -7,7 +7,7 @@
   translation: Turinys
 
 - id: on_this_page
-  translation: Turinys
+  translation: "Šiame puslapyje:"
 
 - id: back_to_top
   translation: Grįžti į puslapio viršų
@@ -39,7 +39,7 @@
   translation: Ankstesnis
 
 - id: next
-  translation: Kitas
+  translation: Daugiau
 
 - id: figure
   translation: "Pav. %d:"
@@ -65,7 +65,7 @@
   translation: Todo
 
 - id: callout_tip
-  translation: Tip
+  translation: Patarimas
 
 - id: callout_success
   translation: Success
@@ -328,7 +328,7 @@
 # Content types for default archive page titles and search results
 
 - id: blog
-  translation: Blog
+  translation: blogas
 
 - id: posts
   translation: Įrašai
