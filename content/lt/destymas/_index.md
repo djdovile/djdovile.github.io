@@ -5,7 +5,7 @@ type: landing
 
 cascade:
   - target:
-      path: '{/destymas/}'
+      path: '{destymas}'
     type: docs
     params:
       show_breadcrumb: true
@@ -15,10 +15,10 @@ sections:
     id: courses
     content:
       title: Dėstymas
-      filters:
-        tag: kursas
-        kinds:
-          - section
+#      filters:
+#        tag: kursas
+#        kinds:
+#          - section
     design:
       view: article-grid
       show_read_time: false

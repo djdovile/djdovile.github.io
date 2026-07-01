@@ -1,5 +1,5 @@
 ---
-title: Projektai
+title: Moksliniai projektai
 date: 2026-06-06
 type: landing
 
