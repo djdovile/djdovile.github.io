@@ -2,8 +2,6 @@
 title: 'Naujausios tendencijos tarptautinių santykių teorijoje: konstruktyvizmas, postmodernizmas ir virtualizmas'
 authors:
 - me
-author_notes:
-- ''
 date: 2000-01-01
 publishDate: 2023-01-31 19:22:58.246729+00:00
 publication_types:
@@ -24,7 +22,7 @@ featured: false
 hugoblox:
   ids:
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: ' '
   focal_point: ''
   preview_only: false
 projects: []
