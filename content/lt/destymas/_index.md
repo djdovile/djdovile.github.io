@@ -5,24 +5,27 @@ type: landing
 
 cascade:
   - target:
-      path: '{destymas}'
-    type: docs
-    params:
-      show_breadcrumb: true
+      path: /destymas/**
+      kind: page
+    reading_time: false
+    profile: false
+    show_breadcrumb: true
 
 sections:
   - block: collection
     id: courses
     content:
       title: Dėstymas
-#      filters:
-#        tag: kursas
-#        kinds:
-#          - section
+      text: "VU TSPMI dėstomi ir dėstyti kursai."
+      count: 0
+      filters:
+        folders:
+          - destymas
     design:
       view: article-grid
+      fill_image: false
       show_read_time: false
       show_date: false
-      show_read_more: false
+      show_read_more: true
       columns: 1
 ---

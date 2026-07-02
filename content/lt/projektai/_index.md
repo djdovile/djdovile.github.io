@@ -3,20 +3,26 @@ title: Moksliniai projektai
 date: 2026-06-06
 type: landing
 
-# Page sections
 sections:
-  - block: collection
+  - block: portfolio
     content:
       title: Projektai
-      text: "moksliniai tyrimų projektai: keli paskutiniai"
+      text: "Vykdomi ir įgyvendinti mokslinių tyrimų projektai."
+      count: 0
       filters:
         folders:
           - projektai
+      buttons:
+        - name: Visi
+          tag: "*"
+        - name: Vykdomi
+          tag: vykdomi
+        - name: Įgyvendinti
+          tag: igyvendinti
+      default_button_index: 0
+      archive:
+        enable: false
     design:
-      view: article-grid
-      fill_image: false
       columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
+      fallback_icon: academic-cap
 ---
