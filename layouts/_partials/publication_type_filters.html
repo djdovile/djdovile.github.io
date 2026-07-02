@@ -1,0 +1,16 @@
+{{- $active := .active | default "all" -}}
+{{- $lang := site.Language.Lang -}}
+{{- $allURL := cond (eq $lang "lt") "/publikacijos/" "/publications/" -}}
+{{- $items := slice
+  (dict "key" "all" "label_lt" "Visos" "label_en" "All" "url" $allURL)
+  (dict "key" "article-journal" "label_lt" "Straipsniai" "label_en" "Articles" "url" "/publication_types/article-journal/")
+  (dict "key" "book" "label_lt" "Knygos" "label_en" "Books" "url" "/publication_types/book/")
+  (dict "key" "chapter" "label_lt" "Knygų skyriai" "label_en" "Book chapters" "url" "/publication_types/chapter/")
+-}}
+<nav class="mt-6 mb-8 flex flex-wrap justify-center gap-2" aria-label="Publication type">
+  {{- range $items -}}
+    {{- $label := cond (eq $lang "lt") .label_lt .label_en -}}
+    {{- $isActive := eq $active .key -}}
+    <a class="rounded border px-3 py-1 text-sm no-underline {{ if $isActive }}border-primary-600 bg-primary-600 text-white{{ else }}border-gray-300 text-gray-700 hover:border-primary-600 dark:border-gray-600 dark:text-gray-200{{ end }}" href="{{ .url | relLangURL }}">{{ $label }}</a>
+  {{- end -}}
+</nav>

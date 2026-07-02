@@ -1,7 +1,13 @@
 {{ define "main" }}
 
+{{ $term := .Data.Term | default (.Title | urlize) }}
+{{ $label := .Title }}
+{{ if eq $term "article-journal" }}{{ $label = cond (eq site.Language.Lang "lt") "Straipsniai" "Articles" }}{{ end }}
+{{ if eq $term "book" }}{{ $label = cond (eq site.Language.Lang "lt") "Knygos" "Books" }}{{ end }}
+{{ if eq $term "chapter" }}{{ $label = cond (eq site.Language.Lang "lt") "Knygų skyriai" "Book chapters" }}{{ end }}
+
 <div class="universal-wrapper pt-3">
-  <h1>{{ .Title }}</h1>
+  <h1>{{ $label }}</h1>
 
   {{ if .Content }}
     <div class="article-style prose dark:prose-invert max-w-none mb-8">
@@ -9,20 +15,19 @@
     </div>
   {{ end }}
 
-  {{ partial "publication_type_filters.html" (dict "active" "all") }}
+  {{ partial "publication_type_filters.html" (dict "active" $term) }}
 
   {{ $block := . }}
   {{ $items_type := "publication" }}
   {{ $view := (.Params.view | default "citation") }}
-  {{ $columns := .Params.columns | default 1 }}
-  {{ $items := .RegularPagesRecursive.ByDate.Reverse }}
+  {{ $items := .Pages.ByDate.Reverse }}
   {{ $config := dict
-    "columns" $columns
+    "columns" 1
     "len" (len $items)
-    "fill_image" (.Params.fill_image | default true)
-    "show_date" (.Params.show_date | default true)
-    "show_read_time" (.Params.show_read_time | default false)
-    "show_read_more" (.Params.show_read_more | default true)
+    "fill_image" true
+    "show_date" true
+    "show_read_time" false
+    "show_read_more" true
   }}
 
   {{ if gt (len $items) 0 }}
@@ -35,9 +40,7 @@
       {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view "config" $config) }}
     </div>
   {{ else }}
-    <div class="text-center">
-      <p class="mt-6 text-gray-500 dark:text-gray-400">{{ i18n "no_publications" | default "No publications found." }}</p>
-    </div>
+    <p class="mt-6 text-gray-500 dark:text-gray-400">{{ i18n "no_publications" | default "No publications found." }}</p>
   {{ end }}
 </div>
 
