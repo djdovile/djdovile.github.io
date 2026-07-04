@@ -233,6 +233,9 @@
 
 # Experience widget
 
+- id: experience
+  translation: Patirtis
+
 - id: present
   translation: Parodyti
 
@@ -242,16 +245,16 @@
   translation: Daugiau
 
 - id: more_pages
-  translation: Žiūrėti visus
+  translation: Daugiau
 
 - id: more_posts
-  translation: Žiūrėti visus įrašus
+  translation: Daugiau
 
 - id: more_talks
   translation: Žiūrėti visus pasisakymus
 
 - id: more_publications
-  translation: Žiūrėti visas publikacijas
+  translation: Daugiau publikacijas
 
 # Contact widget
 
@@ -566,18 +569,18 @@
   translation: straipsniai
 
 - id: browse
-  translation: Browse
+  translation: Naršyti
 
 - id: all
-  translation: All
+  translation: Visi
 
 - id: helpful
-  translation: helpful
+  translation: naudinga
 
 # Published with
 
 - id: published_with
-  translation: Skurta su Hugo ir {hugoblox}
+  translation: Sukurta su Hugo ir {hugoblox}
 
 - id: poweredby_button
   translation: "."
