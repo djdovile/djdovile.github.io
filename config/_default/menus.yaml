@@ -19,6 +19,6 @@ main:
   - name: Dėstymas
     url: /destymas/
     weight: 40
-  - name: Blogas
+  - name: Tekstai
     url: /blogas/
     weight: 50

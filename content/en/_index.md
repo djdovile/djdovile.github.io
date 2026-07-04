@@ -49,6 +49,7 @@ sections:
         featured_only: true
     design:
       view: "article-grid"
+      show_read_time: false
       columns: 2
     ce: "section-papers"
     id: "papers"
@@ -64,6 +65,7 @@ sections:
         exclude_featured: false
     design:
       view: "citation"
+      show_read_time: false
     ce: "section-d82bf061"
     As: "section-ee8c5be4"
 
@@ -75,6 +77,7 @@ sections:
           - "events"
     design:
       view: "card"
+      show_read_time: false
     ce: "section-talks"
     id: "talks"
     As: "section-e67064d6"
@@ -100,6 +103,7 @@ sections:
       sort_ascending: true
     design:
       view: "article-grid"
+      show_read_time: false
       spacing:
         padding:
           - 0
