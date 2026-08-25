@@ -95,7 +95,8 @@ sections:
       sort_by: "Date"
       sort_ascending: false
     design:
-      view: "citation"
+      view: "title-date"
+      show_date: true
       show_read_time: false
       spacing:
         padding:

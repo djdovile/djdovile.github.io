@@ -1,0 +1,9 @@
+{{/* Minimal archive-row view: title, optionally followed by "(date)". No summary, no author line, no icon. */}}
+{{ $item := .item }}
+{{ $config := .config | default dict }}
+{{ $show_date := true }}
+{{ if isset $config "show_date" }}{{ $show_date = $config.show_date }}{{ end }}
+
+<div class="pub-list-item view-title-date">
+  <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>{{ if $show_date }} <span style="color: var(--dj-muted)">({{ time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") $item.Date }})</span>{{ end }}
+</div>
