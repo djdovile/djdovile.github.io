@@ -18,6 +18,12 @@ As of 2026-07-03, the homepage color pass moved the secondary wayfinding accent 
 
 As of 2026-07-03, the homepage typeset pass replaced the generic `modern` Inter pack with a local `seminar` font pack (`Source Serif 4` for prose/headings, system sans for navigation and controls). The pass also tightened homepage reading measure, heading scale, publication citation title rhythm, metadata sizing, and archive-gateway prose spacing in `assets/css/custom.css`. The design register now treats typography as a public-seminar handout system rather than a generic Hugo Blox interface.
 
+## Theme Decision: Hugo Blox
+
+As of 2026-08-25: evaluated whether Hugo Blox is the right theme choice, prompted by concerns about its complexity and the maintainers' history of renaming/restructuring the project (Academic 2017 → Wowchemy ~2020 → Hugo Blox 2024, each with breaking changes). Decision: **stay on Hugo Blox to finish the current Lithuanian launch** — bilingual routing, the publications pipeline, and both deploy targets already work, and rebuilding mid-launch would mean redoing that work. The complexity/churn concern is real, not overcautious.
+
+**Revisit post-launch**: compare effort-to-rebuild against `pmichaillat/hugo-website` (github.com/pmichaillat/hugo-website) — a minimalist Hugo template built for academic personal sites, closest philosophical match to this site's own `DESIGN.md` — if Hugo Blox's weekly upgrade PRs or complexity keep costing time. Also worth a look: `minimal-academic` (github.com/jhu247/minimal-academic), `Blowfish`.
+
 ## Current Delivery Goal
 
 Prepare and publish a complete Lithuanian version of the personal website with minimal but sufficient information.
@@ -62,6 +68,7 @@ Research themes to foreground in the first-release introduction:
 - Confirm the GitHub publication result before connecting `www.jakniunaite.lt`. `config/_default/hugo.yaml` currently uses `https://djdovile.github.io/`, matching the GitHub Pages workflow.
 - Review visible mojibake/encoding issues in config and author files before publication.
 - Test `pnpm run build` before deployment.
+- Post-launch: revisit the Hugo Blox theme decision (see "Theme Decision: Hugo Blox" above).
 
 ## Remaining Tasks To Review
 
