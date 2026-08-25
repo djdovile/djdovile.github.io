@@ -74,7 +74,8 @@ Research themes to foreground in the first-release introduction:
 
 - Complete and review the Lithuanian site as a minimally sufficient public version before publication.
 - Review `BLOG-LINK-REVIEW-2026-07-02.md`; 13 checked link rows returned errors and need manual decision or later replacement.
-- Replace or draft `content/lt/events/example/` and `content/lt/slides/example/`.
+- ~~Replace or draft `content/lt/events/example/` and `content/lt/slides/example/`.~~ Done 2026-08-25: removed both (Hugo Blox demo placeholders). LT `/events/` and `/slides/` are now empty sections; add real content or unlink from nav later.
+- The same Hugo Blox demo placeholders still exist under `content/en/` (`content/en/events/example/`, `content/en/slides/example/`) — not touched, since English isn't in scope for the LT launch, but flag before EN parity work begins.
 - Add English project/course pages later if bilingual parity is desired.
 - Add `translationKey` values where real Lithuanian and English page pairs exist.
 - Clean English homepage placeholder text and English author metadata later, including `slug: men`, the stray `:url`, and the typo `indentity`.
