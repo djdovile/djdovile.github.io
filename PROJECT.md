@@ -18,6 +18,13 @@ As of 2026-07-03, the homepage color pass moved the secondary wayfinding accent 
 
 As of 2026-07-03, the homepage typeset pass replaced the generic `modern` Inter pack with a local `seminar` font pack (`Source Serif 4` for prose/headings, system sans for navigation and controls). The pass also tightened homepage reading measure, heading scale, publication citation title rhythm, metadata sizing, and archive-gateway prose spacing in `assets/css/custom.css`. The design register now treats typography as a public-seminar handout system rather than a generic Hugo Blox interface.
 
+As of 2026-08-25: `content/lt/blogas` (Tekstai) migrated from the WordPress export at `hugo-export/posts/` — went from 18 posts to 55, covering 2012 through 2025. `EN/content/en/blog` was not touched (still only has the original posts; English isn't in scope for the LT launch). Deliberately excluded from the migration:
+
+- **10 posts marked `draft: true` in the WP export** — never actually published on the old site. Worth a look if there's ever a reason to revisit: `pirmas` (2012, a short reflective photo post), `5 keliavimo traukiniu privalumai` (2012, travel), `Miestas, į kurį sugrįšiu` (2013, NYC), `Россия все активнее...` (2014, RU-language Delfi.ru interview), `Gražinos Miniotaitės knyga` (2014, empty stub), `Ar bus nauja Lietuvos užsienio politika?` (2014, one-line stub, no real content), `testinis` (2015, a WordPress pricing-table test post — not real content), `Apie karinę Lietuvos strategiją` (2016, RU-language interview), `po 2016 Seimo rinkimų` (2016, FB repost), `Žodžiai` (2017, year-in-words piece).
+- **4 export files that duplicate a post already published under a different (shorter) slug** — verified by matching title and date, not re-added.
+
+Neither the deployed site nor `www.jakniunaite.lt` reflects this yet — pushed to GitHub `main`, but see Known Follow-Ups below on confirming the GitHub Pages result before the domain is connected.
+
 ## Theme Decision: Hugo Blox
 
 As of 2026-08-25: evaluated whether Hugo Blox is the right theme choice, prompted by concerns about its complexity and the maintainers' history of renaming/restructuring the project (Academic 2017 → Wowchemy ~2020 → Hugo Blox 2024, each with breaking changes). Decision: **stay on Hugo Blox to finish the current Lithuanian launch** — bilingual routing, the publications pipeline, and both deploy targets already work, and rebuilding mid-launch would mean redoing that work. The complexity/churn concern is real, not overcautious.
