@@ -1,46 +1,8 @@
 # dj_hugo
 
-## Purpose
+Last updated: 2026-08-25
 
-This project is the user's personal webpage. It appears to be an academic/personal website for Dovile Jakniunaite, built with Hugo Blox Academic CV starter. The site includes profile/CV material, publications, blog posts, teaching pages, projects, events, and slides.
-
-## Location
-
-Project folder:
-
-`MyProjects/dj_hugo`
-
-## Technology
-
-Reference: Hugo Blox documentation at https://hugoblox.com/docs/ and the installed Hugo Blox module templates in the local Hugo module cache should be checked when changing blocks or layout overrides.
-
-- Static site generator: Hugo / Hugo Blox.
-- Package manager: `pnpm`.
-- Search indexing: Pagefind.
-- Styling/tooling: Tailwind CSS via Hugo Blox.
-- Deployment: GitHub Pages via `.github/workflows/deploy.yml`; Netlify is also configured in `netlify.toml`.
-- Repository: this folder has its own `.git` directory.
-
-## Key Commands
-
-Run from `MyProjects/dj_hugo`:
-
-- `pnpm install` - install JavaScript dependencies.
-- `pnpm run dev` - start the local Hugo development server with `hugo server --disableFastRender`.
-- `pnpm run build` - build the production site with Hugo minification and Pagefind indexing.
-- `pnpm run pagefind` - rebuild the Pagefind search index for `public`.
-
-## Structure
-
-- `config/_default/` - Hugo and Hugo Blox configuration.
-- `content/lt/` - Lithuanian site content.
-- `content/en/` - English site content.
-- `data/authors/me.yaml` - author/profile metadata.
-- `assets/media/` - media processed by Hugo.
-- `static/` - static files copied directly.
-- `layouts/` - layout overrides and partials.
-- `public/` - generated build output; avoid editing by hand.
-- `update_publications.py` - helper script for publication-related updates.
+Purpose, commands, and architecture (tech stack, content/layout structure, build gotchas) live in `CLAUDE.md`. This file tracks project status, decisions, and next actions only — the continuity layer.
 
 ## Current State
 
@@ -56,16 +18,54 @@ As of 2026-07-03, the homepage color pass moved the secondary wayfinding accent 
 
 As of 2026-07-03, the homepage typeset pass replaced the generic `modern` Inter pack with a local `seminar` font pack (`Source Serif 4` for prose/headings, system sans for navigation and controls). The pass also tightened homepage reading measure, heading scale, publication citation title rhythm, metadata sizing, and archive-gateway prose spacing in `assets/css/custom.css`. The design register now treats typography as a public-seminar handout system rather than a generic Hugo Blox interface.
 
+## Current Delivery Goal
+
+Prepare and publish a complete Lithuanian version of the personal website with minimal but sufficient information.
+
+Delivery sequence:
+
+1. Complete and review the Lithuanian site content and current implementation batch.
+2. Verify the production result through GitHub and publish it there.
+3. Connect the existing `www.jakniunaite.lt` domain after the GitHub version is confirmed.
+
+Later phase: begin a blog, add more personal/professional information, then prepare the English version.
+
+## Minimum Lithuanian Launch Scope
+
+The first public Lithuanian version needs:
+
+1. A short multi-paragraph personal introduction.
+2. A curated publications list: selected publications need links to files where available, short descriptions, and links to the related projects; the first launch does not require every publication.
+3. Clear descriptions of the courses currently taught.
+4. All existing older blog posts.
+5. Descriptions of all current active projects and several most recently completed projects.
+
+Current-course list for the first release:
+
+- Tarptautinių santykių teorijos
+- Simbolinės galios formos
+- Užsienio politikos analizė
+- How to Think Like a Social Scientist
+- Mokslinio darbo pagrindai (Socialinių mokslų filosofijos modulis)
+
+Profile emphasis for the first release: researcher and lecturer; an expert in international relations and security.
+
+Research themes to foreground in the first-release introduction:
+
+- Užsienio politikos analizė: Lietuvos ir Rusijos užsienio politika
+- Vidurio ir Rytų Europos regiono saugumas
+- Sienų ir mobilumo studijos
+- Diskusijos apie tarptautinės tvarkos transformaciją
+
 ## Known Follow-Ups
 
-- Confirm the preferred deployment target. `config/_default/hugo.yaml` currently uses `https://djdovile.github.io/`, matching the GitHub Pages workflow.
+- Confirm the GitHub publication result before connecting `www.jakniunaite.lt`. `config/_default/hugo.yaml` currently uses `https://djdovile.github.io/`, matching the GitHub Pages workflow.
 - Review visible mojibake/encoding issues in config and author files before publication.
-- `public/`, `resources/`, `hugo_stats.json`, and `node_modules/` are generated or dependency output and are ignored; keep edits in source files.
 - Test `pnpm run build` before deployment.
 
 ## Remaining Tasks To Review
 
-- Review and edit the new Lithuanian project and course page wording before treating it as final public content.
+- Complete and review the Lithuanian site as a minimally sufficient public version before publication.
 - Review `BLOG-LINK-REVIEW-2026-07-02.md`; 13 checked link rows returned errors and need manual decision or later replacement.
 - Replace or draft `content/lt/events/example/` and `content/lt/slides/example/`.
 - Add English project/course pages later if bilingual parity is desired.
