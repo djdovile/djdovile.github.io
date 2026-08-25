@@ -15,11 +15,13 @@ hugoblox:
     heading: "Lora"
     body: "Source Serif 4"
     code: "Source Code Pro"
+    nav: "Open Sans"
 
   weights:
     heading: [500, 600, 700]
     body: [400, 600]
     code: [400]
+    nav: [500, 600]
 
   leading:
     heading: 1.2
@@ -34,3 +36,4 @@ hugoblox:
     heading: true
     body: true
     code: false
+    nav: false

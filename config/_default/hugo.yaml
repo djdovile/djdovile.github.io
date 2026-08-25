@@ -25,6 +25,16 @@ enableMissingTranslationPlaceholders: true
 
 cascade:
   - target:
+      path: /destymas/**
+      kind: page
+    reading_time: false
+    profile: false
+  - target:
+      path: /projektai/**
+      kind: page
+    reading_time: false
+    profile: false
+  - target:
       path: /slides/**
       kind: page
     outputs: [HTML, present]
