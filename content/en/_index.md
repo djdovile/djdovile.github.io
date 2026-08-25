@@ -102,7 +102,8 @@ sections:
       sort_by: "Date"
       sort_ascending: true
     design:
-      view: "article-grid"
+      view: "title-date"
+      show_date: true
       show_read_time: false
       spacing:
         padding:
