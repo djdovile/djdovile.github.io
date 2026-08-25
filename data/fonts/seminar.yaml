@@ -1,0 +1,45 @@
+# HugoBlox Font Pack
+# Local pack for dj_hugo.
+
+hugoblox:
+  meta:
+    format: "hugoblox-font@1"
+    name: "Seminar"
+    vendor: "local"
+    version: "1.0.0"
+    license: "OFL"
+    style: "serif"
+    description: "A restrained public-seminar typography system: sturdy text serif for reading, system sans for navigation and controls."
+
+  families:
+    heading: "Source Serif 4"
+    body: "Source Serif 4"
+    code: "JetBrains Mono"
+    nav: "system-sans"
+
+  weights:
+    heading: [600, 700]
+    body: [400, 600]
+    code: [400]
+    nav: [500, 600]
+
+  sizes:
+    sm: "0.875rem"
+    base: "1rem"
+    lg: "1.1875rem"
+
+  leading:
+    heading: 1.16
+    body: 1.68
+    code: 1.5
+
+  tracking:
+    heading: "-0.012em"
+    body: "0"
+    caps: "0.055em"
+
+  variable:
+    heading: true
+    body: true
+    code: true
+    nav: false

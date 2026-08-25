@@ -37,21 +37,21 @@ hugoblox:
     # Optional: Override theme pack colors
     colors:
       primary: "#B72818" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: "#4B75FF"
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      secondary: "#506A52"
+      neutral: "#6C6561" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
     # Optional: Semantic surface color overrides
     surfaces:
-      background: ""
-      foreground: ""
+      background: "#FFFAF5"
+      foreground: "#3B2313"
       header:
-        background: ""
-        foreground: ""
+        background: "#F5EFE9"
+        foreground: "#3B2313"
       footer:
-        background: ""
-        foreground: ""
+        background: "#F5EFE9"
+        foreground: "#5C4033"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
@@ -59,7 +59,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Theme pack: name from data/fonts/
-    pack: "modern"
+    pack: "seminar"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
