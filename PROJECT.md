@@ -23,7 +23,11 @@ As of 2026-08-25: `content/lt/blogas` (Tekstai) migrated from the WordPress expo
 - **10 posts marked `draft: true` in the WP export** — never actually published on the old site. Worth a look if there's ever a reason to revisit: `pirmas` (2012, a short reflective photo post), `5 keliavimo traukiniu privalumai` (2012, travel), `Miestas, į kurį sugrįšiu` (2013, NYC), `Россия все активнее...` (2014, RU-language Delfi.ru interview), `Gražinos Miniotaitės knyga` (2014, empty stub), `Ar bus nauja Lietuvos užsienio politika?` (2014, one-line stub, no real content), `testinis` (2015, a WordPress pricing-table test post — not real content), `Apie karinę Lietuvos strategiją` (2016, RU-language interview), `po 2016 Seimo rinkimų` (2016, FB repost), `Žodžiai` (2017, year-in-words piece).
 - **4 export files that duplicate a post already published under a different (shorter) slug** — verified by matching title and date, not re-added.
 
-Neither the deployed site nor `www.jakniunaite.lt` reflects this yet — pushed to GitHub `main`, but see Known Follow-Ups below on confirming the GitHub Pages result before the domain is connected.
+All of today's changes are pushed to GitHub `main` and confirmed live on `djdovile.github.io` (deploy workflow runs all green, spot-checked both a 2012 and a 2025 post return 200). `www.jakniunaite.lt` is not yet connected — still pending the domain step below.
+
+Also today: the LT homepage "Tekstai" and EN homepage "Posts" blocks were switched from the citation/article-grid views to a new minimal `title-date` view (`layouts/_partials/views/title-date*.html`) — plain title + muted `(date)`, no author line or summary, since the citation view read as clutter for a single-author commentary list.
+
+**Session close, 2026-08-25**: today's work was code-review fixes (seminar font pack activation, cascade scoping, tailwindcss build permission), PROJECT.md/CLAUDE.md reconciliation, Hugo Blox demo-placeholder removal (LT+EN), the homepage Tekstai view change, a Hugo Blox theme evaluation (decision: stay for launch), and the full Tekstai back-catalog migration (18 → 55 posts). Nothing is mid-edit or uncommitted. **Next concrete action**: pick up "Minimum Lithuanian Launch Scope" item 1 — review `BLOG-LINK-REVIEW-2026-07-02.md`'s 13 broken link rows, and confirm the personal-intro/publications/projects content (items 1, 2, 5 below) is actually in place, since this session only touched Tekstai and placeholders.
 
 ## Theme Decision: Hugo Blox
 
@@ -50,7 +54,7 @@ The first public Lithuanian version needs:
 1. A short multi-paragraph personal introduction.
 2. A curated publications list: selected publications need links to files where available, short descriptions, and links to the related projects; the first launch does not require every publication.
 3. Clear descriptions of the courses currently taught.
-4. All existing older blog posts.
+4. ~~All existing older blog posts.~~ Done 2026-08-25: 55 of the ~65 WordPress-export posts are live (2012-2025); the remainder are 10 genuine WP drafts and 4 duplicates, deliberately excluded (see Current State above).
 5. Descriptions of all current active projects and several most recently completed projects.
 
 Current-course list for the first release:
@@ -72,7 +76,7 @@ Research themes to foreground in the first-release introduction:
 
 ## Known Follow-Ups
 
-- Confirm the GitHub publication result before connecting `www.jakniunaite.lt`. `config/_default/hugo.yaml` currently uses `https://djdovile.github.io/`, matching the GitHub Pages workflow.
+- ~~Confirm the GitHub publication result before connecting `www.jakniunaite.lt`.~~ Confirmed 2026-08-25: GitHub Pages deploy is green and live at `djdovile.github.io`. `config/_default/hugo.yaml` still points there (`https://djdovile.github.io/`); update to the real domain when it's connected.
 - Review visible mojibake/encoding issues in config and author files before publication.
 - Test `pnpm run build` before deployment.
 - Post-launch: revisit the Hugo Blox theme decision (see "Theme Decision: Hugo Blox" above).
