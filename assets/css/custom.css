@@ -183,6 +183,44 @@ html:not(.dark) .resume-biography a[href*="tspmi.vu.lt/zmogus"]:hover {
   transform: none;
 }
 
+/* Hero role line is a supporting subtitle, not an accent mark (Accent Rarity Rule) */
+html:not(.dark) .resume-biography p.text-primary-600 {
+  color: var(--dj-ink);
+}
+
+/* Stock Hugo Blox feature-icon badges read as marketing chrome; the heading stands alone */
+html:not(.dark) .resume-biography .bg-primary-100 {
+  display: none;
+}
+
+/* Social links read as quiet institutional wayfinding, not portfolio buttons */
+html:not(.dark) .resume-biography a.rounded-full.shadow-md {
+  background: transparent;
+  border-color: var(--dj-border);
+  box-shadow: none;
+  color: var(--dj-muted);
+  transform: none !important;
+}
+
+html:not(.dark) .resume-biography a.rounded-full.shadow-md:hover {
+  border-color: var(--dj-red);
+  color: var(--dj-red-deep);
+  box-shadow: none;
+  transform: none;
+}
+
+/* Research-interest tags stay quiet; red stays scarce rather than tinting all six */
+html:not(.dark) .resume-biography .bg-primary-50 {
+  background: var(--dj-shelf);
+  color: var(--dj-ink);
+  border-color: var(--dj-border);
+}
+
+html:not(.dark) .resume-biography .bg-primary-50:hover {
+  background: var(--dj-red-soft);
+  border-color: color-mix(in oklch, var(--dj-red) 40%, var(--dj-border));
+}
+
 html:not(.dark) #section-markdown {
   background: var(--dj-shelf);
   border-block: 1px solid var(--dj-border);

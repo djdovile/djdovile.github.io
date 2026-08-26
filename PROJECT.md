@@ -1,6 +1,6 @@
 # dj_hugo
 
-Last updated: 2026-08-25
+Last updated: 2026-08-25 (evening)
 
 Purpose, commands, and architecture (tech stack, content/layout structure, build gotchas) live in `CLAUDE.md`. This file tracks project status, decisions, and next actions only — the continuity layer.
 
@@ -28,6 +28,8 @@ All of today's changes are pushed to GitHub `main` and confirmed live on `djdovi
 Also today: the LT homepage "Tekstai" and EN homepage "Posts" blocks were switched from the citation/article-grid views to a new minimal `title-date` view (`layouts/_partials/views/title-date*.html`) — plain title + muted `(date)`, no author line or summary, since the citation view read as clutter for a single-author commentary list.
 
 **Session close, 2026-08-25**: today's work was code-review fixes (seminar font pack activation, cascade scoping, tailwindcss build permission), PROJECT.md/CLAUDE.md reconciliation, Hugo Blox demo-placeholder removal (LT+EN), the homepage Tekstai view change, a Hugo Blox theme evaluation (decision: stay for launch), and the full Tekstai back-catalog migration (18 → 55 posts). Nothing is mid-edit or uncommitted. **Next concrete action**: pick up "Minimum Lithuanian Launch Scope" item 1 — review `BLOG-LINK-REVIEW-2026-07-02.md`'s 13 broken link rows, and confirm the personal-intro/publications/projects content (items 1, 2, 5 below) is actually in place, since this session only touched Tekstai and placeholders.
+
+**Session close, 2026-08-25 (evening)**: a frontend-design pass on the LT homepage hero (`resume-biography-3` block), scoped to `assets/css/custom.css` only — de-templated stock Hugo Blox marketing chrome that the site's own `PRODUCT.md` anti-references reject: role subtitle recolored off seminar red (Accent Rarity Rule), the four feature-icon badge circles hidden, the social-icon buttons flattened (no shadow/scale/lift), and the six research-interest tags reset off a permanent red tint. Verified: CSS rules confirmed present and winning the cascade in the served bundle, plus a clean `pnpm run build`. **Not verified**: the result was never pixel-viewed — Interceptor (browser automation) is macOS-only and not installed on this Windows machine, and a Playwright/Chromium fallback install failed (`ENOSPC`; C: drive has only ~467 MB free, worth freeing on its own merits). Nothing committed to git this session. **Next concrete action**: run `pnpm run dev`, open `http://localhost:1313/lt/`, and eyeball the hero — confirm the changes read as intended before committing.
 
 ## Theme Decision: Hugo Blox
 
@@ -80,6 +82,8 @@ Research themes to foreground in the first-release introduction:
 - Review visible mojibake/encoding issues in config and author files before publication.
 - Test `pnpm run build` before deployment.
 - Post-launch: revisit the Hugo Blox theme decision (see "Theme Decision: Hugo Blox" above).
+- Pixel-verify the 2026-08-25 (evening) homepage hero CSS pass — see Current State session-close note above. Uncommitted until confirmed.
+- C: drive is down to ~467 MB free — free up space (blocked a one-time Playwright screenshot install; will block bigger things eventually).
 
 ## Remaining Tasks To Review
 
