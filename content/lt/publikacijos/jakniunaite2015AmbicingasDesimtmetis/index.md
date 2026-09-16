@@ -21,12 +21,13 @@ tags:
 - energy
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''
   preview_only: false
-projects: []
+projects:
+- lietuvos-uzsienio-politika-po-2004
 slides: ''
 draft: false
 ---

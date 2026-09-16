@@ -10,7 +10,7 @@ publishDate: 2023-01-31 19:23:16.033391+00:00
 publication_types:
 - chapter
 publication:
-  name: '*The Withdrawal of Soviet Troops from East Central Europe: National Perspectives in Comparison*'
+  name: "The Withdrawal of Soviet Troops from East Central Europe: National Perspectives in Comparison"
   short_name: ''
   volume: ''
   issue: ''

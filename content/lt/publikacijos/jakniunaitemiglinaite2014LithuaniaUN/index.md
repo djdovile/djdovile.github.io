@@ -10,7 +10,7 @@ publishDate: 2023-01-31 19:23:16.412432+00:00
 publication_types:
 - article-journal
 publication:
-  name: '*Lithuanian Foreign Policy Review*'
+  name: Lithuanian Foreign Policy Review
   short_name: ''
   volume: '32'
   issue: ''
@@ -24,12 +24,13 @@ tags:
 - identity
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''
   preview_only: false
-projects: []
+projects:
+- lietuvos-uzsienio-politika-po-2004
 slides: ''
 draft: false
 ---

@@ -1,28 +1,26 @@
 ---
-title: Studija apie Lietuvos ir Rusijos santykius, arba kodėl mes dar ilgai neturṡime „normalių`` santykių su Rusija
+title: "Studija apie Lietuvos ir Rusijos santykius, arba kodėl mes dar ilgai neturėsime „normalių“ santykių su Rusija"
 authors:
 - me
 author_notes:
 - ''
-date: 2008-01-01
+date: '2008-01-01'
 publishDate: 2023-01-31 19:23:02.931922+00:00
 publication_types:
-- article-journal
+- review
 publication:
-  name: '*Sociologija. Mintis ir veiksmas*'
+  name: Sociologija. Mintis ir veiksmas
   short_name: ''
-  volume: ''
-  issue: '1'
+  volume: '21'
+  issue: ''
   pages: 134--138
   publisher: ''
 abstract: ''
-summary: Publication summary.
+summary: 'Recenzija knygai: Gediminas Vitkus, 2006, *Diplomatinė aporija: tarptautinė Lietuvos ir Rusijos santykių normalizacijos perspektyva*, Vilnius: Vilniaus universiteto leidykla'
 tags:
-- Academic
-- Research
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

@@ -9,7 +9,7 @@ publishDate: 2023-01-31 19:23:03.884159+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Identity and Foreign Policy: Baltic-Russian Relations and European Integration*'
+  name: "Identity and Foreign Policy: Baltic-Russian Relations and European Integration"
   short_name: ''
   volume: ''
   issue: ''
@@ -23,7 +23,7 @@ tags:
 - eu
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

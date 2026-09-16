@@ -9,7 +9,7 @@ publishDate: 2023-01-31 19:23:15.597625+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Lietuvos ir Rusijos sutartis: dėl tarpvalstybinių santykių pagrindų*'
+  name: "Lietuvos ir Rusijos sutartis: dėl tarpvalstybinių santykių pagrindų"
   short_name: ''
   volume: ''
   issue: ''
@@ -22,7 +22,7 @@ tags:
 - Research
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

@@ -1,5 +1,6 @@
 ---
-title: Russian Public Opinion Leaders on the Changes in Russia During the Yeltsin Era and Beyond
+title: Russian Public Opinion Leaders on the Changes in Russia During the Yeltsin
+  Era and Beyond
 authors:
 - Terry D. Clark
 - me
@@ -10,7 +11,7 @@ publishDate: 2023-01-31 19:22:43.164709+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Changing Attitudes toward Economic Reform During the Yeltsin Era*'
+  name: Changing Attitudes toward Economic Reform During the Yeltsin Era
   short_name: ''
   volume: ''
   issue: ''
@@ -22,7 +23,7 @@ tags:
 - russia
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

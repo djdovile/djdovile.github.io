@@ -1,5 +1,6 @@
 ---
-title: 'Naujausios tendencijos tarptautinių santykių teorijoje: konstruktyvizmas, postmodernizmas ir virtualizmas'
+title: 'Naujausios tendencijos tarptautinių santykių teorijoje: konstruktyvizmas,
+  postmodernizmas ir virtualizmas'
 authors:
 - me
 date: 2000-01-01
@@ -7,7 +8,7 @@ publishDate: 2023-01-31 19:22:58.246729+00:00
 publication_types:
 - article-journal
 publication:
-  name: '*Politologija*'
+  name: Politologija
   short_name: ''
   volume: '20'
   issue: ''
@@ -20,7 +21,7 @@ tags:
 - Research
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: ' '
   focal_point: ''

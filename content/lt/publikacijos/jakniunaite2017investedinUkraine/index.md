@@ -1,5 +1,6 @@
 ---
-title: 'Invested in Ukraine: The Struggle of Lithuania against Russia Over the Future of Europe'
+title: 'Invested in Ukraine: The Struggle of Lithuania against Russia Over the Future
+  of Europe'
 authors:
 - me
 author_notes:
@@ -9,7 +10,7 @@ publishDate: 2023-01-31 19:23:11.591965+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Neighbourhood Perceptions of the Ukraine Crisis: From Soviet Union into Eurasia?*'
+  name: "Neighbourhood Perceptions of the Ukraine Crisis: From Soviet Union into Eurasia?"
   short_name: ''
   volume: ''
   issue: ''
@@ -23,7 +24,7 @@ tags:
 - eu
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

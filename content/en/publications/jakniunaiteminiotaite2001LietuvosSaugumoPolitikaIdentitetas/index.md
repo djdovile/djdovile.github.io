@@ -10,7 +10,7 @@ publishDate: 2023-01-31 19:22:59.389878+00:00
 publication_types:
 - article-journal
 publication:
-  name: '*Politologija*'
+  name: Politologija
   short_name: ''
   volume: '23'
   issue: ''
@@ -23,7 +23,7 @@ tags:
 - Research
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

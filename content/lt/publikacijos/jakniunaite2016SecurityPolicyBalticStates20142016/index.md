@@ -9,7 +9,7 @@ publishDate: 2023-01-31 19:23:09.986472+00:00
 publication_types:
 - article-journal
 publication:
-  name: '*Journal of Baltic Security*'
+  name: Journal of Baltic Security
   short_name: ''
   volume: '2'
   issue: '2'
@@ -23,7 +23,7 @@ tags:
 - security
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

@@ -11,7 +11,7 @@ publishDate: 2023-01-31 19:23:08.341835+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Russia and East Central Europe after the Cold War*'
+  name: Russia and East Central Europe after the Cold War
   short_name: ''
   volume: ''
   issue: ''
@@ -24,12 +24,13 @@ tags:
 - baltic
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''
   preview_only: false
-projects: []
+projects:
+- lietuvos-uzsienio-politika-po-2004
 draft: false
 ---
 

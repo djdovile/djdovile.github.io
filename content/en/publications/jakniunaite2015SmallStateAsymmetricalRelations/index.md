@@ -1,5 +1,6 @@
 ---
-title: 'A Small State in the Asymmetrical Bilateral Relations: Lithuania in Lithuanian-Russian Relations since 2004'
+title: 'A Small State in the Asymmetrical Bilateral Relations: Lithuania in Lithuanian-Russian
+  Relations since 2004'
 authors:
 - me
 author_notes:
@@ -9,23 +10,35 @@ publishDate: 2023-01-31 19:23:09.382700+00:00
 publication_types:
 - article-journal
 publication:
-  name: '*Baltic Journal of Political Science*'
+  name: Baltic Journal of Political Science
   short_name: ''
   volume: '4'
   issue: ''
   pages: 70--93
   publisher: ''
-abstract: 'In this article, Lithuania''s relations with Russia from 2004 to 2014 are examined. This analysis is not much of a challenge in itself - there have been no significant changes in the overall quality of the two countries'' relations, no new issues of disagreement, and the countries'' approaches to each other have also remained unchanged. This analysis is significant in a different way—relations with Russia motivate and induce Lithuania''s entire foreign policy arena, from its strategies to the country''s everyday debates. Understanding Lithuania''s relations with Russia leads to insights regarding Lithuania''s geopolitical thinking and how Lithuania represents itself. Therefore, in this article, the goal is to demonstrate that an analysis of Lithuanian-Russian relations since 2004 not only explains Lithuanian foreign policy, but also reveals an enduring and negative stability in bilateral relations notwithstanding constant turbulence and quarrels.
+abstract: 'In this article, Lithuania''s relations with Russia from 2004 to 2014 are
+  examined. This analysis is not much of a challenge in itself - there have been no
+  significant changes in the overall quality of the two countries'' relations, no
+  new issues of disagreement, and the countries'' approaches to each other have also
+  remained unchanged. This analysis is significant in a different way—relations with
+  Russia motivate and induce Lithuania''s entire foreign policy arena, from its strategies
+  to the country''s everyday debates. Understanding Lithuania''s relations with Russia
+  leads to insights regarding Lithuania''s geopolitical thinking and how Lithuania
+  represents itself. Therefore, in this article, the goal is to demonstrate that an
+  analysis of Lithuanian-Russian relations since 2004 not only explains Lithuanian
+  foreign policy, but also reveals an enduring and negative stability in bilateral
+  relations notwithstanding constant turbulence and quarrels.
 
   '
-summary: In this article, Lithuania's relations with Russia from 2004 to 2014 are examined.
+summary: In this article, Lithuania's relations with Russia from 2004 to 2014 are
+  examined.
 tags:
 - russia
 - geopolitics
 - baltic
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

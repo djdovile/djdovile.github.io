@@ -9,7 +9,7 @@ publishDate: 2026-06-07 16:07:16.368000+00:00
 publication_types:
 - article-journal
 publication:
-  name: '*Journal Name*'
+  name: Journal Name
   short_name: ''
   volume: ''
   issue: ''
@@ -24,7 +24,7 @@ tags:
 - Data
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

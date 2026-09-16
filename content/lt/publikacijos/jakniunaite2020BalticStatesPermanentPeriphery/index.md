@@ -9,7 +9,7 @@ publishDate: 2023-01-31 19:23:13.969610+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Centres and Peripheries in the Post-Soviet Space: Relevance and Meanings of Classical Distinction*'
+  name: "Centres and Peripheries in the Post-Soviet Space: Relevance and Meanings of Classical Distinction"
   short_name: ''
   volume: ''
   issue: ''
@@ -21,7 +21,7 @@ tags:
 - baltic
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

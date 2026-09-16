@@ -9,7 +9,7 @@ publishDate: 2023-01-31 19:23:01.785566+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Transformation of Putin`s Regime: Why Transitology Is Not Applicable to Post-Soviet Russia?*'
+  name: "Transformation of Putin's Regime: Why Transitology Is Not Applicable to Post-Soviet Russia?"
   short_name: ''
   volume: ''
   issue: ''
@@ -22,7 +22,7 @@ tags:
 - identity
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

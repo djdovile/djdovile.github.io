@@ -9,7 +9,7 @@ publishDate: 2023-01-31 19:23:13.368486+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Europe''s Coherence Gap in External  Crisis and Conflict Management: Political Rhetoric and Institutional Practives in the EU and Its Member States*'
+  name: "Europe's Coherence Gap in External Crisis and Conflict Management: Political Rhetoric and Institutional Practives in the EU and Its Member States"
   short_name: ''
   volume: ''
   issue: ''
@@ -21,7 +21,7 @@ tags:
 - baltic
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

@@ -1,5 +1,6 @@
 ---
-title: 'The Baltic States, Poland, and the Protests in Belarus: The Case of for the Unconditional Love?'
+title: 'The Baltic States, Poland, and the Protests in Belarus: The Case of for the
+  Unconditional Love?'
 authors:
 - me
 author_notes:
@@ -9,7 +10,7 @@ publishDate: 2023-01-31 19:23:14.492188+00:00
 publication_types:
 - chapter
 publication:
-  name: '*The Russia Conference Papers 2021*'
+  name: The Russia Conference Papers 2021
   short_name: ''
   volume: ''
   issue: ''
@@ -21,7 +22,7 @@ tags:
 - baltic
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

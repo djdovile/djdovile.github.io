@@ -9,7 +9,7 @@ publishDate: 2023-01-31 19:23:00.364815+00:00
 publication_types:
 - article-journal
 publication:
-  name: '*Lithuanian Political Science Yearbook 2005*'
+  name: Lithuanian Political Science Yearbook 2005
   short_name: ''
   volume: ''
   issue: ''
@@ -23,7 +23,7 @@ tags:
 - identity
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

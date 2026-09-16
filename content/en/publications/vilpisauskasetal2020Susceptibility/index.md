@@ -1,5 +1,6 @@
 ---
-title: 'Susceptibility of Ukrainian and Belarussian Domestic Actors to External Actors'' Approaches: Puzzling Patterns of Transition'
+title: 'Susceptibility of Ukrainian and Belarussian Domestic Actors to External Actors''
+  Approaches: Puzzling Patterns of Transition'
 authors:
 - Ramūnas Vilpišauskas
 - me
@@ -12,7 +13,7 @@ publishDate: 2023-01-31 19:23:16.867666+00:00
 publication_types:
 - article-journal
 publication:
-  name: '*East European Politics*'
+  name: East European Politics
   short_name: ''
   volume: ''
   issue: ''

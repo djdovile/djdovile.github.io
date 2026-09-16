@@ -9,7 +9,7 @@ publishDate: 2023-01-31 19:23:08.952023+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Ambicingas dešimtmetis: 2004-2014*'
+  name: "Ambicingas dešimtmetis: 2004-2014"
   short_name: ''
   volume: ''
   issue: ''
@@ -22,7 +22,7 @@ tags:
 - Research
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

@@ -1,0 +1,98 @@
+{{ define "main" }}
+
+<article class="max-w-prose mx-auto py-8 px-4">
+  <header class="mb-8">
+    <div class="mb-4">
+      <a href="{{ "/publikacijos/" | relLangURL }}" class="text-sm text-neutral-500 hover:text-primary-600 dark:text-neutral-400 inline-flex items-center gap-1">
+        &larr; {{ if eq site.Language.Lang "lt" }}Visos publikacijos{{ else }}All Publications{{ end }}
+      </a>
+    </div>
+
+    <h1 class="text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-4">
+      {{ .Title }}
+    </h1>
+
+    {{/* Authors */}}
+    {{ if .Params.authors }}
+    <div class="text-lg text-neutral-700 dark:text-neutral-300 mb-3">
+      {{ range $i, $author := .Params.authors }}
+        {{ if gt $i 0 }}, {{ end }}
+        {{ if eq $author "me" }}
+          <span class="font-medium text-neutral-900 dark:text-neutral-100">Dovilė Jakniūnaitė</span>
+        {{ else }}
+          {{ $author }}
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Publication info / venue */}}
+    <div class="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+      {{ if .Params.publication }}
+        <span class="italic">{{ if reflect.IsMap .Params.publication }}{{ .Params.publication.name }}{{ else }}{{ .Params.publication }}{{ end }}</span>
+      {{ end }}
+      {{ if .Date }}
+        <span class="ml-2">({{ .Date.Format "2006" }})</span>
+      {{ end }}
+    </div>
+
+    {{/* Action Buttons / Links: PDF, CITE, PREPRINT, DOI, etc. */}}
+    <div class="flex flex-wrap items-center gap-2 my-4">
+      {{ partial "page_links" (dict "page" . "is_list" 0) }}
+    </div>
+
+    {{/* Associated Project (Feature A) */}}
+    {{ $projects := slice }}
+    {{ range $p := .Params.projects }}
+      {{ if $p }}
+        {{ $proj_page := site.GetPage (printf "projektai/%s" $p) }}
+        {{ if not $proj_page }}
+          {{ $proj_page = site.GetPage (printf "projects/%s" $p) }}
+        {{ end }}
+        {{ if not $proj_page }}
+          {{ $proj_page = site.GetPage $p }}
+        {{ end }}
+        {{ if $proj_page }}
+          {{ $projects = $projects | append $proj_page }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ if gt (len $projects) 0 }}
+    <div class="mt-4 p-3.5 rounded-md bg-stone-50 dark:bg-neutral-800/60 border border-stone-200 dark:border-neutral-700 text-sm">
+      <span class="font-medium text-neutral-700 dark:text-neutral-300">
+        {{ if eq site.Language.Lang "lt" }}Mokslinis projektas:{{ else }}Research Project:{{ end }}
+      </span>
+      <div class="mt-1 flex flex-col gap-1">
+        {{ range $projects }}
+          <a href="{{ .RelPermalink }}" class="text-emerald-800 dark:text-emerald-400 hover:underline font-medium inline-flex items-center gap-1.5">
+            <svg class="w-4 h-4 text-emerald-700 dark:text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+            {{ .Title }}
+          </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </header>
+
+  {{/* Abstract */}}
+  {{ if .Params.abstract }}
+  <div class="mb-8 p-4 rounded-md bg-neutral-50 dark:bg-neutral-800/40 border-l-4 border-emerald-700/60 dark:border-emerald-500/60">
+    <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-2">
+      {{ if eq site.Language.Lang "lt" }}Anotacija{{ else }}Abstract{{ end }}
+    </h2>
+    <p class="text-neutral-800 dark:text-neutral-200 leading-relaxed text-sm">
+      {{ .Params.abstract }}
+    </p>
+  </div>
+  {{ end }}
+
+  {{/* Content / Notes */}}
+  {{ if .Content }}
+  <div class="prose dark:prose-invert max-w-none">
+    {{ .Content }}
+  </div>
+  {{ end }}
+</article>
+
+{{ end }}

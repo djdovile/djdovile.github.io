@@ -1,11 +1,8 @@
 ---
 title: Publikacijos
-
-# View.
-view: citation
-
-# Optional header image (relative to `static/media/` folder).
+view: 'citation'
 banner:
   caption: ''
   image: ''
 ---
+

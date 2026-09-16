@@ -1,5 +1,6 @@
 ---
-title: Working Paper Introducing the Analytical Framework for Comparing Approaches and Strategies of the Selected External Actors
+title: Working Paper Introducing the Analytical Framework for Comparing Approaches
+  and Strategies of the Selected External Actors
 authors:
 - me
 - Laurynas Jonavičius
@@ -26,7 +27,7 @@ tags:
 - Research
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

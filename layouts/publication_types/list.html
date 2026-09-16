@@ -5,6 +5,7 @@
 {{ if eq $term "article-journal" }}{{ $label = cond (eq site.Language.Lang "lt") "Straipsniai" "Articles" }}{{ end }}
 {{ if eq $term "book" }}{{ $label = cond (eq site.Language.Lang "lt") "Knygos" "Books" }}{{ end }}
 {{ if eq $term "chapter" }}{{ $label = cond (eq site.Language.Lang "lt") "Knygų skyriai" "Book chapters" }}{{ end }}
+{{ if eq $term "review" }}{{ $label = cond (eq site.Language.Lang "lt") "Recenzijos" "Reviews" }}{{ end }}
 
 <div class="universal-wrapper pt-3">
   <h1>{{ $label }}</h1>

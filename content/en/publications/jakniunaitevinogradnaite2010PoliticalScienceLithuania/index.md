@@ -10,7 +10,7 @@ publishDate: 2023-01-31 19:23:05.479739+00:00
 publication_types:
 - chapter
 publication:
-  name: '*Political Science in Central-East Europe: Diversity and Convergence*'
+  name: "Political Science in Central-East Europe: Diversity and Convergence"
   short_name: ''
   volume: ''
   issue: ''
@@ -22,7 +22,7 @@ tags:
 - baltic
 featured: false
 hugoblox:
-  ids:
+  ids: null
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''
