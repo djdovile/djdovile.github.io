@@ -27,9 +27,12 @@ All of today's changes are pushed to GitHub `main` and confirmed live on `djdovi
 
 Also today: the LT homepage "Tekstai" and EN homepage "Posts" blocks were switched from the citation/article-grid views to a new minimal `title-date` view (`layouts/_partials/views/title-date*.html`) — plain title + muted `(date)`, no author line or summary, since the citation view read as clutter for a single-author commentary list.
 
-**Session close, 2026-08-25**: today's work was code-review fixes (seminar font pack activation, cascade scoping, tailwindcss build permission), PROJECT.md/CLAUDE.md reconciliation, Hugo Blox demo-placeholder removal (LT+EN), the homepage Tekstai view change, a Hugo Blox theme evaluation (decision: stay for launch), and the full Tekstai back-catalog migration (18 → 55 posts). Nothing is mid-edit or uncommitted. **Next concrete action**: pick up "Minimum Lithuanian Launch Scope" item 1 — review `BLOG-LINK-REVIEW-2026-07-02.md`'s 13 broken link rows, and confirm the personal-intro/publications/projects content (items 1, 2, 5 below) is actually in place, since this session only touched Tekstai and placeholders.
-
-**Session close, 2026-08-25 (evening)**: a frontend-design pass on the LT homepage hero (`resume-biography-3` block), scoped to `assets/css/custom.css` only — de-templated stock Hugo Blox marketing chrome that the site's own `PRODUCT.md` anti-references reject: role subtitle recolored off seminar red (Accent Rarity Rule), the four feature-icon badge circles hidden, the social-icon buttons flattened (no shadow/scale/lift), and the six research-interest tags reset off a permanent red tint. Verified: CSS rules confirmed present and winning the cascade in the served bundle, plus a clean `pnpm run build`. **Not verified**: the result was never pixel-viewed — Interceptor (browser automation) is macOS-only and not installed on this Windows machine, and a Playwright/Chromium fallback install failed (`ENOSPC`; C: drive has only ~467 MB free, worth freeing on its own merits). Nothing committed to git this session. **Next concrete action**: run `pnpm run dev`, open `http://localhost:1313/lt/`, and eyeball the hero — confirm the changes read as intended before committing.
+**Session close, 2026-09-16**:
+- Cleaned and fixed bold vs. italics across all 56 publication YAML files (removed markdown asterisks causing nested strong tags; all publication venues now italicized).
+- Added `review` taxonomy / filter for book reviews in Lithuanian (`Recenzijos`) and English (`Reviews`).
+- Created compact teaching overview layout in `layouts/destymas/list.html` and `layouts/teaching/list.html`.
+- Implemented single publication layout with project context and enabled `[Projektas]` / `[Project]` button in publication action links via overridden `layouts/_partials/functions/build_links.html`.
+- Build verified with `hugo --minify` (0 errors).
 
 ## Theme Decision: Hugo Blox
 
@@ -61,11 +64,11 @@ The first public Lithuanian version needs:
 
 Current-course list for the first release:
 
-- Tarptautinių santykių teorijos
-- Simbolinės galios formos
-- Užsienio politikos analizė
-- How to Think Like a Social Scientist
-- Mokslinio darbo pagrindai (Socialinių mokslų filosofijos modulis)
+- Tarptautinių santykių teorijos (MA)
+- Simbolinės galios formos (MA)
+- Užsienio politikos analizė (MA)
+- How to Think Like a Social Scientist (BA)
+- Feminizmas: tekstai ir praktika (BA)
 
 Profile emphasis for the first release: researcher and lecturer; an expert in international relations and security.
 
@@ -88,7 +91,11 @@ Research themes to foreground in the first-release introduction:
 ## Remaining Tasks To Review
 
 - Complete and review the Lithuanian site as a minimally sufficient public version before publication.
-- Review `BLOG-LINK-REVIEW-2026-07-02.md`; 13 checked link rows returned errors and need manual decision or later replacement.
+- ~~Review `BLOG-LINK-REVIEW-2026-07-02.md`; 13 checked link rows returned errors and need manual decision or later replacement.~~ Done 2026-09-15: all 13 broken/outdated link rows across 5 blog posts fixed/archived/cleaned, with author/footnote notes added where appropriate.
+- ~~Update course descriptions according to actual syllabi in `2_Destymas`.~~ Done 2026-09-15: all 5 courses updated with descriptions, objectives, and topics ("Simbolinės galios formos" and "Feminizmas: tekstai ir praktika" titles corrected).
+- ~~Link publications and projects bidirectionally (Option A+C).~~ Done 2026-09-15: added `projects:` mapping across publications, created single page layouts (`layouts/publikacijos/single.html`, `layouts/projektai/single.html` and EN mirrors) rendering linked projects on publication pages and dynamically listing all associated publications on project pages.
+- ~~Fix bold publication venue formatting across all publications.~~ Done 2026-09-16: removed stray markdown asterisks from `name:` and `short_name:` fields across all 56 publication files in LT and EN trees, fixing double-emphasis that caused publication titles/venues to render in bold instead of clean italics, plus fixed residual character encoding issues.
+- ~~Add new LMT research project `LTgalia`.~~ Done 2026-09-15: `content/lt/projektai/ltgalia/index.md` created.
 - ~~Replace or draft `content/lt/events/example/` and `content/lt/slides/example/`.~~ Done 2026-08-25: removed both (Hugo Blox demo placeholders). LT `/events/` and `/slides/` are now empty sections; add real content or unlink from nav later.
 - ~~The same Hugo Blox demo placeholders exist under `content/en/`.~~ Done 2026-08-25: removed both. EN `/events/` and `/slides/` are now empty sections too.
 - Add English project/course pages later if bilingual parity is desired.

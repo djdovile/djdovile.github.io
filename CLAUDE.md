@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Current status, delivery goals, and open follow-ups live in `PROJECT.md` — this file covers only durable technical/architecture facts.
+Current status, delivery goals, and open follow-ups live in `PROJECT.md` and `NOW.md`; historical session records live in `LOG.md` — this file covers only durable technical/architecture facts.
 
 Dovilė Jakniūnaitė's personal academic website — a Hugo Blox (Academic CV starter) static site, bilingual (Lithuanian default, English second). Deployed via GitHub Pages (`.github/workflows/deploy.yml`) with Netlify configured as an alternate (`netlify.toml`). Lithuanian-first launch is the current priority; English parity is a deliberate later layer, so LT and EN content trees are not expected to mirror each other yet.
 
