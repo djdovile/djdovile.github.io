@@ -1,20 +1,20 @@
 ---
-title: "EU-STRAT"
-summary: "H2020 projektas apie Europos Sąjungą ir Rytų partnerystės šalis."
+title: EU-STRAT
+summary: H2020 projektas apie Europos Sąjungą ir Rytų partnerystės šalis.
 date: 2026-07-02
 tags:
-  - projektas
-  - igyvendinti
-status: "Įgyvendintas"
+- projektas
+- igyvendinti
+status: Įgyvendintas
 tech_stack:
-  - "Europos Sąjunga"
-  - "Rytų partnerystė"
-  - "H2020"
+- Europos Sąjunga
+- Rytų partnerystė
+- H2020
 links:
-  - type: custom
-    icon: link
-    url: "http://eu-strat.eu/"
-    label: "Projekto puslapis"
+- type: custom
+  icon: link
+  url: http://eu-strat.eu/
+  label: Projekto puslapis
 reading_time: false
 profile: false
 ---

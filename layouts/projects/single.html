@@ -1,0 +1,105 @@
+{{ define "main" }}
+
+<article class="max-w-prose mx-auto py-8 px-4">
+  <header class="mb-8">
+    <div class="mb-4">
+      <a href="{{ "/projects/" | relLangURL }}" class="text-sm text-neutral-500 hover:text-primary-600 dark:text-neutral-400 inline-flex items-center gap-1">
+        &larr; {{ if eq site.Language.Lang "lt" }}Visi projektai{{ else }}All Projects{{ end }}
+      </a>
+    </div>
+
+    <h1 class="text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-4">
+      {{ .Title }}
+    </h1>
+
+    {{/* Status badge & metadata */}}
+    <div class="flex flex-wrap items-center gap-2 mb-4">
+      {{ if .Params.status }}
+        {{ $is_ongoing := or (eq .Params.status "Vykdomas") (eq .Params.status "Ongoing") }}
+        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium {{ if $is_ongoing }}bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300{{ else }}bg-neutral-100 text-neutral-700 dark:bg-neutral-800 dark:text-neutral-300{{ end }}">
+          {{ .Params.status }}
+        </span>
+      {{ end }}
+
+      {{ range .Params.tech_stack }}
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-normal bg-stone-100 text-stone-700 dark:bg-neutral-800 dark:text-neutral-300">
+          {{ . }}
+        </span>
+      {{ end }}
+    </div>
+
+    {{ if .Params.summary }}
+    <p class="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed italic border-l-2 border-primary-600/40 pl-3.5 my-4">
+      {{ .Params.summary }}
+    </p>
+    {{ end }}
+  </header>
+
+  {{/* Project Content / Description / Funding */}}
+  {{ if .Content }}
+  <div class="prose dark:prose-invert max-w-none mb-10">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  {{/* Option C: Dynamic Project Publications List */}}
+  {{ $dir_name := path.Base (strings.TrimSuffix "/" (replace .File.Dir "\\" "/")) }}
+  {{ $slug := .Slug | default $dir_name }}
+  {{ $content_name := .File.ContentBaseName }}
+
+  {{ $pub_pages := where site.RegularPages "Type" "in" (slice "publikacijos" "publications") }}
+  {{ $linked_pubs := slice }}
+  {{ range $p := $pub_pages }}
+    {{ $matches := false }}
+    {{ range $proj := $p.Params.projects }}
+      {{ if or (eq $proj $dir_name) (eq $proj $slug) (eq $proj $content_name) }}
+        {{ $matches = true }}
+      {{ end }}
+    {{ end }}
+    {{ if $matches }}
+      {{ $linked_pubs = $linked_pubs | append $p }}
+    {{ end }}
+  {{ end }}
+
+  {{ if gt (len $linked_pubs) 0 }}
+  <section class="mt-10 pt-8 border-t border-neutral-200 dark:border-neutral-700">
+    <h2 class="text-xl font-semibold text-neutral-900 dark:text-neutral-100 mb-4 flex items-center gap-2">
+      <svg class="w-5 h-5 text-emerald-700 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+      </svg>
+      {{ if eq site.Language.Lang "lt" }}Projekto publikacijos{{ else }}Project Publications{{ end }}
+      <span class="text-xs font-normal text-neutral-500 dark:text-neutral-400">({{ len $linked_pubs }})</span>
+    </h2>
+
+    <div class="flex flex-col space-y-3 mt-4">
+      {{ range (sort $linked_pubs "Date" "desc") }}
+        <div class="pub-list-item view-citation text-base leading-relaxed text-neutral-800 dark:text-neutral-200">
+          <i class="far fa-file-alt pub-icon mr-1.5 text-neutral-400" aria-hidden="true"></i>
+          {{ if .Params.authors }}
+            <span class="article-metadata li-cite-author">
+              {{ range $i, $author := .Params.authors }}
+                {{ if gt $i 0 }}, {{ end }}
+                {{ if eq $author "me" }}
+                  <span class="font-medium">Dovilė Jakniūnaitė</span>
+                {{ else }}
+                  {{ $author }}
+                {{ end }}
+              {{ end }}
+            </span>
+          {{ end }}
+          {{ if .Date }} ({{ .Date.Format "2006" }}).{{ end }}
+          <a href="{{ .RelPermalink }}" class="text-neutral-900 dark:text-neutral-100 hover:text-primary-600 dark:hover:text-primary-400 underline font-medium">
+            {{ .Title }}
+          </a>.
+          {{ if .Params.publication }}
+            <em class="text-neutral-600 dark:text-neutral-400">{{ if reflect.IsMap .Params.publication }}{{ .Params.publication.name }}{{ else }}{{ .Params.publication }}{{ end }}</em>.
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+</article>
+
+{{ end }}

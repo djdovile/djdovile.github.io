@@ -1,15 +1,16 @@
 ---
-title: "Beieškant pripažinimo: Lietuvos užsienio politika 2015-2024 m."
-summary: "LMT mokslininkų iniciatyvų projektas apie Lietuvos užsienio politiką 2015-2024 m."
+title: 'Beieškant pripažinimo: Lietuvos užsienio politika 2015-2024 m.'
+summary: LMT mokslininkų iniciatyvų projektas apie Lietuvos užsienio politiką 2015-2024
+  m.
 date: 2026-07-02
 tags:
-  - projektas
-  - vykdomi
-status: "Vykdomas"
+- projektas
+- vykdomi
+status: Vykdomas
 tech_stack:
-  - "Lietuvos užsienio politika"
-  - "Pripažinimas"
-  - "LMT"
+- Lietuvos užsienio politika
+- Pripažinimas
+- LMT
 reading_time: false
 profile: false
 ---
