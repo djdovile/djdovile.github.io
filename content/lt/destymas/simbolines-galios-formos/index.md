@@ -1,13 +1,13 @@
 ---
-title: "Simbolinės galios formos"
-summary: "Kursas apie simbolinę galią, politines reikšmes, reprezentacijas ir jų vaidmenį tarptautinėje politikoje."
+title: Simbolinės galios formos
+summary: Kursas apie klasikinę ir šiuolaikinę galios sampratą, simbolinę galią, reikšmių kūrimą, diskursą ir medijų vaidmenį politikoje.
 date: 2026-07-02
 tags:
-  - kursas
-  - magistrantura
-status: "Dėstomas"
+- kursas
+- magistrantura
+status: Dėstomas
 reading_time: false
 profile: false
 ---
 
-Kurse aptariama, kaip politikoje veikia simbolinė galia: kalba, reprezentacijos, statusas, pripažinimas ir kitos reikšmių kūrimo formos. Kursas sieja teorinius tekstus su empiriniais tarptautinės politikos pavyzdžiais.
+Kurse analizuojama galios prigimtis ir jos raiškos formos: nuo klasikinių (K. Marx, M. Weber, S. Lukes) galios sampratų iki P. Bourdieu simbolinės galios, M. Foucault diskurso ir žinojimo ryšio bei šiuolaikinių reprezentacijos, afektų, statuso ir pripažinimo teorijų. Kursas sieja teorinių tekstų analizę su šiuolaikinės mediatizuotos politikos empiriniais pavyzdžiais.
