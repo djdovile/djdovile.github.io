@@ -1,26 +1,20 @@
 ---
-title: "Apie valstybių sienas su Laurynu Jonavičiumi (Žinių radijuje)"
-subtitle: ""
-summary: ""
+title: Apie valstybių sienas su Laurynu Jonavičiumi (Žinių radijuje)
+subtitle: ''
+summary: ''
 authors: []
-tags: [sienos]
-categories: [Audio]
-date: 2018-03-20T13:27:21+02:00
-lastmod: 
+tags:
+- sienos
+categories:
+- Audio
+date: 2018-03-20 13:27:21+02:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: "Smart"
+  caption: ''
+  focal_point: Smart
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

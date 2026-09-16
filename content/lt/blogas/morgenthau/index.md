@@ -1,35 +1,24 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: "H. Morgenthau lietuviškai"
-subtitle: ""
-summary: ""
+title: H. Morgenthau lietuviškai
+subtitle: ''
+summary: ''
 authors:
 - admin
 tags:
 - Tarptautinių santykių teorija
 categories:
 - Straipsnis
-date: 2012-08-31T16:12:57+02:00
-lastmod: 2012-08-31T16:12:57+02:00
+date: 2012-08-31 16:12:57+02:00
+lastmod: 2012-08-31 16:12:57+02:00
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
 projects: []
 ---
+
 Bent šešis 2011 metų mėnesius atidaviau H.Morgenthau knygos „Politika tarp valstybių“ („Politics among Nations“) akademiniam ar specialiajam redagavimui.  
 
 Kad jau prisidėjau prie leidybos, tai mačiau ir prasmę bent šiek tiek pristatyti patį šiaip jau besidomintiems akademiniais tarptautinių santykių tyrimams gerai pažįstamą žmogų ir lietuviškai.

@@ -1,26 +1,18 @@
 ---
-title: "Dar viena „Ambicingo dešimtmečio“ apžvalga"
-subtitle: ""
-summary: ""
+title: Dar viena „Ambicingo dešimtmečio“ apžvalga
+subtitle: ''
+summary: ''
 authors: []
 tags: []
 categories: []
-date: 2015-12-14T12:03:42+02:00
-lastmod: 
+date: 2015-12-14 12:03:42+02:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 
@@ -102,5 +94,4 @@ Mūsų parengtoje knygoje nekalbama apie santykius su Afrikos, Azijos ar Lotynų
 
 \***
 
-Interviu pasirodė VU žurnale <a href="http://issuu.com/vu_lt/docs/spectrum23?e=11693526/31395070" target="_blank">„Spectrum“ (2015, Nr. 2 (23)</a>, pp. 22-25). Patogesniu formatu <a href="http://www.bernardinai.lt/straipsnis/2015-11-24-lietuvos-uzsienio-politika-po-2004-metu-sekmes-ir-nesekmes/137620" target="_blank">Bernardinai.lt</a>.
-
+Interviu pasirodė VU žurnale <a href="https://issuu.com/vu_lt/docs/spectrum23?e=11693526/31395070" target="_blank">„Spectrum“ (2015, Nr. 2 (23)</a>, pp. 22-25). Patogesniu formatu <a href="https://www.bernardinai.lt/2015-11-24-lietuvos-uzsienio-politika-po-2004-metu-sekmes-ir-nesekmes/" target="_blank">Bernardinai.lt</a>.

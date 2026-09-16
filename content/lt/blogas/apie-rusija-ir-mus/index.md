@@ -1,26 +1,20 @@
 ---
-title: "Eilinį kartą apie Rusiją, ir apie mus, aišku"
-subtitle: ""
-summary: ""
+title: Eilinį kartą apie Rusiją, ir apie mus, aišku
+subtitle: ''
+summary: ''
 authors: []
-tags: [Lietuvos užsienio politika, Rusija]
+tags:
+- Lietuvos užsienio politika
+- Rusija
 categories: []
-date: 2012-08-26T13:05:00+00:00
-lastmod: 
+date: 2012-08-26 13:05:00+00:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

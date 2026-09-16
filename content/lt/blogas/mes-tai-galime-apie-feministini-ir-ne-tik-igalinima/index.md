@@ -1,30 +1,22 @@
 ---
 title: Mes tai galime?! Apie feministinį (ir ne tik) įgalinimą
-subtitle: ""
-summary: ""
+subtitle: ''
+summary: ''
 authors: []
 tags: []
 categories: []
-date: 2017-03-25T22:31:34+02:00
-lastmod: 
+date: 2017-03-25 22:31:34+02:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 
-Tekstas, kurį parašiau po <a href="http://www.jakniunaite.lt/emancipaciniai-projektai-ir-diskursai/" target="_blank">Emancipacinių diskursų renginio</a>, pasirodė portale manoteises.lt.
+Tekstas, kurį parašiau po <a href="/lt/blogas/emancipaciniai-projektai-ir-diskursai/">Emancipacinių diskursų renginio</a>, pasirodė portale manoteises.lt.
 
 „Mes tai galime!“ – skelbė Antrojo pasaulinio karo plakatas, kabėjęs vienoje JAV gamykloje ir turėjęs stiprinti darbuotojų moralę sunkiais karo metais. Tikrai matėte <a href="https://catalog.archives.gov/id/535413" target="_blank">šią darbininkę</a>, raginančią galėti kažką daryti, įvairiausiuose kontekstuose – ir agitaciniuose, ir ironizuojančiuose, ir marketinginiuose. Nieko apie šį plakatą dabar nežinotume, jei jis devintajame dešimtmetyje nebūtų ištrauktas, parodytas parodoje ir tapęs feministinės įgalinimo politikos simboliu. Kaip ir tada kitoje šalyje, kitose feministinėse diskusijose, taip ir dabar klausimas „Moterys gali ką?“ nėra paprastas, ypač jei dar pridėsime „gali kaip?“.
 
@@ -82,7 +74,7 @@ Feminizmas, dažnai manoma, kalba visų pirma apie moterų įgalinimą. Štai tr
   
   
   
-    Kaip ir daugelis socialinės kritikos ir reformavimo idėjų, įgalinimo projektai yra sena politinė socialinė strategija, kaip minėta, buvusi svarbi daugeliui ankstesnių protestinių judėjimų ar reformų siekiams. Tiek pažįstama, kad JAV satyrinis tinklaraštis „The Onion“ 2003 m. paskyrė straipsnį „<a href="http://www.theonion.com/article/women-now-empowered-by-everything-a-woman-does-1398" target="_blank">Moterys dabar yra įgalintos visko, ką moteris daro</a>“. „Pradedant tuo, ką ji valgo pusryčiams, ir baigiant tuo, kaip ji tvarko namus, šiandieninis moters gyvenimas yra nuolatinis įgalinimas“, – rašo „The Onion“. Tekste tvirtinama, kad itin galingai veikia batų pirkimas, apšnekinėjimas, ypač apie vyrus, svorio auginimas ir svorio metimas.
+    Kaip ir daugelis socialinės kritikos ir reformavimo idėjų, įgalinimo projektai yra sena politinė socialinė strategija, kaip minėta, buvusi svarbi daugeliui ankstesnių protestinių judėjimų ar reformų siekiams. Tiek pažįstama, kad JAV satyrinis tinklaraštis „The Onion“ 2003 m. paskyrė straipsnį „<a href="https://theonion.com/women-now-empowered-by-everything-a-woman-does-1819566748/" target="_blank">Moterys dabar yra įgalintos visko, ką moteris daro</a>“. „Pradedant tuo, ką ji valgo pusryčiams, ir baigiant tuo, kaip ji tvarko namus, šiandieninis moters gyvenimas yra nuolatinis įgalinimas“, – rašo „The Onion“. Tekste tvirtinama, kad itin galingai veikia batų pirkimas, apšnekinėjimas, ypač apie vyrus, svorio auginimas ir svorio metimas.
   
   
   
@@ -90,7 +82,7 @@ Feminizmas, dažnai manoma, kalba visų pirma apie moterų įgalinimą. Štai tr
   
   
   
-    Štai pardavinėjantys „Dove“ kosmetiką ir higienos produktus sako „<a href="https://www.youtube.com/watch?v=XpaOjMXyJGk" target="_blank">Tu esi gražesnė nei tau atrodo</a>“ , tarsi siekdami padidinti moterų savivertę. „Nike“ Rusijoje paleidžia reklamą „<a href="https://www.youtube.com/watch?v=xifSHMbGSKI" target="_blank">Iš ko padarytos mūsų mergaitės</a>“, tarsi skatindama mergaites užsiimti „nemoterišku“ sportu. Arba karts nuo karto socialiniuose tinkluose nuvilnija tokios „socialinės“ akcijos, kaip „nusifotografuok be makiažo“ (#MakeUpFree) ar pasirodo idėjų, kad <a href="http://time.com/3099103/feminist-selfies-uglyfeminists-iwokeuplikedis/" target="_blank">„selfie“ gali būti feministinis veiksmas</a>. Ir ne, čia ne „Тhe Onion“, čia iš tiesų yra kalbama apie <a href="http://www.nylon.com/articles/feminist-lingerie" target="_blank">įgalinančius apatinius</a>. Savęs tobulinimu ir sąmoningomis galios siekimo strategijomis siūlo užsiimti buvusi viena iš „Facebook“ vadovių Sheryl Sandber, pradėjusi „<a href="https://leanin.org/" target="_blank">LeanIn</a>” programą, kuri moko moteris išlikti versle ir daryti jame karjerą, o Amy Cudy ragina mokytis <a href="https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are?language=en" target="_blank">„galios pozų“ (power posing)</a>.
+    Štai pardavinėjantys „Dove“ kosmetiką ir higienos produktus sako „<a href="https://www.youtube.com/watch?v=XpaOjMXyJGk" target="_blank">Tu esi gražesnė nei tau atrodo</a>“ , tarsi siekdami padidinti moterų savivertę. „Nike“ Rusijoje paleidžia reklamą „<a href="https://www.youtube.com/watch?v=xifSHMbGSKI" target="_blank">Iš ko padarytos mūsų mergaitės</a>“, tarsi skatindama mergaites užsiimti „nemoterišku“ sportu. Arba karts nuo karto socialiniuose tinkluose nuvilnija tokios „socialinės“ akcijos, kaip „nusifotografuok be makiažo“ (#MakeUpFree) ar pasirodo idėjų, kad <a href="https://time.com/3099103/feminist-selfies-uglyfeminists-iwokeuplikedis/" target="_blank">„selfie“ gali būti feministinis veiksmas</a>. Ir ne, čia ne „Тhe Onion“, čia iš tiesų yra kalbama apie <a href="https://www.nylon.com/articles/feminist-lingerie" target="_blank">įgalinančius apatinius</a>. Savęs tobulinimu ir sąmoningomis galios siekimo strategijomis siūlo užsiimti buvusi viena iš „Facebook“ vadovių Sheryl Sandber, pradėjusi „<a href="https://leanin.org/" target="_blank">LeanIn</a>” programą, kuri moko moteris išlikti versle ir daryti jame karjerą, o Amy Cudy ragina mokytis <a href="https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are?language=en" target="_blank">„galios pozų“ (power posing)</a>.
   
   
   
@@ -100,7 +92,7 @@ Feminizmas, dažnai manoma, kalba visų pirma apie moterų įgalinimą. Štai tr
   
   
   
-    Komodifikacija yra akivaizdžiausia, bet kartu ir paviršutiniškiausia problema. Suprantama, kad korporacijos nori pelnytis iš moterų-vartotojų, kad ieško naujų pardavimo žinučių, eksploatuoja negatyvias patirtis ir siekia, kad mes pasijaustume geriau, kad ir kaip tą gerumą konkrečiu atveju suprastume. Matyt, mažai kas ginčytųsi, jog kompanijai „Nike“, ką tik pranešusiai, kad <a href="https://www.theguardian.com/business/2017/mar/08/nike-launches-hijab-for-female-muslim-athletes">pradeda liniją </a>galvos apdangalams, skirtiems musulmonėms (Pro Hijab), rūpi naujos turtingos rinkos, o ne moterų padėtis tose valstybėse.
+    Komodifikacija yra akivaizdžiausia, bet kartu ir paviršutiniškiausia problema. Suprantama, kad korporacijos nori pelnytis iš moterų-vartotojų, kad ieško naujų pardavimo žinučių, eksploatuoja negatyvias patirtis ir siekia, kad mes pasijaustume geriau, kad ir kaip tą gerumą konkrečiu atveju suprastume. Matyt, mažai kas ginčytųsi, jog kompanijai „Nike“, ką tik pranešusiai, kad <a href="https://www.theguardian.com/business/2017/mar/08/nike-launches-hijab-for-female-muslim-athletes" target="_blank">pradeda liniją </a>galvos apdangalams, skirtiems musulmonėms (Pro Hijab), rūpi naujos turtingos rinkos, o ne moterų padėtis tose valstybėse.
   
   
   
@@ -130,7 +122,7 @@ Feminizmas, dažnai manoma, kalba visų pirma apie moterų įgalinimą. Štai tr
   
   
   
-    Įgalinimo politika yra ne tik apie galėjimą ir bendras patirtis, ji yra ir apie galėjimą būti išgirstai. Kalbėti(s) yra gerai, tačiau dar svarbiau, kad tave girdi, kad kalbi ne sau. „Let’s make some noise“, – skelbė britų sufražistės, nes kalbėjimas tik sau sistemos nekeičia. Būtent dėl to ir „<a href="https://www.womensmarch.com/sisters/" target="_blank">Sister Marches</a>”, organizuoti 2017 m. sausio 21 d. daugelyje JAV ir pasaulio miestų, buvo tokie galingi ir paveikūs: jie buvo apie garsų kalbėjimą. Tai reiškia netylėti, kai matai neteisybę, ne tik tada, kai ją patiri, bet ir tada, kai ją patiria kiti.
+    Įgalinimo politika yra ne tik apie galėjimą ir bendras patirtis, ji yra ir apie galėjimą būti išgirstai. Kalbėti(s) yra gerai, tačiau dar svarbiau, kad tave girdi, kad kalbi ne sau. „Let’s make some noise“, – skelbė britų sufražistės, nes kalbėjimas tik sau sistemos nekeičia. Būtent dėl to ir „<a href="https://web.archive.org/web/20170301000000/https://www.womensmarch.com/sisters/" target="_blank">Sister Marches</a>”, organizuoti 2017 m. sausio 21 d. daugelyje JAV ir pasaulio miestų, buvo tokie galingi ir paveikūs: jie buvo apie garsų kalbėjimą. Tai reiškia netylėti, kai matai neteisybę, ne tik tada, kai ją patiri, bet ir tada, kai ją patiria kiti.
   
   
   
@@ -140,6 +132,5 @@ Feminizmas, dažnai manoma, kalba visų pirma apie moterų įgalinimą. Štai tr
   
     Kitaip tariant, galia yra ne tik daugiau žinių, drąsos, lyderystės, tai suvokimas, kaip ta galia veikia, bei pasiryžimas keisti ne tik savo padėtį, bet ir savo aplinką.
   
-
-    <a href="http://manoteises.lt/straipsnis/mes-tai-galime-apie-feministini-ir-ne-tik-igalinima/">Mes tai galime?! Apie feministinį (ir ne tik) įgalinimą</a>
-  
+ 
+    <a href="https://manoteises.lt/straipsnis/mes-tai-galime-apie-feministini-ir-ne-tik-igalinima/" target="_blank">Mes tai galime?! Apie feministinį (ir ne tik) įgalinimą</a>

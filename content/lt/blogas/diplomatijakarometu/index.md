@@ -1,26 +1,18 @@
 ---
-title: "Diplomatija karo metu"
-subtitle: ""
-summary: ""
+title: Diplomatija karo metu
+subtitle: ''
+summary: ''
 authors: []
 tags: []
 categories: []
-date: 2022-08-29T19:24:00+00:00
-lastmod: 
+date: 2022-08-29 19:24:00+00:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

@@ -1,26 +1,19 @@
 ---
-title: "Apie perspektyvos turėjimą"
-subtitle: ""
-summary: ""
+title: Apie perspektyvos turėjimą
+subtitle: ''
+summary: ''
 authors: []
-tags: [Pasaulio politika]
+tags:
+- Pasaulio politika
 categories: []
-date: 2025-03-03T11:31:26+00:00
-lastmod: 
+date: 2025-03-03 11:31:26+00:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

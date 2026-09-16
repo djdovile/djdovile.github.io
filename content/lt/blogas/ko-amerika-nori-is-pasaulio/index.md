@@ -1,26 +1,19 @@
 ---
-title: "Ko Amerika nori iš pasaulio?"
-subtitle: ""
-summary: ""
+title: Ko Amerika nori iš pasaulio?
+subtitle: ''
+summary: ''
 authors: []
-tags: [Pasaulio politika]
+tags:
+- Pasaulio politika
 categories: []
-date: 2022-11-02T11:54:00+00:00
-lastmod: 
+date: 2022-11-02 11:54:00+00:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

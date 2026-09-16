@@ -1,26 +1,19 @@
 ---
-title: "Apie rožinę spalvą"
-subtitle: ""
-summary: ""
+title: Apie rožinę spalvą
+subtitle: ''
+summary: ''
 authors: []
-tags: [feminizmas]
+tags:
+- feminizmas
 categories: []
-date: 2016-05-19T18:17:43+02:00
-lastmod: 
+date: 2016-05-19 18:17:43+02:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

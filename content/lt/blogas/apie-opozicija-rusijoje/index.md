@@ -1,26 +1,19 @@
 ---
-title: "Trumpai apie opoziciją Rusijoje"
-subtitle: ""
-summary: ""
+title: Trumpai apie opoziciją Rusijoje
+subtitle: ''
+summary: ''
 authors: []
-tags: [Rusija]
+tags:
+- Rusija
 categories: []
-date: 2013-08-17T15:23:57+00:00
-lastmod: 
+date: 2013-08-17 15:23:57+00:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

@@ -1,26 +1,20 @@
 ---
-title: "16-ieji, ruduo: porinkiminis išsiliejimas"
-subtitle: ""
-summary: ""
+title: '16-ieji, ruduo: porinkiminis išsiliejimas'
+subtitle: ''
+summary: ''
 authors: []
-tags: [Facebook, Lietuva]
+tags:
+- Facebook
+- Lietuva
 categories: []
-date: 2016-11-02T19:25:28+00:00
-lastmod: 
+date: 2016-11-02 19:25:28+00:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

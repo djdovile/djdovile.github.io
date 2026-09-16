@@ -1,26 +1,19 @@
 ---
-title: "Kodėl gi taip užkliūna „all male panels”?"
-subtitle: ""
-summary: ""
+title: Kodėl gi taip užkliūna „all male panels”?
+subtitle: ''
+summary: ''
 authors: []
-tags: [Feminizmas]
+tags:
+- Feminizmas
 categories: []
-date: 2015-12-10T09:30:53+00:00
-lastmod: 
+date: 2015-12-10 09:30:53+00:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

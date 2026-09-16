@@ -1,26 +1,18 @@
 ---
-title: "Neužšaldytas Kalnų Karabachas -- ar yra išeitis?"
-subtitle: ""
-summary: ""
+title: Neužšaldytas Kalnų Karabachas -- ar yra išeitis?
+subtitle: ''
+summary: ''
 authors: []
 tags: []
 categories: []
-date: 2016-05-23T11:23:59+02:00
-lastmod: 
+date: 2016-05-23 11:23:59+02:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 

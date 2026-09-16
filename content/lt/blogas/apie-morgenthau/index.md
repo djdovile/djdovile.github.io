@@ -1,29 +1,20 @@
 ---
-title: "Tarptautinė politika pagal Hansą Morgenthau"
-subtitle: ""
-summary: ""
+title: Tarptautinė politika pagal Hansą Morgenthau
+subtitle: ''
+summary: ''
 authors: []
 tags: []
 categories: []
-date: 2017-03-31T13:00:22+02:00
-lastmod: 
+date: 2017-03-31 13:00:22+02:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
-
 
 Prieš daugiau nei penkerius metus į lietuvių kalbą buvo išversta <a href="http://www.jakniunaite.lt/morgenthau/" target="_blank">Hanso J. Morgenthau garsioji knyga <em>Politika tarp valstybių</em> (<em>Politics among Nations</em>)</a> &#8211; didžiulis traktatas apie tarptautinius santykius, daug gilesnis ir turtingesnis nei vadovėliai, skiriantys Morgenthau pusę puslapio pristato. Dauguma besimokančiųjų priverčiami perskaityti tuos šešis realizmo punktus ir čia sustojama. O paskaičius daugiau nustembi, kad tas klasikiniu vadinamas realizmas pagal Morgenthau gali būti gerokai įdomesnis ir sofistikuotesnis nei galvojai.
 

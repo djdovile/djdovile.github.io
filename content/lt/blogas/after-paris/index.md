@@ -1,26 +1,21 @@
 ---
-title: "After Paris"
-subtitle: ""
-summary: ""
+title: After Paris
+subtitle: ''
+summary: ''
 authors: []
-tags: [Priešai, Tapatybė, Terorizmas]
+tags:
+- Priešai
+- Tapatybė
+- Terorizmas
 categories: []
-date: 2015-11-16T11:34:40+00:00
-lastmod: 
+date: 2015-11-16 11:34:40+00:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 
