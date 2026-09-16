@@ -1,0 +1,27 @@
+{{ $item := .item }}
+<div class="py-4 flex flex-col gap-1.5">
+  <div class="flex flex-wrap items-baseline justify-between gap-2">
+    <a href="{{ $item.RelPermalink }}" class="text-lg font-semibold text-neutral-900 dark:text-neutral-100 hover:text-primary-600 dark:hover:text-primary-400">
+      {{ $item.Title }}
+    </a>
+    <div class="flex items-center gap-1.5">
+      {{ range $item.Params.tags }}
+        {{ if or (eq . "magistrantura") (eq . "bakalauras") (eq . "ma") (eq . "ba") }}
+          <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-stone-100 text-stone-700 dark:bg-neutral-800 dark:text-neutral-300 uppercase tracking-wider">
+            {{ if eq . "magistrantura" }}MA{{ else if eq . "bakalauras" }}BA{{ else }}{{ . }}{{ end }}
+          </span>
+        {{ end }}
+      {{ end }}
+      {{ if $item.Params.status }}
+        <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-800 dark:bg-emerald-950/50 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/50">
+          {{ $item.Params.status }}
+        </span>
+      {{ end }}
+    </div>
+  </div>
+  {{ if $item.Params.summary }}
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed m-0">
+      {{ $item.Params.summary }}
+    </p>
+  {{ end }}
+</div>

@@ -1,93 +1,95 @@
 ---
-name: "dj_hugo"
-description: "A credible, clear, expert public academic profile and archive for Dovilė Jakniūnaitė."
+name: dj_hugo
+description: A credible, clear, expert public academic profile and archive for Dovilė
+  Jakniūnaitė.
 colors:
-  seminar-red: "#B72818"
-  seminar-red-deep: "#761A0F"
-  seminar-red-soft: "#F7E9E7"
-  wayfinding-accent: "#506A52"
-  wayfinding-deep: "#334536"
-  warm-paper: "#FFFAF5"
-  study-ink: "#3B2313"
-  soft-shelf: "#F5EFE9"
-  quiet-border: "#E4E2E1"
-  muted-voice: "#6C6561"
-  dark-room: "#2B262B"
-  dark-ink: "#E0CAB6"
-  white: "#FFFFFF"
+  seminar-red: '#B72818'
+  seminar-red-deep: '#761A0F'
+  seminar-red-soft: '#F7E9E7'
+  wayfinding-accent: '#506A52'
+  wayfinding-deep: '#334536'
+  warm-paper: '#FFFAF5'
+  study-ink: '#3B2313'
+  soft-shelf: '#F5EFE9'
+  quiet-border: '#E4E2E1'
+  muted-voice: '#6C6561'
+  dark-room: '#2B262B'
+  dark-ink: '#E0CAB6'
+  white: '#FFFFFF'
 typography:
   display:
-    fontFamily: "Source Serif 4, ui-serif, Georgia, serif"
-    fontSize: "clamp(2.2rem, 1.45rem + 3vw, 4rem)"
+    fontFamily: Source Serif 4, ui-serif, Georgia, serif
+    fontSize: clamp(2.2rem, 1.45rem + 3vw, 4rem)
     fontWeight: 650
     lineHeight: 1.04
-    letterSpacing: "-0.018em"
+    letterSpacing: -0.018em
   headline:
-    fontFamily: "Source Serif 4, ui-serif, Georgia, serif"
-    fontSize: "clamp(1.55rem, 1.28rem + 0.9vw, 2.15rem)"
+    fontFamily: Source Serif 4, ui-serif, Georgia, serif
+    fontSize: clamp(1.55rem, 1.28rem + 0.9vw, 2.15rem)
     fontWeight: 600
     lineHeight: 1.14
-    letterSpacing: "-0.012em"
+    letterSpacing: -0.012em
   title:
-    fontFamily: "Source Serif 4, ui-serif, Georgia, serif"
-    fontSize: "1.18rem"
+    fontFamily: Source Serif 4, ui-serif, Georgia, serif
+    fontSize: 1.18rem
     fontWeight: 600
     lineHeight: 1.34
-    letterSpacing: "-0.004em"
+    letterSpacing: -0.004em
   body:
-    fontFamily: "Source Serif 4, ui-serif, Georgia, serif"
-    fontSize: "1.0625rem"
+    fontFamily: Source Serif 4, ui-serif, Georgia, serif
+    fontSize: 1.0625rem
     fontWeight: 400
     lineHeight: 1.72
-    letterSpacing: "0"
+    letterSpacing: '0'
   label:
-    fontFamily: "ui-sans-serif, system-ui, sans-serif"
-    fontSize: "0.92rem"
+    fontFamily: ui-sans-serif, system-ui, sans-serif
+    fontSize: 0.92rem
     fontWeight: 500
     lineHeight: 1.4
-    letterSpacing: "0"
+    letterSpacing: '0'
 rounded:
-  sm: "4px"
-  md: "8px"
-  card: "16px"
-  pill: "999px"
+  sm: 4px
+  md: 8px
+  card: 16px
+  pill: 999px
 spacing:
-  xs: "4px"
-  sm: "8px"
-  md: "16px"
-  lg: "24px"
-  xl: "32px"
-  section: "64px"
+  xs: 4px
+  sm: 8px
+  md: 16px
+  lg: 24px
+  xl: 32px
+  section: 64px
 components:
   button-primary:
-    backgroundColor: "{colors.seminar-red}"
-    textColor: "{colors.white}"
-    typography: "{typography.label}"
-    rounded: "{rounded.sm}"
-    padding: "8px 16px"
+    backgroundColor: '{colors.seminar-red}'
+    textColor: '{colors.white}'
+    typography: '{typography.label}'
+    rounded: '{rounded.sm}'
+    padding: 8px 16px
   chip-filter:
-    backgroundColor: "transparent"
-    textColor: "{colors.muted-voice}"
-    typography: "{typography.label}"
-    rounded: "{rounded.sm}"
-    padding: "4px 12px"
+    backgroundColor: transparent
+    textColor: '{colors.muted-voice}'
+    typography: '{typography.label}'
+    rounded: '{rounded.sm}'
+    padding: 4px 12px
   chip-filter-active:
-    backgroundColor: "{colors.seminar-red}"
-    textColor: "{colors.white}"
-    typography: "{typography.label}"
-    rounded: "{rounded.sm}"
-    padding: "4px 12px"
+    backgroundColor: '{colors.seminar-red}'
+    textColor: '{colors.white}'
+    typography: '{typography.label}'
+    rounded: '{rounded.sm}'
+    padding: 4px 12px
   card:
-    backgroundColor: "{colors.white}"
-    textColor: "{colors.study-ink}"
-    rounded: "{rounded.card}"
-    padding: "32px"
+    backgroundColor: '{colors.white}'
+    textColor: '{colors.study-ink}'
+    rounded: '{rounded.card}'
+    padding: 32px
   nav-link:
-    backgroundColor: "transparent"
-    textColor: "{colors.study-ink}"
-    typography: "{typography.label}"
-    rounded: "{rounded.sm}"
-    padding: "8px 10px"
+    backgroundColor: transparent
+    textColor: '{colors.study-ink}'
+    typography: '{typography.label}'
+    rounded: '{rounded.sm}'
+    padding: 8px 10px
+permalink: personal-files/djwebsite/dj-hugo/design
 ---
 
 # Design System: dj_hugo

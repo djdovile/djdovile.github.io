@@ -1,26 +1,19 @@
 ---
-title: "Revoliucija, kurios nereikia"
-subtitle: ""
-summary: ""
+title: Revoliucija, kurios nereikia
+subtitle: ''
+summary: ''
 authors: []
-tags: [Rusija]
+tags:
+- Rusija
 categories: []
-date: 2017-11-15T19:52:40+02:00
-lastmod: 
+date: 2017-11-15 19:52:40+02:00
+lastmod: null
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` #   Otherwise, set `projects = []`.
 projects: []
 ---
 
