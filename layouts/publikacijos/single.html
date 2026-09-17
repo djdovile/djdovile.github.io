@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<article class="max-w-prose mx-auto py-8 px-4">
+<article class="max-w-4xl mx-auto py-8 px-4">
   <header class="mb-8">
     <div class="mb-4">
       <a href="{{ "/publikacijos/" | relLangURL }}" class="text-sm text-neutral-500 hover:text-primary-600 dark:text-neutral-400 inline-flex items-center gap-1">
@@ -8,40 +8,61 @@
       </a>
     </div>
 
-    <h1 class="text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-4">
+    {{/* Featured Image */}}
+    {{ $image := .Resources.GetMatch "{featured,cover}*" }}
+    {{ if not $image }}
+      {{ with .Params.image }}
+        {{ if reflect.IsMap . }}
+          {{ with .filename }}{{ $image = resources.Get . }}{{ end }}
+        {{ else if eq (printf "%T" .) "string" }}
+          {{ $image = resources.Get . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ with $image }}
+      <div class="mb-6 rounded-lg overflow-hidden border border-stone-200 dark:border-neutral-800 bg-stone-50 dark:bg-neutral-800/40">
+        <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="w-full h-auto object-cover max-h-96">
+        {{ with $.Params.image.caption }}
+          <div class="p-2 text-xs text-center text-neutral-500 italic">{{ . | markdownify }}</div>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
       {{ .Title }}
     </h1>
 
-    {{/* Authors */}}
-    {{ if .Params.authors }}
-    <div class="text-lg text-neutral-700 dark:text-neutral-300 mb-3">
-      {{ range $i, $author := .Params.authors }}
-        {{ if gt $i 0 }}, {{ end }}
-        {{ if eq $author "me" }}
-          <span class="font-medium text-neutral-900 dark:text-neutral-100">Dovilė Jakniūnaitė</span>
-        {{ else }}
-          {{ $author }}
-        {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
-
-    {{/* Publication info / venue */}}
-    <div class="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
-      {{ if .Params.publication }}
-        <span class="italic">{{ if reflect.IsMap .Params.publication }}{{ .Params.publication.name }}{{ else }}{{ .Params.publication }}{{ end }}</span>
-      {{ end }}
-      {{ if .Date }}
-        <span class="ml-2">({{ .Date.Format "2006" }})</span>
-      {{ end }}
-    </div>
-
-    {{/* Action Buttons / Links: PDF, CITE, PREPRINT, DOI, etc. */}}
-    <div class="flex flex-wrap items-center gap-2 my-4">
+    {{/* Action Buttons / Links immediately below title */}}
+    <div class="flex flex-wrap items-center gap-2 my-3">
       {{ partial "page_links" (dict "page" . "is_list" 0) }}
     </div>
 
-    {{/* Associated Project (Feature A) */}}
+    {{/* Full bibliographic metadata (list-format) */}}
+    <div class="text-base text-neutral-700 dark:text-neutral-300 mb-4 flex flex-wrap items-baseline gap-x-2 gap-y-1">
+      {{ if .Params.authors }}
+        <span class="font-normal">
+          {{ range $i, $author := .Params.authors }}
+            {{ if gt $i 0 }}, {{ end }}
+            {{ if eq $author "me" }}
+              <span class="font-medium text-neutral-900 dark:text-neutral-100">Dovilė Jakniūnaitė</span>
+            {{ else }}
+              {{ $author }}
+            {{ end }}
+          {{ end }}
+        </span>
+      {{ end }}
+      {{ if .Params.publication }}
+        <span class="text-neutral-400 dark:text-neutral-500">•</span>
+        <span class="italic text-neutral-800 dark:text-neutral-200">
+          {{ if reflect.IsMap .Params.publication }}{{ .Params.publication.name }}{{ else }}{{ .Params.publication }}{{ end }}
+        </span>
+      {{ end }}
+      {{ if .Date }}
+        <span class="text-neutral-500 dark:text-neutral-400">({{ .Date.Format "2006" }})</span>
+      {{ end }}
+    </div>
+
+    {{/* Associated Project */}}
     {{ $projects := slice }}
     {{ range $p := .Params.projects }}
       {{ if $p }}
@@ -59,14 +80,14 @@
     {{ end }}
 
     {{ if gt (len $projects) 0 }}
-    <div class="mt-4 p-3.5 rounded-md bg-stone-50 dark:bg-neutral-800/60 border border-stone-200 dark:border-neutral-700 text-sm">
+    <div class="mt-4 mb-6 p-3.5 rounded-md bg-stone-50 dark:bg-neutral-800/60 border border-stone-200 dark:border-neutral-700 text-sm">
       <span class="font-medium text-neutral-700 dark:text-neutral-300">
         {{ if eq site.Language.Lang "lt" }}Mokslinis projektas:{{ else }}Research Project:{{ end }}
       </span>
       <div class="mt-1 flex flex-col gap-1">
         {{ range $projects }}
           <a href="{{ .RelPermalink }}" class="text-emerald-800 dark:text-emerald-400 hover:underline font-medium inline-flex items-center gap-1.5">
-            <svg class="w-4 h-4 text-emerald-700 dark:text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+            <svg class="w-4 h-4 text-emerald-700 dark:text-emerald-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
             {{ .Title }}
           </a>
         {{ end }}
@@ -75,13 +96,13 @@
     {{ end }}
   </header>
 
-  {{/* Abstract */}}
+  {{/* Summary / Abstract */}}
   {{ if .Params.abstract }}
-  <div class="mb-8 p-4 rounded-md bg-neutral-50 dark:bg-neutral-800/40 border-l-4 border-emerald-700/60 dark:border-emerald-500/60">
+  <div class="mb-8 p-4.5 rounded-md bg-stone-50/80 dark:bg-neutral-800/40 border-l-4 border-stone-400 dark:border-neutral-600">
     <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-2">
-      {{ if eq site.Language.Lang "lt" }}Anotacija{{ else }}Abstract{{ end }}
+      {{ if eq site.Language.Lang "lt" }}Santrauka{{ else }}Abstract{{ end }}
     </h2>
-    <p class="text-neutral-800 dark:text-neutral-200 leading-relaxed text-sm">
+    <p class="text-neutral-800 dark:text-neutral-200 leading-relaxed text-sm sm:text-base">
       {{ .Params.abstract }}
     </p>
   </div>
@@ -89,10 +110,33 @@
 
   {{/* Content / Notes */}}
   {{ if .Content }}
-  <div class="prose dark:prose-invert max-w-none">
+  <div class="prose dark:prose-invert max-w-none mb-8">
     {{ .Content }}
   </div>
   {{ end }}
+
+  {{/* Tags / Topics */}}
+  {{ with .Params.tags }}
+  <div class="mt-8 pt-4 border-t border-stone-200 dark:border-neutral-800 flex flex-wrap items-center gap-2">
+    <span class="text-xs font-medium uppercase tracking-wider text-neutral-400 mr-1">
+      {{ if eq site.Language.Lang "lt" }}Temos:{{ else }}Topics:{{ end }}
+    </span>
+    {{ range . }}
+      {{ $tag_link := printf "/tags/%s/" (. | urlize) | relLangURL }}
+      <a href="{{ $tag_link }}" class="inline-flex items-center px-2.5 py-1 rounded text-xs font-medium bg-stone-100 dark:bg-neutral-800 text-stone-700 dark:text-neutral-300 hover:bg-stone-200 dark:hover:bg-neutral-700 border border-stone-200 dark:border-neutral-700 transition-colors">
+        #{{ . }}
+      </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* Last Updated Date at bottom right */}}
+  <div class="mt-8 flex justify-end text-xs text-neutral-400 dark:text-neutral-500 italic">
+    <span>
+      {{ if eq site.Language.Lang "lt" }}Atnaujinta:{{ else }}Last updated:{{ end }}
+      {{ if .Lastmod }}{{ .Lastmod.Format "2006-01-02" }}{{ else if .Date }}{{ .Date.Format "2006-01-02" }}{{ end }}
+    </span>
+  </div>
 </article>
 
 {{ end }}
