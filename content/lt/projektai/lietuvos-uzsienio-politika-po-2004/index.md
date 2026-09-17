@@ -5,6 +5,9 @@ date: 2026-07-02
 tags:
 - projektas
 - igyvendinti
+- Lietuvos užsienio politika
+- Saugumo politika
+- LMT
 status: Įgyvendintas
 tech_stack:
 - Lietuvos užsienio politika

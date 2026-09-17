@@ -6,6 +6,9 @@ date: 2026-07-02
 tags:
 - projektas
 - vykdomi
+- Lietuvos užsienio politika
+- Pripažinimas
+- LMT
 status: Vykdomas
 tech_stack:
 - Lietuvos užsienio politika

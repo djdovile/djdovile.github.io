@@ -5,6 +5,10 @@ date: 2026-07-02
 tags:
 - projektas
 - igyvendinti
+- Mobilumas
+- Migracija
+- COVID-19
+- Lietuva ir Lenkija
 status: Įgyvendintas
 tech_stack:
 - Mobilumas

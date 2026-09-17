@@ -6,6 +6,9 @@ date: 2026-07-02
 tags:
 - projektas
 - igyvendinti
+- Užsienio politika
+- Krizės
+- Valdysena
 status: Įgyvendintas
 tech_stack:
 - Užsienio politika

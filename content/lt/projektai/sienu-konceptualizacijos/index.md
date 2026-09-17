@@ -5,6 +5,9 @@ date: 2026-07-02
 tags:
 - projektas
 - igyvendinti
+- Sienos
+- Teritorija
+- Vidurio Rytų Europa
 status: Įgyvendintas
 tech_stack:
 - Sienos

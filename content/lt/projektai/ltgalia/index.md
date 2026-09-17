@@ -5,6 +5,10 @@ date: 2026-07-02
 tags:
 - projektas
 - vykdomi
+- Mažosios valstybės
+- Įtakos indeksas
+- Užsienio politika
+- LMT
 status: Vykdomas
 tech_stack:
 - Mažosios valstybės

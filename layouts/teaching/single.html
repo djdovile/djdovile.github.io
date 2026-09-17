@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<article class="max-w-prose mx-auto py-8 px-4">
+<article class="max-w-4xl mx-auto py-8 px-4">
   <header class="mb-8">
     <div class="mb-4">
       <a href="{{ "/teaching/" | relLangURL }}" class="text-sm text-neutral-500 hover:text-primary-600 dark:text-neutral-400 inline-flex items-center gap-1">
@@ -8,7 +8,7 @@
       </a>
     </div>
 
-    <h1 class="text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-4">
+    <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-4">
       {{ .Title }}
     </h1>
 
@@ -30,7 +30,7 @@
     </div>
 
     {{ if .Params.summary }}
-    <p class="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed italic border-l-2 border-primary-600/40 pl-3.5 my-4">
+    <p class="text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed italic border-l-2 border-stone-300 dark:border-neutral-700 pl-3.5 my-4">
       {{ .Params.summary }}
     </p>
     {{ end }}
@@ -38,10 +38,18 @@
 
   {{/* Course Content / Description / Syllabus details */}}
   {{ if .Content }}
-  <div class="prose dark:prose-invert max-w-none">
+  <div class="prose dark:prose-invert max-w-none mb-8">
     {{ .Content }}
   </div>
   {{ end }}
+
+  {{/* Last Updated Date at bottom right */}}
+  <div class="mt-8 flex justify-end text-xs text-neutral-400 dark:text-neutral-500 italic">
+    <span>
+      {{ if eq site.Language.Lang "lt" }}Atnaujinta:{{ else }}Last updated:{{ end }}
+      {{ if .Lastmod }}{{ .Lastmod.Format "2006-01-02" }}{{ else if .Date }}{{ .Date.Format "2006-01-02" }}{{ end }}
+    </span>
+  </div>
 </article>
 
 {{ end }}
