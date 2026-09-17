@@ -82,3 +82,7 @@ BLOG-LINK-REVIEW-2026-07-02.md
 # IDEs & Editors
 
 dj_hugo.code-workspace
+.agent/
+.agents/
+.claude/
+.codex/

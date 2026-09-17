@@ -7,16 +7,21 @@ Lietuviškos svetainės versijos (`/lt/`) paleidimo paruošimas ir publikacijų/
 
 ---
 
-## What Was Just Done (2026-09-16)
-1. **Publikacijų veiksmo mygtukai (Action Buttons):**
-   - Įjungti `[PDF]`, `[Cituoti]`, `[DOI]`, `[Preprint]` ir `[Projektas]` mygtukai atskiruose publikacijų puslapiuose (`layouts/publikacijos/single.html` ir `layouts/publications/single.html`).
-   - Sukurtas `layouts/_partials/functions/build_links.html` perrašas, kad `[Projektas]` / `[Project]` mygtukas automatiškai atpažintų lietuviškus `/projektai/` kelius.
-2. **Publikacijų šriftų pataisymas:**
-   - Sutvarkyti visi 56 publikacijų YAML failai – pašalintos markdown žvaigždutės (`*`), kurios vertė leidinių pavadinimus paryškintais (**bold**). Dabar visi leidiniai atvaizduojami tvarkingu kursyvu (*italics*).
-3. **Recenzijų taksonomija (`review`):**
-   - Sukurtas `Recenzijos` / `Reviews` filtras publikacijų sąrašuose ir priskirtas atitinkamoms publikacijoms.
-4. **Kompaktiškas dėstymo sąrašas:**
-   - Sukurtas kompaktiškas kursų sąrašo šablonas (`layouts/destymas/list.html` ir `layouts/teaching/list.html`).
+## What Was Just Done (2026-09-17)
+1. **Publikacijų atskiro puslapio patobulinimai (`single.html`):**
+   - Grąžintas `featured` viršelio / iliustracijos atvaizdavimas puslapio viršuje.
+   - Pakeistas eiliškumas: Pavadinimas -> Veiksmo mygtukai (`[PDF]`, `[DOI]`, `[Projektas]` ir kt.) -> Pilna straipsnio bibliografinė informacija (sąrašo formatu) -> Susijusio projekto blokas -> Santrauka -> Tekstas -> Žymės (temos) -> Atnaujinimo data apačioje dešinėje.
+   - Pakeistas sekcijos pavadinimas iš „Anotacija“ į **„Santrauka“** (angl. *Abstract*).
+   - Sugrąžintos žymės (`#tag`) su ramia neutralia estetika (pašalintas rausvumas).
+2. **Projektų puslapių žymės (`tags`):**
+   - Projektų puslapiuose (`layouts/projektai/single.html` ir `layouts/projects/single.html`) integruotas teminių žymių (`#Temos`) blokas, susietas su bendra taksonomijų sistema (visi 7 projektai papildyti teminėmis žymėmis).
+3. **Vienodas teksto plotis, antraščių ir turinio tipografija:**
+   - Panaikinti dirbtiniai siauri `max-width: 16ch` apribojimai antraštėms CSS faile (`assets/css/custom.css`).
+   - Visi 4 pagrindiniai sąrašai (Publikacijos, Projektai, Dėstymas, Tekstai) ir atskiri puslapiai suvienodinti į patogų `max-w-4xl` plotį su bendra `.page-title` antraštės klase (`text-3xl lg:text-4xl font-semibold`).
+   - Suvienodintas įvadinių tekstų dydis (`text-base leading-relaxed`), įrašų pavadinimai (`text-lg font-semibold`), aprašymai/metaduomenys (`text-sm`) bei skiriamosios linijos ir tarpai.
+4. **Tekstų (`/lt/blogas/`) ir Projektų (`/lt/projektai/`) išdėstymas:**
+   - `/lt/blogas/` pervestas į `title-date` formatą (kaip tituliniame puslapyje: pavadinimas + data skliausteliuose).
+   - `/lt/projektai/` atnaujintas į švarų sąrašą su filtrų mygtukais („Visi“, „Vykdomi“, „Įgyvendinti“).
 
 ---
 

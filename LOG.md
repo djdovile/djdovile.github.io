@@ -4,6 +4,31 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 
 ---
 
+## 2026-09-17
+- **Publikacijų puslapių išdėstymas (`layouts/publikacijos/single.html`, `layouts/publications/single.html`):**
+  - Grąžintas `featured` iliustracijos atvaizdavimas.
+  - Sudėliotas teisingas eiliškumas: Pavadinimas -> Veiksmo mygtukai (`[PDF]`, `[DOI]`, `[Projektas]`, `[Cituoti]`) -> Pilna bibliografinė informacija (autoriai, leidinys, metai) -> Projekto dėžutė -> Santrauka -> Tekstas / pastabos -> Temos / žymės -> Atnaujinimo data apačioje dešinėje.
+  - „Anotacija“ pervadinta į „Santrauka“ (angl. *Abstract*).
+  - Sugrąžintos žymės (`tags`), pašalinta rausva spalva ir pritaikytas neutralus, ramus akademinis stilius.
+- **Projektų puslapių žymės (`tags`):**
+  - Projektų puslapiuose (`layouts/projektai/single.html`, `layouts/projects/single.html`) integruotas `#Temos` žymių blokas, o projektai papildyti atitinkamomis teminėmis žymėmis (`Sienos`, `Teritorija`, `Mažosios valstybės`, `Lietuvos užsienio politika` ir kt.).
+- **Teksto pločio ir antraščių suvienodinimas:**
+  - CSS faile (`assets/css/custom.css`) panaikintas dirbtinis antraščių susiaurinimas (`max-width: 16ch` ir `13ch`), skaitymo plotis padidintas iki 86ch.
+  - Visi sąrašai ir atskiri puslapiai (`publikacijos`, `projektai`, `destymas`, `blogas`) naudoja vienodą `max-w-4xl` konteinerio plotį ir vienodą `.page-title` antraštės stilių (šriftas, dydis, storis).
+- **Tekstų (`/lt/blogas/`) sąrašo vaizdas:**
+  - Sukurtas `layouts/blogas/list.html` ir `layouts/blog/list.html` šablonas su `title-date` formatu (pavadinimas + data skliausteliuose), identiškas tituliniam puslapiui.
+- **Projektų (`/lt/projektai/`) sąrašo vaizdas:**
+  - Sukurtas `layouts/projektai/list.html` ir `layouts/projects/list.html` su vieningu antraštės stiliumi ir greitais filtrais („Visi“, „Vykdomi“, „Įgyvendinti“).
+- **Visų 4 pagrindinių kategorijų (Publikacijos, Projektai, Dėstymas, Tekstai) index puslapių tipografijos suvienodinimas:**
+  - **Puslapių antraštės ir įvadai:** Visuose 4 sąrašuose antraštėms naudojama identiška `.page-title` klasė (`text-3xl lg:text-4xl font-semibold`), o paaiškinamajam tekstui / santraukai – `text-base text-neutral-600 dark:text-neutral-400 leading-relaxed`.
+  - **Įrašų antraštės:** Publikacijų, projektų ir dėstymo sąrašuose įrašų pavadinimams nustatytas identiškas `text-lg font-semibold` (1.125rem) dydis ir storis.
+  - **Įrašų aprašymai / metaduomenys:** Suvienodinti į `text-sm` (0.875rem), o žymės bei būsenos indikatoriai – į `text-xs`.
+  - **Skiriamosios linijos ir tarpai:** Visiems sąrašams pritaikytos vienodos viršutinės ir tarpinės skiriamosios linijos (`border-stone-200` / `divide-stone-200`, naudojančios `var(--dj-border)`) bei `py-4.5` / `py-5` elementų aukščiai.
+- **Verifikacija:**
+  - `hugo --minify` sėkmingai sugeneravo visą svetainę (0 klaidų, 250 LT psl., 119 EN psl.).
+
+---
+
 ## 2026-09-16 (Vakaras / Naktis)
 - **Publikacijų veiksmo mygtukų įgalinimas (`page_links`):**
   - Įkeltas `{{ partial "page_links" (dict "page" . "is_list" 0) }}` į [`layouts/publikacijos/single.html`](file:///C:/Users/Vartotojas/OneDrive%20-%20Vilnius%20University/Documents/1_Projektai%20(personal)/DJwebsite/dj_hugo/layouts/publikacijos/single.html) ir [`layouts/publications/single.html`](file:///C:/Users/Vartotojas/OneDrive%20-%20Vilnius%20University/Documents/1_Projektai%20(personal)/DJwebsite/dj_hugo/layouts/publications/single.html).
