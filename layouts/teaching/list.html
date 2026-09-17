@@ -1,8 +1,8 @@
 {{ define "main" }}
 
-<div class="max-w-prose mx-auto py-8 px-4">
-  <header class="mb-8">
-    <h1 class="text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
+<div class="max-w-4xl mx-auto py-8 px-4">
+  <header class="mb-6">
+    <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
       {{ .Title }}
     </h1>
     {{ if .Params.summary }}
@@ -19,7 +19,7 @@
 
   {{ $courses := .RegularPages.ByDate.Reverse }}
   {{ if gt (len $courses) 0 }}
-    <div class="flex flex-col divide-y divide-neutral-200 dark:divide-neutral-700/60">
+    <div class="flex flex-col border-t border-stone-200 dark:border-neutral-700/60 divide-y divide-stone-200 dark:divide-neutral-700/60">
       {{ range $courses }}
         <article class="py-4.5 flex flex-col gap-1.5">
           <div class="flex flex-wrap items-baseline justify-between gap-2">

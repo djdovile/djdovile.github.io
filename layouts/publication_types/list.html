@@ -1,20 +1,24 @@
 {{ define "main" }}
 
 {{ $term := .Data.Term | default (.Title | urlize) }}
-{{ $label := .Title }}
-{{ if eq $term "article-journal" }}{{ $label = cond (eq site.Language.Lang "lt") "Straipsniai" "Articles" }}{{ end }}
-{{ if eq $term "book" }}{{ $label = cond (eq site.Language.Lang "lt") "Knygos" "Books" }}{{ end }}
-{{ if eq $term "chapter" }}{{ $label = cond (eq site.Language.Lang "lt") "Knygų skyriai" "Book chapters" }}{{ end }}
-{{ if eq $term "review" }}{{ $label = cond (eq site.Language.Lang "lt") "Recenzijos" "Reviews" }}{{ end }}
+{{ $pageTitle := cond (eq site.Language.Lang "lt") "Publikacijos" "Publications" }}
 
-<div class="universal-wrapper pt-3">
-  <h1>{{ $label }}</h1>
-
-  {{ if .Content }}
-    <div class="article-style prose dark:prose-invert max-w-none mb-8">
-      {{ .Content }}
-    </div>
-  {{ end }}
+<div class="max-w-4xl mx-auto py-8 px-4">
+  <header class="mb-6">
+    <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
+      {{ $pageTitle }}
+    </h1>
+    {{ if .Params.summary }}
+      <p class="text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
+        {{ .Params.summary }}
+      </p>
+    {{ end }}
+    {{ if .Content }}
+      <div class="prose dark:prose-invert max-w-none mt-2">
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </header>
 
   {{ partial "publication_type_filters.html" (dict "active" $term) }}
 
@@ -33,7 +37,7 @@
 
   {{ if gt (len $items) 0 }}
     {{ .Store.Set "has_alpine" true }}
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col">
       {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
       {{ range $index, $item := $items }}
         {{ partial "functions/render_view" (dict "page" $block "item" $item "view" $view "index" $index "items_type" $items_type "config" $config) }}
@@ -41,7 +45,9 @@
       {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view "config" $config) }}
     </div>
   {{ else }}
-    <p class="mt-6 text-gray-500 dark:text-gray-400">{{ i18n "no_publications" | default "No publications found." }}</p>
+    <div class="text-center">
+      <p class="mt-6 text-gray-500 dark:text-gray-400">{{ i18n "no_publications" | default "No publications found." }}</p>
+    </div>
   {{ end }}
 </div>
 

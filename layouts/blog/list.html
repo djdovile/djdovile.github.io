@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<div class="max-w-4xl mx-auto py-8 px-4">
+  <header class="mb-6">
+    <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
+      {{ .Title }}
+    </h1>
+    {{ if .Params.summary }}
+      <p class="text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
+        {{ .Params.summary }}
+      </p>
+    {{ end }}
+    {{ if .Content }}
+      <div class="prose dark:prose-invert max-w-none mt-2">
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </header>
+
+  {{ $posts := .RegularPages.ByDate.Reverse }}
+  {{ if gt (len $posts) 0 }}
+    <div class="flex flex-col border-t border-stone-200 dark:border-neutral-700/60 divide-y divide-stone-200 dark:divide-neutral-700/60">
+      {{ range $posts }}
+        <div class="pub-list-item view-title-date py-2 flex flex-wrap items-baseline justify-between gap-2">
+          <a href="{{ .RelPermalink }}" class="text-neutral-900 dark:text-neutral-100 hover:text-primary-600 dark:hover:text-primary-400 transition font-normal text-base">
+            {{ .Title }}
+          </a>
+          <span class="text-neutral-500 dark:text-neutral-400 text-sm whitespace-nowrap">
+            {{ .Date.Format "2006-01-02" }}
+          </span>
+        </div>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p class="text-sm text-neutral-500">{{ if eq site.Language.Lang "lt" }}Tekstų sąrašas ruošiamas.{{ else }}Post list is being prepared.{{ end }}</p>
+  {{ end }}
+</div>
+
+{{ end }}

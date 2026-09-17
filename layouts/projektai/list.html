@@ -1,0 +1,96 @@
+{{ define "main" }}
+
+<div class="max-w-4xl mx-auto py-8 px-4" x-data="{ activeFilter: '*' }">
+  <header class="mb-6">
+    <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
+      {{ .Title }}
+    </h1>
+    {{ if .Params.summary }}
+      <p class="text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
+        {{ .Params.summary }}
+      </p>
+    {{ end }}
+    {{ if .Content }}
+      <div class="prose dark:prose-invert max-w-none mt-2">
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </header>
+
+  {{/* Filter Tabs */}}
+  <nav class="mt-6 mb-8 flex flex-wrap justify-start gap-2" aria-label="Project filter">
+    <button 
+      @click="activeFilter = '*'" 
+      :class="activeFilter === '*' ? 'border-primary-600 bg-primary-600 text-white font-medium' : 'border-stone-300 dark:border-neutral-700 bg-stone-50/60 dark:bg-neutral-800/40 text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600'"
+      class="rounded border px-3 py-1.5 text-xs transition-colors cursor-pointer"
+    >
+      {{ if eq site.Language.Lang "lt" }}Visi{{ else }}All{{ end }}
+    </button>
+    <button 
+      @click="activeFilter = 'vykdomi'" 
+      :class="activeFilter === 'vykdomi' ? 'border-primary-600 bg-primary-600 text-white font-medium' : 'border-stone-300 dark:border-neutral-700 bg-stone-50/60 dark:bg-neutral-800/40 text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600'"
+      class="rounded border px-3 py-1.5 text-xs transition-colors cursor-pointer"
+    >
+      {{ if eq site.Language.Lang "lt" }}Vykdomi{{ else }}Ongoing{{ end }}
+    </button>
+    <button 
+      @click="activeFilter = 'igyvendinti'" 
+      :class="activeFilter === 'igyvendinti' ? 'border-primary-600 bg-primary-600 text-white font-medium' : 'border-stone-300 dark:border-neutral-700 bg-stone-50/60 dark:bg-neutral-800/40 text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600'"
+      class="rounded border px-3 py-1.5 text-xs transition-colors cursor-pointer"
+    >
+      {{ if eq site.Language.Lang "lt" }}Įgyvendinti{{ else }}Completed{{ end }}
+    </button>
+  </nav>
+
+  {{ $projects := .RegularPages.ByDate.Reverse }}
+  {{ if gt (len $projects) 0 }}
+    <div class="flex flex-col border-t border-stone-200 dark:border-neutral-700/60 divide-y divide-stone-200 dark:divide-neutral-700/60">
+      {{ range $projects }}
+        {{ $tag_str := "" }}
+        {{ range .Params.tags }}
+          {{ $tag_str = printf "%s %s" $tag_str . }}
+        {{ end }}
+        <article 
+          x-show="activeFilter === '*' || '{{ $tag_str }}'.toLowerCase().includes(activeFilter)" 
+          class="py-4.5 flex flex-col gap-1.5"
+        >
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 class="text-lg font-semibold text-neutral-900 dark:text-neutral-100 m-0">
+              <a href="{{ .RelPermalink }}" class="hover:text-primary-600 dark:hover:text-primary-400 transition">
+                {{ .Title }}
+              </a>
+            </h2>
+            <div class="flex items-center gap-1.5 shrink-0">
+              {{ if .Params.status }}
+                {{ $is_ongoing := or (eq .Params.status "Vykdomas") (eq .Params.status "Ongoing") }}
+                <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium {{ if $is_ongoing }}bg-emerald-50 text-emerald-800 dark:bg-emerald-950/50 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/50{{ else }}bg-stone-100 text-stone-700 dark:bg-neutral-800 dark:text-neutral-300 border border-stone-200 dark:border-neutral-700{{ end }}">
+                  {{ .Params.status }}
+                </span>
+              {{ end }}
+            </div>
+          </div>
+
+          {{ if .Params.summary }}
+            <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed m-0">
+              {{ .Params.summary }}
+            </p>
+          {{ end }}
+
+          {{ with .Params.tech_stack }}
+            <div class="flex flex-wrap gap-1.5 mt-0.5">
+              {{ range . }}
+                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-normal bg-stone-100 text-stone-700 dark:bg-neutral-800 dark:text-neutral-300">
+                  {{ . }}
+                </span>
+              {{ end }}
+            </div>
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p class="text-sm text-neutral-500">{{ if eq site.Language.Lang "lt" }}Projektų sąrašas ruošiamas.{{ else }}Project list is being prepared.{{ end }}</p>
+  {{ end }}
+</div>
+
+{{ end }}
