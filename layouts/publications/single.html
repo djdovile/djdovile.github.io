@@ -51,10 +51,13 @@
           {{ end }}
         </span>
       {{ end }}
-      {{ if .Params.publication }}
+      {{ $pub := .Params.publication }}
+      {{ $pubName := $pub }}
+      {{ if reflect.IsMap $pub }}{{ $pubName = $pub.name }}{{ end }}
+      {{ if $pubName }}
         <span class="text-neutral-400 dark:text-neutral-500">•</span>
         <span class="italic text-neutral-800 dark:text-neutral-200">
-          {{ if reflect.IsMap .Params.publication }}{{ .Params.publication.name }}{{ else }}{{ .Params.publication }}{{ end }}
+          {{ $pubName }}
         </span>
       {{ end }}
       {{ if .Date }}
