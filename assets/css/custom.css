@@ -159,6 +159,23 @@ html:not(.dark) .powered-by a:hover {
   text-decoration-color: var(--dj-wayfinding-hover);
 }
 
+/* Publication entry titles behave like the other list titles: ink, ochre on hover */
+html:not(.dark) .pub-list-item.view-citation > a.underline {
+  color: var(--dj-ink);
+  font-weight: 600;
+  /* Quiet underline marks the title as clickable; it turns ochre on hover */
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklch, var(--dj-ink) 38%, transparent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+}
+
+html:not(.dark) .pub-list-item.view-citation > a.underline:hover {
+  color: var(--dj-red-deep);
+  text-decoration: underline;
+  text-decoration-color: var(--dj-red);
+}
+
 html:not(.dark) .resume-biography {
   background:
     linear-gradient(180deg, color-mix(in oklch, var(--dj-shelf) 58%, transparent), transparent 42%),
