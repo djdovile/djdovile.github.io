@@ -5,7 +5,7 @@ authors:
 - me
 author_notes:
 - ''
-date: 2026-10-09
+date: 2026-10-06
 publishDate: 2026-10-09 00:00:00+00:00
 peer-review: 'true'
 publication_types:
@@ -15,7 +15,7 @@ publication:
   short_name: ''
   volume: ''
   issue: ''
-  pages: ''
+  pages: '1-20'
   publisher: Taylor & Francis
 abstract: 'Russia''s invasion of Ukraine in February 2022 intensified debates over
   the future of the international order. Previous research has examined media coverage
@@ -44,13 +44,14 @@ tags:
 - liberali tarptautinė tvarka
 - Vakarai
 - Rusijos karas Ukrainoje
-featured: false
+- Europos saugumas
+featured: true
 hugoblox:
   ids:
     doi: 10.1080/13600826.2026.2743845
 links:
 - type: custom
-  icon: database
+  icon: hero/circle-stack
   url: https://doi.org/10.18279/MIDAS.560175
   label: Duomenys (MIDAS)
 image:
