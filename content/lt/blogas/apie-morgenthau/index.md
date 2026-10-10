@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-morgenthau/index
 ---
 
 Prieš daugiau nei penkerius metus į lietuvių kalbą buvo išversta <a href="http://www.jakniunaite.lt/morgenthau/" target="_blank">Hanso J. Morgenthau garsioji knyga <em>Politika tarp valstybių</em> (<em>Politics among Nations</em>)</a> &#8211; didžiulis traktatas apie tarptautinius santykius, daug gilesnis ir turtingesnis nei vadovėliai, skiriantys Morgenthau pusę puslapio pristato. Dauguma besimokančiųjų priverčiami perskaityti tuos šešis realizmo punktus ir čia sustojama. O paskaičius daugiau nustembi, kad tas klasikiniu vadinamas realizmas pagal Morgenthau gali būti gerokai įdomesnis ir sofistikuotesnis nei galvojai.

@@ -30,6 +30,5 @@ links:
 projects:
 - null
 featured: true
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/2025-jaroszewicz-seeing-like-a/index
 ---
 

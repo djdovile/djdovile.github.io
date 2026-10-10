@@ -14,7 +14,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/mes-tai-galime-apie-feministini-ir-ne-tik-igalinima/index
 ---
 
 Tekstas, kurį parašiau po <a href="/lt/blogas/emancipaciniai-projektai-ir-diskursai/">Emancipacinių diskursų renginio</a>, pasirodė portale manoteises.lt.

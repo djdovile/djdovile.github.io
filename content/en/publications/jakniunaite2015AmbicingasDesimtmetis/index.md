@@ -29,7 +29,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2015-ambicingas-desimtmetis/index
 ---
 
 Jakniūnaitė, Dovilė (sudarytoja). 2015. *Ambicingas dešimtemtis: Lietuvos užsienio politika 2004-2014*. Vilnius: Vilniaus universiteto leidykla.

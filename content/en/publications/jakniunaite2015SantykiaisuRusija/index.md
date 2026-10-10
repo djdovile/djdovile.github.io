@@ -30,7 +30,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2015-santykiaisu-rusija/index
 ---
 
 Jakniūnaitė, Dovilė. 2015. “Santykiai su Rusija: dešimt nestabilaus stabilumo metų.” In *Ambicingas dešimtmetis: 2004-2014*, sudarė Dovilė Jakniūnaitė, 100–126. Vilnius: Vilniaus universiteto leidykla.

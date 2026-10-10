@@ -63,6 +63,5 @@ image:
 projects:
 - daina2-mobilumas-migracija-covid
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/the-chain-of-emergencies-routinisation-of-the-migration-emergency-governance-in-lithuania-and-poland-in-20202023/index
 ---
 

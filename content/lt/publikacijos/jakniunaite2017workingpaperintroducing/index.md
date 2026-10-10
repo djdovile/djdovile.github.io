@@ -34,6 +34,5 @@ projects:
 - eu-strat
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2017workingpaperintroducing/index
 ---
 

@@ -34,7 +34,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2008-vitkus-book-review/index
 ---
 
 Jakniūnaitė, Dovilė. 2008. “Studija apie Lietuvos ir Rusijos santykius, arba kodėl mes dar ilgai neturėsime „normalių“ santykių su Rusija” *Sociologija. Mintis ir veiksmas*, 1: 134–38.

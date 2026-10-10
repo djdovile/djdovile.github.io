@@ -14,7 +14,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/dabar-jau-galima-parsisiusti-knyga-ambicingas-deimtmetis/index
 ---
 
 Knygą "Ambicingas dešimtmetis: Lietuvos užsienio politika 2004-2014", kurią sudariau ir kuri pasirodė prieš metus – 2015 m. pradžioje jau galima parisisiųsti.

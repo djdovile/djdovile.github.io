@@ -17,7 +17,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/morgenthau/index
 ---
 
 Bent šešis 2011 metų mėnesius atidaviau H.Morgenthau knygos „Politika tarp valstybių“ („Politics among Nations“) akademiniam ar specialiajam redagavimui.  

@@ -42,7 +42,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2014-kritines-saugumo-studijos/index
 ---
 
 Jakniūnaitė, Dovilė. 2014. “Kritinės saugumo studijos XXI amžiuje: kur kreipti Lietuvos saugumo politikos tyrimus?” *Lietuvos metinė strateginė apžvalga 2013-2014* 12: 31–49.

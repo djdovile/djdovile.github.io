@@ -16,7 +16,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-rusija-ir-mus/index
 ---
 
 Kažkada birželio vidury Vladimiras Laučius paprašė atsakyti į keletą klausimų. Atsakiau. Palaukus jam išėjo <a href="http://www.delfi.lt/news/daily/lithuania/kas-baisiau-rusija-ar-mes-patys.d?id=58986363" target="_blank" rel="noopener">toks keistas straipsnis-kratinys</a>. Prisipažįstu, perskaičius bendros idėjos nesupratau. Nusprendžiau, kad apie Bugajskį kokio konteksto norėjosi, tai ir pridėjo.

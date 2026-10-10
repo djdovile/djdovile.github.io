@@ -40,7 +40,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2008-symbolic-foreign-policy-games/index
 ---
 
 Jakniūnaitė, Dovilė. 2009. “Symbolic Foreign Policy Games: Russian – British Relations 2006–2008.” *Lithuanian Annual Strategic Review 2009* 7: 115–31.

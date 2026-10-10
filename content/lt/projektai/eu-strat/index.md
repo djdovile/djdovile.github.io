@@ -20,7 +20,6 @@ links:
   label: Projekto puslapis
 reading_time: false
 profile: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/projektai/eu-strat/index
 ---
 
 H2020 projektas „Europos Sąjunga ir Rytų partnerystės šalys: vidaus ir išorės analizė bei strateginis įvertinimas“ tyrė ES ir Rytų partnerystės šalių santykius, vidaus pokyčius ir išorinės politikos aplinką.

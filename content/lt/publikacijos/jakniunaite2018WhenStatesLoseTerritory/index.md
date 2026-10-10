@@ -45,7 +45,6 @@ projects:
 - sienu-konceptualizacijos
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2018-when-states-lose-territory/index
 ---
 
 Jakniūnaitė, Dovilė. 2018. “When States Lose Territory: Georgia’s Post-2008 Adjustment.” *Baltic Journal of Political Science* 6: 60-74.

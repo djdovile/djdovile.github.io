@@ -18,7 +18,6 @@ image:
   focal_point: null
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/kaimynystes-antropologija/index
 ---
 
 Ar nepradėjote juoktis, kai iš neturėjimo ką veikti pirmą valandą nak­ties stebėjote balsavimą Eurovizijoje? Mat ką tik graikai dvylika balų paskyrė Kiprui, o šis lygiai taip pat jiems dosniai atsilygino? Ar dar kartą pastebėjote, kaip puikiai kaimynus ir geografiją išmano skandinavai, Balkanų valstybės, na, ir visa vidurio ir pietryčių Europa?

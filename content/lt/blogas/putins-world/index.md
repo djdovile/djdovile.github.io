@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/putins-world/index
 ---
 
 Parašiau kai ką ir angliškai – tai bene pirmasis bandymas blogeriauti angliškai. Parašyta 2014 m. balandžio 28 d.

@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/pamirstas-jubiliejus/index
 ---
 
 _Komentaras, pasirodęs <a href="https://www.15min.lt/naujiena/aktualu/nuomones/dovile-jakniunaite-pamirstas-jubiliejus-18-1053028" target="_blank" rel="noopener">15min.lt</a>, primenantis apie balsavimo teisės moterims suteikimо Lietuvoje šimtmetį._

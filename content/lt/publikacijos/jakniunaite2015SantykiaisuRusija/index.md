@@ -31,7 +31,6 @@ projects:
 - lietuvos-uzsienio-politika-po-2004
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2015-santykiaisu-rusija/index
 ---
 
 Jakniūnaitė, Dovilė. 2015. “Santykiai su Rusija: dešimt nestabilaus stabilumo metų.” In *Ambicingas dešimtmetis: 2004-2014*, sudarė Dovilė Jakniūnaitė, 100–126. Vilnius: Vilniaus universiteto leidykla.

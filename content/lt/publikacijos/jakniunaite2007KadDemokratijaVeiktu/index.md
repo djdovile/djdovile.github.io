@@ -31,7 +31,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2007-kad-demokratija-veiktu/index
 ---
 
 Jakniūnaitė, Dovilė. 2007. “Kad demokratija veiktų pilietinės galios beieškant.” *Politologija* 47: 135–40.

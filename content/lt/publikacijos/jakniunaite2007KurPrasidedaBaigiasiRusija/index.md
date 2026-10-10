@@ -31,7 +31,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2007-kur-prasideda-baigiasi-rusija/index
 ---
 
 Jakniūnaitė, Dovilė. 2007. *Kur prasideda ir baigiasi Rusija: kaimynystė tarptautinėje politikoje*. Vilnius: Vilniaus universiteto leidykla.

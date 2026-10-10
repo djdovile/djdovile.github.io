@@ -30,7 +30,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2006-constructivism-lithuania/index
 ---
 
 Jakniūnaitė, Dovilė. 2006. “Constructivist Tradition in Lithuanian International Relations Discipline?” *Lithuanian Political Science Yearbook 2005*, 183–99.

@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/kodel-jie-neprotestuoja/index
 ---
 
 Pradėjau nuosekliau rašyti komentarus LRT.lt portalo Nuomonėms. Pirmasis – apie dažnai keltą, atrodytų, retorinį klausimą – kodėl rusai neprotestuoja prieš savo valdžios politiką.

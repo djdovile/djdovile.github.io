@@ -46,7 +46,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2015-small-state-asymmetrical-relations/index
 ---
 
 Jakniūnaitė, Dovilė. 2015. “A Small State in the Asymmetrical Bilateral Relations: Lithuania in Lithuanian-Russian Relations since 2004.” *Baltic Journal of Political Science* 4: 70–93.

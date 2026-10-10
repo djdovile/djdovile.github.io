@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-perspektyvos-turejima/index
 ---
 
 Šis tekstas parašytas po skandalingojo Zelenskio ir Trumpo susitikimo.

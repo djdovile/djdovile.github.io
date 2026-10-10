@@ -30,7 +30,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2021-baltic-states-poland-protests-belarus/index
 ---
 
 Jakniūnaitė, Dovilė. 2021. “The Baltic States, Poland, and the Protests in Belarus: The Case of for the Unconditional Love?” In *The Russia Conference Papers 2021*, edited by Sandis Šraders and Viljar Veebel. Tartu: University of Tartu Press.

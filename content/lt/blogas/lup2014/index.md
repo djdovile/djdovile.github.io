@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/lup2014/index
 ---
 
 Delfiuose pasirodžiusį komentarą apie 2014 m. Lietuvos užsienio politiką parašiau pačiame metų gale, kai pagaliau baigiau knygos apie tos pačios <a href="http://www.tspmi.vu.lt/lt/naujienos/instituto-naujienos/nauja-tspmi-tyreju-knyga-apie-lietuvos-uzsienio-politika-793" target="_blank" rel="noopener">Lietuvos užsienio politikos dešimtmetį</a> darbus, ir supratau, kad rišliau susigulėjo susierzinimas dėl jos. Štai jis:

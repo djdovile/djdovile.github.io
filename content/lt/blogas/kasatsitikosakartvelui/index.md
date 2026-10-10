@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/kasatsitikosakartvelui/index
 ---
 
 Komentaras apie Gruziją/Sakartvelą.

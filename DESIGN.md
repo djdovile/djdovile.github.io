@@ -89,7 +89,6 @@ components:
     typography: '{typography.label}'
     rounded: '{rounded.sm}'
     padding: 8px 10px
-permalink: personal-files/djwebsite/dj-hugo/design
 ---
 
 # Design System: dj_hugo

@@ -14,7 +14,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/filmai-apie-tarptautinius-santykius-sunkiau-nei-atrodo/index
 ---
 
 Prieina prie manęs po kažkurios paskaitos Gytis iš VU TSPMI SMD: „norim filmų rekomendacijų“. Norėjo apie Rusiją, ne, sakau, aš geriau jums apie tarptautinę politiką parinksiu. 

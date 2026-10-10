@@ -29,7 +29,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2005-wendto-issukis/index
 ---
 
 Jakniūnaitė, Dovilė. 2005. “Alexanderio Wendt’o iššūkis tarptautinių santykių teorijai.” *Politologija* 40: 79–87.

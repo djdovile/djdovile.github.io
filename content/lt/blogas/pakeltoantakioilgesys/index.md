@@ -14,7 +14,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/pakeltoantakioilgesys/index
 ---
 
 Komentaras, kuriame apmąstau, kodėl ir kaip mane ir mus paveikė karalienės Elžbietos mirtis ir jos laidotuvių ceremonija.

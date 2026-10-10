@@ -16,7 +16,6 @@ image:
   focal_point: Smart
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-valstybiu-sienas-su-laurynu-jonaviciumi-ziniu-radijuje/index
 ---
 
 „Pasaulio žemėlapis“ &#8211; kurį laiką Žinių radijuje egzistavusi laida, kurta kartu su VU TSPMI. Ją vedė mano kolega Laurynas Jonavičius, su juo ir pašnekėjome apie teritorijas, sienas ir geografijos svarbą XXI amžiuje. 

@@ -14,7 +14,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/besipiktinanciuju-visuomene/index
 ---
 
 Pasipiktinti šiais laikais randame galybę progų: negražiai atrodančia eglute, ministro megztinuku ar premjerės kostiumėliu, ne ten, ne tiek, ne taip pasodintais arba kertamais medžiais, nenupjauta ar nupjauta žole, išplatintomis ar susiaurintomis gatvėmis, blogai auklėjamais vaikais, nebesimokančiais paaugliais, opozicijos kritika, atsilikusiais mokytojais, kokiu nors rusiškos propagandos nusišnekėjimu, vyriausybės komunikacija ir, žinoma, miegančiais kelininkais.

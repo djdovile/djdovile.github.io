@@ -42,7 +42,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2014-critical-security-studies/index
 ---
 
 Jakniūnaitė, Dovilė. 2014. “Critical Security Studies in the 21st Century: Any Directions for Lithuanian Security Studies?” *Lithuanian Annual Strategic Review* 12: 33–52.

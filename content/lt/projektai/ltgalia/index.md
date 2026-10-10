@@ -23,7 +23,6 @@ links:
   label: Projekto puslapis
 reading_time: false
 profile: false
-permalink: personal-files/djwebsite/dj-hugo/content/lt/projektai/ltgalia/index
 ---
 
 Projekto tikslas – sukurti Europos mažųjų valstybių įtakos tarptautinėje erdvėje matavimo indeksą, kuris leistų sistemiškai įvertinti Lietuvos užsienio politikos strateginius pasirinkimus, jų efektyvumą bei Lietuvos poziciją tarptautinėje aplinkoje kitų mažųjų valstybių kontekste.

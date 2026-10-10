@@ -30,7 +30,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2010-beieskant-nato-lietuvoje/index
 ---
 
 Jakniūnaitė, Dovilė, and Kęstutis Paulauskas (sudarytojai). 2010. *Beieškant NATO Lietuvoje: pasiekimai, nesėkmės, perspektyvos*. Vilnius: Vilniaus universiteto leidykla.

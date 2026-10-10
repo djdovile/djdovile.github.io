@@ -31,7 +31,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/clarkjakniunaite2003russianpublicopinion/index
 ---
 
 Clark, Terry D., and Dovilė Jakniūnaitė. 2003. “Russian Public Opinion Leaders on the Changes in Russia During the Yeltsin Era and Beyond.” In *Changing Attitudes toward Economic Reform During the Yeltsin Era*, edited by Terry D. Clark, Ernest Goss, and Larisa Kosova, 93–138. Westport, CT: Greenwood.

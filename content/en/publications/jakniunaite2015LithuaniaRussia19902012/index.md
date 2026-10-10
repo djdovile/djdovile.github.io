@@ -31,7 +31,6 @@ image:
   preview_only: false
 projects: []
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2015-lithuania-russia19902012/index
 ---
 
 Jakniūnaitė, Dovilė, Leonid Karabeshkin, and Ramūnas Vilpišauskas. 2015. “Lithuania and Russia 1990-2012: From Mutual Support to Suspicion and Indifference.” In *Russia and East Central Europe after the Cold War*, edited by Andrei Zagorsky, 239–90. Prague: Human Rights Publishers.

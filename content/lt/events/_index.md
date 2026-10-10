@@ -5,6 +5,5 @@ view: card
 image:
   caption: ''
   filename: ''
-permalink: personal-files/djwebsite/dj-hugo/content/lt/events/index
 ---
 

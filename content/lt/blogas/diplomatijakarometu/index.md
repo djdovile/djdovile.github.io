@@ -14,7 +14,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/diplomatijakarometu/index
 ---
 
 Parašiau dar vieną komentarą LRT interneto portalui. Pabandžiau atsakyti į dar vieną dažnai keltą klausimą – „kodėl Macronas skambina?" (Putinui).

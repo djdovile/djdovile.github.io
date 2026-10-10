@@ -50,7 +50,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2021-digital-geopolitical-competition/index
 ---
 
 Jakniūnaitė, Dovilė, and Justinas Lingevičius. 2021. “Skaitmeninė geopolitinė konkurencija dirbtinio intelekto amžiuje: Jungtinių Amerikos Valstijų, Kinijos ir Europos Sąjungos vizijos.” *Darbai ir dienos* 76.

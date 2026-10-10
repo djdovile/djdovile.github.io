@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/ko-amerika-nori-is-pasaulio/index
 ---
 
 „Era po Šaltojo karo tikrai baigėsi", – paskelbė JAV prezidento Joe Bideno administracija savo neseniai pasirodžiusioje Nacionalinio saugumo strategijoje.

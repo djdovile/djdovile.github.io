@@ -30,7 +30,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaitevinogradnaite2010-political-science-lithuania/index
 ---
 
 Jakniūnaitė, Dovilė, and Inga Vinogradnaitė. 2010. “Political Science in Lithuania: A Maturing Discipline.” In *Political Science in Central-East Europe: Diversity and Convergence*, edited by Rainer Eisfeld and Leslie A. Pal, 177–92. Leverkusen: Barbara Budrich.

@@ -17,7 +17,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/after-paris/index
 ---
 
 I don't want to pray, I don't know even what this means. I know what the fight is, and I don't want to fight either. Show me when any problem was solved by war. I don't believe in superior Western civilization where some lives are more precious than others, where white is not a color, and an aggressive man is measure of all things. But if being Western means thinking, taking responsibility, not accepting short term solutions for many years of grievances and understanding that "they" cannot take our freedom, only us can – then yes, I might start calling myself and "us" Western.

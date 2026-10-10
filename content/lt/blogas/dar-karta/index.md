@@ -17,7 +17,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/dar-karta/index
 ---
 
 Interviu darytas 2014 m. rugpjūčio gale, kai vis dar atrodė, kad yra prasmės kalbėti apie Lietuvos ir Rusijos santykius (nors apie juos seniai sunku kažkaip naujai ir prasmingai kalbėti). Klausinėjo Valentinas Beržiūnas, kuris yra ir mano doktorantas. Turbūt tai vienintelis paaiškinimas, kaip galėjau atsidurti šiame dienraštyje.

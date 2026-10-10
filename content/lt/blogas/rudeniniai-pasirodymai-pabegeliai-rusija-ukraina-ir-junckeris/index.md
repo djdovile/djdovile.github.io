@@ -18,7 +18,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/rudeniniai-pasirodymai-pabegeliai-rusija-ukraina-ir-junckeris/index
 ---
 
 Archyvui: keletas nuorodų į ankstyvo rudens komentarus ir interviu:

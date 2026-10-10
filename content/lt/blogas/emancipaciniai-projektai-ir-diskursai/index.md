@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/emancipaciniai-projektai-ir-diskursai/index
 ---
 
 Reikės kada plačiau atsisėsti ir aprašyti visą projektą ir jo kontekstą, bet dabar tiesiog kronikai.

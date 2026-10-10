@@ -16,7 +16,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/kodel-klysta/index
 ---
 
 Prieš trylika metų, 2001 m. rugsėjį, nemaža dalis pasaulio patyrė bene ryškiausią šoką po Šaltojo karo pabaigos. Griūvantys du dangoraižiai mums pranešė, kad istorija nesibaigė ir kad liberalios demokratijos triumfo ir liberaliosios pasaulio tvarkos dar teks palaukti. Paskui įsivėlus į keletą naujų karų tik dar kartą galima buvo įsitikinti, kad vizijos apie naująją pasaulio tvarką priešininkų yra daugiau nei pakankamai. Nepaisant to tikėjimas, jog vis dėlto gyvename naujoje eroje buvo tvirtas.

@@ -15,7 +15,6 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
-permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/feministineup/index
 ---
 
 Trumpas įvadas į feministinę užsienio politiką. Skaityti <a href="https://www.lrt.lt/naujienos/nuomones/3/1935765/dovile-jakniunaite-kam-prisireike-feministines-uzsienio-politikos" target="_blank" rel="noopener">lrt.lt portale</a>.

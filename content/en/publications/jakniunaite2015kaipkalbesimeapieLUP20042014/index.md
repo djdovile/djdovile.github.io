@@ -29,7 +29,6 @@ image:
 projects: []
 slides: ''
 draft: false
-permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2015kaipkalbesimeapie-lup20042014/index
 ---
 
 Jakniūnaitė, Dovilė. 2015. “Kaip kalbėsime apie 2004-2014 m. Lietuvos užsienio politiką?” In *Ambicingas dešimtmetis: 2004-2014*, sudarė Dovilė Jakniūnaitė, 7–30. Vilnius: Vilniaus universiteto leidykla.

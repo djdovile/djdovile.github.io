@@ -110,6 +110,5 @@ sections:
   ce: section-news
   id: news
   As: section-ef6c376a
-permalink: personal-files/djwebsite/dj-hugo/content/index
 ---
 
