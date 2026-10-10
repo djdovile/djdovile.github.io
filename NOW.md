@@ -40,3 +40,13 @@ Lietuviškos svetainės versijos (`/lt/`) paleidimo paruošimas ir publikacijų/
    - Parinkti ir pritaikyti iliustracijas dėstymo ir projektų puslapiams pagal seminaro/akademinę estetiką.
 3. **Domeno pajungimas:**
    - Patvirtinus galutinį lietuviškos versijos vaizdą, nukreipti `www.jakniunaite.lt` į GitHub Pages / Netlify ir atnaujinti `baseURL` faile `config/_default/hugo.yaml`.
+
+---
+
+## Brand alignment: done so far (2026-10-10, later session)
+
+Applied option B: accent red `#B72818` -> ochre `#d43d1a` (`params.yaml`, `--dj-red*` in `custom.css`; deep shade `#a82e12`); nav/interface font -> Inclusive Sans (`data/fonts/seminar.yaml`, with sans fallback via `:root:root` in `custom.css`). `hugo --minify` builds clean; not yet checked in the browser. Next: review the green `#506A52` (`--dj-wayfinding*`), then check contrast of the new ochre on every page type.
+
+## Handoff from another session (2026-10-10): brand alignment
+
+DJ is aligning colours and fonts across the site, slides and social cards. Start from `LIFEOS/USER/PRINCIPAL/BRAND_NOTE.md` (palette, card options, what the site already uses). Facts: the site uses Source Serif 4 and a quiet green `#506A52`, with red as a scarce marker and Hugo Blox primary `#B72818`; slides (`base-dj`, `base-dj-bold`) use peach `#fef2e8`, teal `#14444b`, ochre `#d43d1a`, harvest orange `#f9cd9e`, indigo `#261763`; DJ chose Source Serif 4 and Inclusive Sans as fonts. Open: whether the site red becomes the ochre. Also pending review here: new publication `content/lt/publikacijos/giedraitytejakniunaite2026NarratingUnity/` and draft blog `content/lt/blogas/vienybes-pasakojimai-ir-tvarkos-gynyba/` (`draft: true`); both uncommitted. When the decision is made, update `BRAND_NOTE.md` and the card templates in `PRINCIPAL/BRAND/social-card-templates/`.

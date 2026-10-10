@@ -3,11 +3,11 @@ name: dj_hugo
 description: A credible, clear, expert public academic profile and archive for Dovilė
   Jakniūnaitė.
 colors:
-  seminar-red: '#B72818'
-  seminar-red-deep: '#761A0F'
-  seminar-red-soft: '#F7E9E7'
-  wayfinding-accent: '#506A52'
-  wayfinding-deep: '#334536'
+  seminar-red: '#D43D1A'
+  seminar-red-deep: '#A82E12'
+  seminar-red-soft: '#FBE9E2'
+  wayfinding-accent: '#14444B'
+  wayfinding-deep: '#0F3037'
   warm-paper: '#FFFAF5'
   study-ink: '#3B2313'
   soft-shelf: '#F5EFE9'
@@ -42,7 +42,7 @@ typography:
     lineHeight: 1.72
     letterSpacing: '0'
   label:
-    fontFamily: ui-sans-serif, system-ui, sans-serif
+    fontFamily: Inclusive Sans, ui-sans-serif, system-ui, sans-serif
     fontSize: 0.92rem
     fontWeight: 500
     lineHeight: 1.4
@@ -116,13 +116,13 @@ The system explicitly rejects startup/portfolio flashiness, generic Hugo Blox te
 The palette is a warm civic reading palette: paper, ink, shelves, and restrained accent marks. It should support reading and orientation before identity display.
 
 ### Primary
-- **Seminar Red**: The project-configured primary accent. Use it for selected filters, key calls to action, active states, and rare emphasis. It should feel like a marker in a seminar handout, not a decorative brand wash.
-- **Deep Seminar Red**: The darker hover and emphasis companion for Seminar Red. Use it where primary red needs stronger contrast or a pressed state.
+- **Seminar Red** (ochre `#D43D1A`, shared with the slides and social cards; changed from red `#B72818` on 2026-10-10): The project-configured primary accent. Use it for selected filters, key calls to action, active states, and rare emphasis. It should feel like a marker in a seminar handout, not a decorative brand wash.
+- **Deep Seminar Red**: The darker companion for small text in the accent (menu hover and current page, tags). Use it where plain ochre is too weak: ochre is about 4.7:1 on white, fine for fills with white text and large text, not for small text.
 - **Soft Seminar Red**: A quiet tint for selected backgrounds, callouts, and subtle grouping when white is too bare.
 
 ### Secondary
-- **Quiet Wayfinding Accent**: The secondary accent for functional links and navigation. It should read as institutional orientation, not as product-blue decoration.
-- **Deep Wayfinding Accent**: The stronger companion for visited, hover, or high-contrast wayfinding states.
+- **Quiet Wayfinding Accent** (teal `#14444B`, the slide teal; replaced the green `#506A52` on 2026-10-10): The secondary accent for functional links. It should read as institutional orientation, not as product-blue decoration.
+- **Deep Wayfinding Accent**: The stronger companion for hover on links, buttons, profile pills and tags. Hover is never ochre; ochre marks only selected and current states (menu hover and current page, selected filters, primary button) and the keyboard focus outline.
 
 ### Neutral
 - **Warm Paper**: The main light background. It gives the site a reading-room temperature without becoming decorative parchment.
@@ -141,7 +141,8 @@ The palette is a warm civic reading palette: paper, ink, shelves, and restrained
 
 **Display Font:** Source Serif 4, with system serif fallback.
 **Body Font:** Source Serif 4, with system serif fallback.
-**Interface Font:** System sans for navigation, metadata, chips, and compact controls.
+**Interface Font:** Inclusive Sans (same as the slides and social cards) for navigation, metadata, chips, and compact controls, with system sans as fallback.
+**Hosting:** Both fonts are self-hosted (variable woff2, Latin and Lithuanian subsets in `assets/dist/font/`, Source Serif 4 italic in `static/fonts/`, licences beside it). Nothing loads from Google, so visitors' browsers do not contact Google.
 **Label/Mono Font:** JetBrains Mono is available for code only, not as a general brand voice.
 
 **Character:** The typography should feel like a precise public seminar handout: serious, readable, and quietly institutional. The serif is for scholarship, prose, and archive titles; the sans is for wayfinding and interface work. Avoid decorative academic costume.
@@ -158,7 +159,7 @@ The palette is a warm civic reading palette: paper, ink, shelves, and restrained
 
 **The No Academic Costume Rule.** Do not use serif flourishes, fake manuscript cues, decorative initials, or scholarly ornaments to signal seriousness.
 
-**The Interface Sans Rule.** Use the system sans for wayfinding, metadata, and controls so the serif does not make every piece of UI feel like prose.
+**The Interface Sans Rule.** Use Inclusive Sans for wayfinding, metadata, and controls so the serif does not make every piece of UI feel like prose.
 
 ## 4. Elevation
 
@@ -180,6 +181,7 @@ The current site uses Hugo Blox cards with rounded corners and visible shadow on
 - **Primary:** Seminar Red background with white text, used for selected states and rare calls to action.
 - **Hover / Focus:** Darken toward Deep Seminar Red and show a visible focus outline. The control should feel precise, not glossy.
 - **Secondary / Ghost:** Transparent background, Study Ink or Muted Voice text, and Quiet Border when containment is needed.
+- **Attachment and cite buttons (PDF, DOI, cite):** Border-only on the page background, with teal border and text; hover darkens border and text, with no fill.
 
 ### Chips
 - **Style:** Publication filters are compact chips with 4px corners, 1px borders, and label-size text.
@@ -199,7 +201,7 @@ The current site uses Hugo Blox cards with rounded corners and visible shadow on
 
 ### Navigation
 - **Style:** Sticky centered navbar with Study Ink text, Soft Shelf or Warm Paper surface, search enabled, language switcher visible, and no theme toggle.
-- **Hover / Active:** Use underline, weight, or restrained accent color. Do not turn the nav into a campaign header.
+- **Hover / Active:** Hover and the current page use Deep Seminar Red with an ochre underline. Use underline, weight, or restrained accent color. Do not turn the nav into a campaign header.
 - **Mobile:** Prioritize language switching, search, and archive paths. Navigation should remain utilitarian and compact.
 
 ### Publication Type Filters

@@ -35,5 +35,7 @@ There is no lint/test suite. Verification is a clean `pnpm run build` plus manua
 
 ## Known repo-specific gotchas
 
+- Fonts are self-hosted, not from Google: Hugo Blox uses files in `assets/dist/font/<NameWithoutSpaces>*` instead of a Google link (Source Serif 4 and Inclusive Sans as `.var.woff2`, Latin + Lithuanian subsets). The Source Serif 4 italic lives in `static/fonts/` with its own `@font-face` in `custom.css`, because the theme bundles one file per family. Check with a clean build into a temp folder (`hugo --minify -d <tmp>`); the old `public/` folder keeps stale pages that still mention Google.
+- `layouts/_partials/page_metadata_authors.html` overrides the theme's author line so names are plain text (the theme linked to author pages that are set to `render: never`).
 - `baseURL` in `config/_default/hugo.yaml` currently points at `https://djdovile.github.io/`, matching the GitHub Pages workflow — this needs to change when `www.jakniunaite.lt` is connected (see `PROJECT.md` Known Follow-Ups).
 - Some LT/EN content and author metadata still has known placeholder/encoding issues (mojibake, stray `:url`, `slug: men`, typo `indentity`) — see `PROJECT.md` for the current list rather than assuming everything is clean.

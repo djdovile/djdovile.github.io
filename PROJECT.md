@@ -34,6 +34,10 @@ Also today: the LT homepage "Tekstai" and EN homepage "Posts" blocks were switch
 - Implemented single publication layout with project context and enabled `[Projektas]` / `[Project]` button in publication action links via overridden `layouts/_partials/functions/build_links.html`.
 - Build verified with `hugo --minify` (0 errors).
 
+**Homepage navigation decision, 2026-09-18**: the Lithuanian homepage has no hero CTA. The VU TSPMI profile is an inline institutional-verification link at the end of the biography; “Kur toliau?” immediately below remains the first explicit prompt for navigating the site archive.
+
+As of 2026-10-10, brand alignment with the slides and social cards (`LIFEOS/USER/PRINCIPAL/BRAND_NOTE.md`): accent red `#B72818` became ochre `#d43d1a` (deep shade `#a82e12` for small text); links, attachment/cite buttons and all hover states are teal `#14444b` (the old green `#506A52` is gone; buttons are border-only, no fill); menu hover and current page stay ochre. Interface font is now Inclusive Sans; Source Serif 4 stays for prose. Both fonts are self-hosted (no Google requests; checked with a clean build into a temporary folder). Author names in publication lists are plain text (`layouts/_partials/page_metadata_authors.html` overrides the theme, which linked each name to a non-rendered author page and fell back to the publications list). `DESIGN.md` updated to match. Not yet checked: contrast of the new ochre/teal on every page type; `.impeccable/design.json` still holds the old palette and needs regenerating.
+
 ## Theme Decision: Hugo Blox
 
 As of 2026-08-25: evaluated whether Hugo Blox is the right theme choice, prompted by concerns about its complexity and the maintainers' history of renaming/restructuring the project (Academic 2017 → Wowchemy ~2020 → Hugo Blox 2024, each with breaking changes). Decision: **stay on Hugo Blox to finish the current Lithuanian launch** — bilingual routing, the publications pipeline, and both deploy targets already work, and rebuilding mid-launch would mean redoing that work. The complexity/churn concern is real, not overcautious.

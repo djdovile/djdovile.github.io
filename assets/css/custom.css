@@ -5,14 +5,29 @@
   --dj-ink: oklch(24% 0.052 52);
   --dj-muted: oklch(45% 0.026 52);
   --dj-border: oklch(88% 0.016 58);
-  --dj-red: oklch(43% 0.142 31);
-  --dj-red-deep: oklch(31% 0.098 31);
-  --dj-red-soft: oklch(94.5% 0.026 31);
-  --dj-wayfinding: oklch(39% 0.06 145);
-  --dj-wayfinding-hover: oklch(32% 0.074 145);
-  --dj-wayfinding-soft: oklch(93% 0.024 145);
+  /* Ochre accent shared with slides and social cards (#d43d1a); deep shade for small text */
+  --dj-red: #d43d1a;
+  --dj-red-deep: #a82e12;
+  --dj-red-soft: #fbe9e2;
+  /* Links: slide teal (#14444b) */
+  --dj-wayfinding: #14444b;
+  --dj-wayfinding-hover: #0f3037;
   --dj-reading-measure: 86ch;
   --dj-list-measure: 86ch;
+}
+
+/* Self-hosted italic (upright fonts are bundled from assets/dist/font via the theme) */
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('/fonts/SourceSerif4-Italic.var.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+}
+
+/* Doubled selector outranks the inline :root font variables, which fall back to serif */
+:root:root {
+  --hb-font-nav: 'Inclusive Sans', ui-sans-serif, system-ui, sans-serif;
 }
 
 html {
@@ -140,8 +155,8 @@ html:not(.dark) .prose a:hover,
 html:not(.dark) .article-style a:hover,
 html:not(.dark) .pub-list-item a:hover,
 html:not(.dark) .powered-by a:hover {
-  color: var(--dj-red-deep);
-  text-decoration-color: var(--dj-red);
+  color: var(--dj-wayfinding-hover);
+  text-decoration-color: var(--dj-wayfinding-hover);
 }
 
 html:not(.dark) .resume-biography {
@@ -174,24 +189,6 @@ html:not(.dark) .resume-biography .avatar {
   box-shadow: 0 8px 18px color-mix(in oklch, var(--dj-ink) 14%, transparent);
 }
 
-html:not(.dark) .resume-biography a[href*="tspmi.vu.lt/zmogus"] {
-  background-color: var(--dj-red);
-  background-image: none;
-  border: 1px solid var(--dj-red-deep);
-  border-radius: 4px;
-  box-shadow: none;
-  font-family: var(--hb-font-nav);
-  font-weight: 600;
-  letter-spacing: 0;
-  transform: none;
-}
-
-html:not(.dark) .resume-biography a[href*="tspmi.vu.lt/zmogus"]:hover {
-  background-color: var(--dj-red-deep);
-  box-shadow: none;
-  transform: none;
-}
-
 /* Hero role line is a supporting subtitle, not an accent mark (Accent Rarity Rule) */
 html:not(.dark) .resume-biography p.text-primary-600 {
   color: var(--dj-ink);
@@ -212,8 +209,8 @@ html:not(.dark) .resume-biography a.rounded-full.shadow-md {
 }
 
 html:not(.dark) .resume-biography a.rounded-full.shadow-md:hover {
-  border-color: var(--dj-red);
-  color: var(--dj-red-deep);
+  border-color: var(--dj-wayfinding-hover);
+  color: var(--dj-wayfinding-hover);
   box-shadow: none;
   transform: none;
 }
@@ -226,8 +223,8 @@ html:not(.dark) .resume-biography .bg-primary-50 {
 }
 
 html:not(.dark) .resume-biography .bg-primary-50:hover {
-  background: var(--dj-red-soft);
-  border-color: color-mix(in oklch, var(--dj-red) 40%, var(--dj-border));
+  background: var(--dj-shelf-strong);
+  border-color: color-mix(in oklch, var(--dj-wayfinding) 40%, var(--dj-border));
 }
 
 html:not(.dark) #section-markdown {
@@ -297,16 +294,16 @@ html:not(.dark) .text-gray-700 {
 
 html:not(.dark) .hb-attachment-link,
 html:not(.dark) .js-cite-clipboard {
-  border-color: color-mix(in oklch, var(--dj-wayfinding) 34%, var(--dj-border));
+  border-color: color-mix(in oklch, var(--dj-wayfinding) 45%, var(--dj-border));
   color: var(--dj-wayfinding);
-  background: color-mix(in oklch, var(--dj-wayfinding-soft) 65%, white);
+  background: transparent;
 }
 
 html:not(.dark) .hb-attachment-link:hover,
 html:not(.dark) .js-cite-clipboard:hover {
-  border-color: var(--dj-red);
-  color: var(--dj-red-deep);
-  background: var(--dj-red-soft);
+  border-color: var(--dj-wayfinding-hover);
+  color: var(--dj-wayfinding-hover);
+  background: transparent;
 }
 
 html:not(.dark) .border-primary-600.bg-primary-600 {
@@ -315,7 +312,7 @@ html:not(.dark) .border-primary-600.bg-primary-600 {
 }
 
 html:not(.dark) .hover\:border-primary-600:hover {
-  border-color: var(--dj-red);
+  border-color: var(--dj-wayfinding-hover);
 }
 
 html:not(.dark) :focus-visible {
