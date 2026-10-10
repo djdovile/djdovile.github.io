@@ -6,7 +6,7 @@ date: 2026-07-02
 tags:
 - kursas
 - bakalauro
-status: Dėstomas
+status: Dėstytas
 reading_time: false
 profile: false
 ---

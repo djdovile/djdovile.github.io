@@ -7,11 +7,11 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 ## 2026-10-10 (CV check) - Content added from the LT CV
 
 Compared `Jakniunaite_CV-LT_2026.docx` with the site (not copied into the repo).
-- **Publications added (6, LT + EN mirror):** 2012 Russian-language article with Vilpišauskas; 2012 "Baltic States - Three States, but No Region"; 2011 Morgenthau text; 2010 "Įvadas. Mūsų aljansas"; 2010 "Lithuania" in Elections in Europe; 2006 review "Bandant suprasti Rusiją kaip didžiąją valstybę". "Kitos" section ignored; the dataset entry (MIDAS) is linked from the Global Society page and not a separate entry.
-- **Projects added (7):** INFLUENCE DN; COST CA17119; EU-PREACC; Energy security in the Baltic Sea region; Russian identity project 2011-2012; MGIMO/Friedrich Ebert project; NATO public diplomacy project 2010. Not added: postdoc supervision and projects before 2010 (CINEFOGO, COST A24, 2005-2007 grants).
+- **Publications added (3, LT + EN mirror):** 2012 "Baltic States - Three States, but No Region"; 2011 Morgenthau text; 2010 "Įvadas. Mūsų aljansas". (DJ then removed the 2012 Russian article, the 2010 "Lithuania" chapter and the 2006 review.) "Kitos" section ignored; the dataset entry (MIDAS) is linked from the Global Society page and not a separate entry.
+- **Projects added (5):** INFLUENCE DN; COST CA17119; EU-PREACC; Russian identity project 2011-2012; NATO public diplomacy project 2010. (MGIMO and Baltic Sea energy security were dropped at DJ's request.) Not added: postdoc supervision and projects before 2010 (CINEFOGO, COST A24, 2005-2007 grants).
 - **Courses added (6):** Socialinių mokslų tyrimų logika; Politikos mokslų teorijos; Įvadas į tarptautinę politiką; Tarptautinės bendruomenės struktūra; Lietuvos užsienio ir saugumo politika; JAV studijos. Past courses carry "Dėstytas"; level pills now include BA/PhD for all.
 - **Fix:** the project filter "Vykdomi/Įgyvendinti" now reads the status field (three projects were missed because their tags did not match).
-- **Open:** CV says Feminizmas ended 2022 but the site marks it "Dėstomas"; TST doctoral elective and guest lectures not added as separate pages.
+- Feminizmas now "Dėstytas"; the doctoral TST elective is deliberately not added.
 
 ## 2026-10-10 (later) - Post pages, tags, update line
 
