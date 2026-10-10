@@ -10,10 +10,6 @@ tags:
 - Pripažinimas
 - LMT
 status: Vykdomas
-tech_stack:
-- Lietuvos užsienio politika
-- Pripažinimas
-- LMT
 reading_time: false
 profile: false
 ---

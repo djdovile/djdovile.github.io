@@ -3,16 +3,9 @@ title: EU-STRAT
 summary: H2020 projektas apie Europos Sąjungą ir Rytų partnerystės šalis.
 date: 2026-07-02
 tags:
-- projektas
-- igyvendinti
 - Europos Sąjunga
 - Rytų partnerystė
-- H2020
 status: Įgyvendintas
-tech_stack:
-- Europos Sąjunga
-- Rytų partnerystė
-- H2020
 links:
 - type: custom
   icon: link

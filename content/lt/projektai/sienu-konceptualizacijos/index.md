@@ -9,10 +9,6 @@ tags:
 - Teritorija
 - Vidurio Rytų Europa
 status: Įgyvendintas
-tech_stack:
-- Sienos
-- Teritorija
-- Vidurio Rytų Europa
 links:
 - type: custom
   icon: link

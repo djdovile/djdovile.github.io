@@ -11,11 +11,6 @@ tags:
 - Užsienio politika
 - LMT
 status: Vykdomas
-tech_stack:
-- Mažosios valstybės
-- Įtakos indeksas
-- Užsienio politika
-- LMT
 links:
 - type: custom
   icon: link

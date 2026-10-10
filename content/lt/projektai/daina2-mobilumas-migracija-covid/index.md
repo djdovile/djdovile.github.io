@@ -3,13 +3,10 @@ title: Mobilumas, migracija ir COVID-19 pandemija
 summary: DAINA2 projektas apie ypatingos padėties valdyseną Lietuvoje ir Lenkijoje.
 date: 2026-07-02
 tags:
-- igyvendintas projektas
 - mobilumas
 - ypatinga padėtis
 - krizių valdymas
 status: Įgyvendintas
-tech_stack:
-- įg
 reading_time: false
 profile: false
 ---

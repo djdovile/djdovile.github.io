@@ -9,17 +9,13 @@ sections:
     username: me
     text: 'Esu VU Tarptautinių santykių ir politikos mokslų instituto profesorė. Mano
       tyrimų temos apima sienas ir teritoriją, Rusijos politiką, Lietuvos užsienio
-      ir saugumo politiką, de facto valstybes, pripažinimo klausinimus. Šis puslapis
-      Tai mano akademinių darbų ir viešų tekstų archyvas. - [Publikacijos](/lt/publikacijos/)
-      - mano moksliniai straipsniai, knygos, knygų skyriai. - [Projektai](/lt/projektai/)
-      - tyrimų projektai ir temos, prie kurių dirbu ar dirbau. - [Dėstymas](/lt/destymas/)
-      -  Vilniaus universitete dėstomi dalykai. Dėstau apie tarptautinių santykių
+      ir saugumo politiką, de facto valstybes, pripažinimo klausinimus. Šis puslapis - tai mano akademinių darbų ir viešų tekstų archyvas.
+       - [Publikacijos](/lt/publikacijos/) - mano moksliniai straipsniai, knygos, knygų skyriai. 
+      - [Projektai](/lt/projektai/) - tyrimų projektai ir temos, prie kurių dirbu ar dirbau. 
+- [Dėstymas](/lt/destymas/) -  Vilniaus universitete dėstomi dalykai. Dėstau apie tarptautinių santykių
       teorijas, užsienio politikos analizę, galios formas ir socialinių mokslų tyrimo
-      mąstyseną. - [Tekstai](/lt/blogas/) - vieši komentarai, interviu, pasisakymai,
-      tekstai.
-
-      <a href="https://www.tspmi.vu.lt/zmogus/dovile-jakniunaite/">Oficialus VU TSPMI
-      profilis</a>.'
+      mąstyseną. 
+- [Tekstai](/lt/blogas/) - vieši komentarai, interviu, pasisakymai, tekstai.'
     headings:
       about: ' '
       interests: Apie ką rašau ir kalbu

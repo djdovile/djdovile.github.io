@@ -8,7 +8,6 @@ tags:
 - krizių valdymas
 - saugumo politika
 status: Įgyvendintas
-tech_stack:
 reading_time: false
 profile: false
 ---

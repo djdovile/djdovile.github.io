@@ -9,10 +9,6 @@ tags:
 - Saugumo politika
 - LMT
 status: Įgyvendintas
-tech_stack:
-- Lietuvos užsienio politika
-- Saugumo politika
-- LMT
 links:
 - type: custom
   icon: link
