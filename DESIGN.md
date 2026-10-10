@@ -180,7 +180,7 @@ The current site uses Hugo Blox cards with rounded corners and visible shadow on
 - **Primary:** Seminar Red background with white text, used for selected states and rare calls to action.
 - **Hover / Focus:** Darken toward Deep Seminar Red and show a visible focus outline. The control should feel precise, not glossy.
 - **Secondary / Ghost:** Transparent background, Study Ink or Muted Voice text, and Quiet Border when containment is needed.
-- **Attachment and cite buttons (PDF, DOI, cite):** Border-only on the page background, with teal border and text; hover darkens border and text, with no fill.
+- **Attachment and cite labels (PDF, DOI, Projektas, cite):** Small bold caps in Muted Voice on the page background, with no fill; hover turns them Deep Seminar Red with an ochre border. Teal is reserved for links inside running text.
 
 ### Chips
 - **Style:** Publication filters are compact chips with 4px corners, 1px borders, and label-size text.

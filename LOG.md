@@ -10,7 +10,8 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 - **Tags:** no `#` prefix on any page type; post tags use the same chip style as Publikacijos.
 - **"Atnaujinta":** no longer italic (all single layouts: publikacijos, projektai, destymas, teaching and their EN versions).
 - Homepage introduction text considered final by DJ (2026-10-10); removed from the launch to-do list.
-- Open: PDF/DOI/cite labels in the publication list are teal `#14444b` and read as blue; colour decision pending.
+- **Publication list labels** (PDF, DOI, Projektas, Cituoti, Duomenys): muted warm grey, ochre on hover (they read as blue in teal). The Duomenys (MIDAS) icon is now `hero/circle-stack`; icon names need the `hero/` prefix.
+- DJ's own edits to the Global Society entry committed.
 
 ## 2026-10-10 - Brand alignment: colours, fonts, list styling
 

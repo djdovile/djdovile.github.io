@@ -310,16 +310,18 @@ html:not(.dark) .text-gray-700 {
 }
 
 html:not(.dark) .hb-attachment-link,
+html:not(.dark) .pub-list-item .hb-attachment-link,
 html:not(.dark) .js-cite-clipboard {
-  border-color: color-mix(in oklch, var(--dj-wayfinding) 45%, var(--dj-border));
-  color: var(--dj-wayfinding);
+  border-color: var(--dj-border);
+  color: var(--dj-muted);
   background: transparent;
 }
 
 html:not(.dark) .hb-attachment-link:hover,
+html:not(.dark) .pub-list-item .hb-attachment-link:hover,
 html:not(.dark) .js-cite-clipboard:hover {
-  border-color: var(--dj-wayfinding-hover);
-  color: var(--dj-wayfinding-hover);
+  border-color: var(--dj-red);
+  color: var(--dj-red-deep);
   background: transparent;
 }
 
