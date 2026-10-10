@@ -84,7 +84,7 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: center # left | center | right
+    align: left # left | center | right
     # Feature toggles
     search: true
     theme_toggle: false

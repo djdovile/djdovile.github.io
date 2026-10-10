@@ -50,6 +50,8 @@
         {{ range .Params.tags }}
           {{ $tag_str = printf "%s %s" $tag_str . }}
         {{ end }}
+        {{/* Filter keywords come from the status field, so every project is found by "Vykdomi" / "Įgyvendinti" */}}
+        {{ if or (eq .Params.status "Vykdomas") (eq .Params.status "Ongoing") }}{{ $tag_str = printf "%s vykdomi" $tag_str }}{{ else if .Params.status }}{{ $tag_str = printf "%s igyvendinti" $tag_str }}{{ end }}
         <article 
           x-show="activeFilter === '*' || '{{ $tag_str }}'.toLowerCase().includes(activeFilter)" 
           class="py-4.5 flex flex-col gap-1.5"
@@ -79,7 +81,7 @@
           {{/* Topic tags (the status tags "projektas", "vykdomi" etc. are not topics) */}}
           {{ $topics := slice }}
           {{ range .Params.tags }}
-            {{ if not (in (slice "projektas" "project" "vykdomi" "ongoing" "igyvendinti" "įgyvendinti" "completed") (lower .)) }}
+            {{ if not (in (slice "projektas" "project" "vykdomi" "ongoing" "igyvendinti" "įgyvendinti" "igyvendintas projektas" "completed") (lower .)) }}
               {{ $topics = $topics | append . }}
             {{ end }}
           {{ end }}

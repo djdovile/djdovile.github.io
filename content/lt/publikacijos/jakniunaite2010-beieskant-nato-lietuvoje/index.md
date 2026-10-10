@@ -28,7 +28,8 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''
   preview_only: false
-projects: []
+projects:
+- nato-viesoji-diplomatija
 slides: ''
 draft: false
 ---

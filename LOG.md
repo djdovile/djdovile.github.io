@@ -4,6 +4,15 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 
 ---
 
+## 2026-10-10 (CV check) - Content added from the LT CV
+
+Compared `Jakniunaite_CV-LT_2026.docx` with the site (not copied into the repo).
+- **Publications added (6, LT + EN mirror):** 2012 Russian-language article with Vilpišauskas; 2012 "Baltic States - Three States, but No Region"; 2011 Morgenthau text; 2010 "Įvadas. Mūsų aljansas"; 2010 "Lithuania" in Elections in Europe; 2006 review "Bandant suprasti Rusiją kaip didžiąją valstybę". "Kitos" section ignored; the dataset entry (MIDAS) is linked from the Global Society page and not a separate entry.
+- **Projects added (7):** INFLUENCE DN; COST CA17119; EU-PREACC; Energy security in the Baltic Sea region; Russian identity project 2011-2012; MGIMO/Friedrich Ebert project; NATO public diplomacy project 2010. Not added: postdoc supervision and projects before 2010 (CINEFOGO, COST A24, 2005-2007 grants).
+- **Courses added (6):** Socialinių mokslų tyrimų logika; Politikos mokslų teorijos; Įvadas į tarptautinę politiką; Tarptautinės bendruomenės struktūra; Lietuvos užsienio ir saugumo politika; JAV studijos. Past courses carry "Dėstytas"; level pills now include BA/PhD for all.
+- **Fix:** the project filter "Vykdomi/Įgyvendinti" now reads the status field (three projects were missed because their tags did not match).
+- **Open:** CV says Feminizmas ended 2022 but the site marks it "Dėstomas"; TST doctoral elective and guest lectures not added as separate pages.
+
 ## 2026-10-10 (later) - Post pages, tags, update line
 
 - **Tekstai post pages:** new layout `layouts/blogas/single.html` (and `layouts/blog/single.html` for EN) in the Projektai/Publikacijos style: back link, optional featured image, title, muted date, content, topic tags, "Atnaujinta". Share box and reading time removed (they came from the theme's default single).

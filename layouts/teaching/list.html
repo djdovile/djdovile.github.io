@@ -30,14 +30,14 @@
             </h2>
             <div class="flex items-center gap-1.5 shrink-0">
               {{ range .Params.tags }}
-                {{ if or (eq . "magistrantura") (eq . "bakalauras") (eq . "ma") (eq . "ba") }}
+                {{ if or (eq . "magistrantura") (eq . "bakalauras") (eq . "bakalauro") (eq . "doktorantura") (eq . "ma") (eq . "ba") }}
                   <span class="status-pill">
-                    {{ if eq . "magistrantura" }}MA{{ else if eq . "bakalauras" }}BA{{ else }}{{ . }}{{ end }}
+                    {{ if eq . "magistrantura" }}MA{{ else if or (eq . "bakalauras") (eq . "bakalauro") }}BA{{ else if eq . "doktorantura" }}PhD{{ else }}{{ . }}{{ end }}
                   </span>
                 {{ end }}
               {{ end }}
               {{ if .Params.status }}
-                <span class="status-pill status-pill--active">
+                <span class="status-pill{{ if or (eq .Params.status "Dėstomas") (eq .Params.status "Teaching") }} status-pill--active{{ end }}">
                   {{ .Params.status }}
                 </span>
               {{ end }}

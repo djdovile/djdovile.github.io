@@ -98,7 +98,7 @@ html:not(.dark) .nav-link {
   text-decoration: underline;
   text-decoration-color: transparent;
   text-underline-offset: 0.35em;
-  font-size: 0.92rem;
+  font-size: 1.0625rem;
   font-weight: 500;
   letter-spacing: 0;
   transition: color 160ms ease, text-decoration-color 160ms ease;
@@ -500,4 +500,17 @@ html:not(.dark) .pub-list-item.view-title-date a {
 html:not(.dark) .pub-list-item.view-title-date a:hover {
   color: var(--dj-ochre);
   text-decoration-color: var(--dj-ochre);
+}
+
+/* Homepage body text: one size for the biography, the publication list and Tekstai */
+html:not(.dark) .resume-biography .prose,
+html:not(.dark) .resume-biography .article-style,
+html:not(.dark) .pub-list-item.view-title-date {
+  font-size: 1.125rem;
+  line-height: 1.45;
+}
+
+html:not(.dark) .resume-biography .prose,
+html:not(.dark) .resume-biography .article-style {
+  line-height: 1.7;
 }
