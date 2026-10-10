@@ -22,19 +22,21 @@ publication:
 abstract: ''
 summary: Publication summary....
 tags:
-- russia
+- Ukraina
+- Baltarusija
 featured: false
 hugoblox:
   ids:
     doi: 10.1080/21599165.2020.1745190
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: ' '
   focal_point: ''
   preview_only: false
 projects:
 - eu-strat
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/vilpisauskasetal2020-susceptibility/index
 ---
 
 Vilpišauskas, Ramūnas, Dovilė Jakniūnaitė, Marta Jaroszewicz, and Laurynas Jonavičius. 2020. “Susceptibility of Ukrainian and Belarussian Domestic Actors to External Actors’ Approaches: Puzzling Patterns of Transition.” *East European Politics*, March, 1–24.

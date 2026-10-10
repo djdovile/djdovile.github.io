@@ -18,8 +18,9 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- Academic
-- Research
+- sienos
+- de facto valstybės
+- Gruzija/Sakartvelas
 featured: false
 hugoblox:
   ids: null
@@ -31,6 +32,7 @@ projects:
 - sienu-konceptualizacijos
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2017-kaip-tapti-valstybe/index
 ---
 
 Jakniūnaitė, Dovilė. 2017. *Kaip tapti valstybe: sienos ir erdvės Gruzijos teritoriniuose konfliktuose*. Vilnius: Vilniaus universiteto leidykla.

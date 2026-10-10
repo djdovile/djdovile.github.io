@@ -18,27 +18,11 @@ publication:
   issue: '1'
   pages: 18-35
   publisher: ''
-abstract: The article investigates the role of trains and railway infrastructure in
-  Ukraine as a critical component of the emergency mobility of Ukraine’s population
-  following the Russian full-scale invasion on 24 February 2022. Applying the concept
-  of viapolitics, it explores how the railways became more than just a means of transport
-  during the war, instead symbolising solidarity, struggle, privilege, and hope. The
-  research situates Ukrainian railway mobilities within post-colonial and post-socialist
-  contexts, examining how the infrastructures, rooted in Soviet-era practices, have
-  been repurposed amid military aggression. Drawing on data from news reports, human
-  rights organisations, and personal testimonies, the paper analyses the complex and
-  multifaceted role of rail transport in the war context. The article reveals how
-  emergency mobility, mediated through railways and political action, brings together
-  spatial and temporal dimensions – linking Ukraine’s Soviet past, post-socialist
-  independence, renewed Russian imperialism, and aspirations for a European future.
-  These historical and geopolitical layers intertwine with the population’s self-organisation
-  and resilience, while also colliding within the railway’s diverse vehicular and
-  infrastructural meanings of mobility.
-summary: ''
+abstract: 'Straipsnyje nagrinėjamas traukinių ir geležinkelių infrastruktūros vaidmuo Ukrainoje kaip kritiškai svarbus mobilumo elementas ypatingos padėties sąlygomis prasidėjus prasidėjusios plataus masto Rusijos invazijai 2022 m. vasario 24 d. Straipsnyje naudojama *viapolitikos* sąvoka, tiriant, kaip karo metu geležinkeliai tapo daugiau nei tik transporto priemone: jie tapo solidarumo, kovos, privilegijū ir vilties simboliais. Ukrainos geležinkelių mobilumo analizė pozicionuojama pokolonijiniame ir posocialistiniame kontekstuose, nagrinėjant, kaip sovietmečio praktikomis paremta infrastruktūra buvo pritaikyta naujai agresijos akivaizdoje. Remiantis naujienų pranešimais, žmogaus teisių organizacijų duomenimis ir asmeniniais liudijimais, straipsnyje analizuojamas sudėtingas ir daugialypis geležinkelių transporto vaidmuo kare. Atskleidžiama, kaip mobilumas ypatingos padėties sąlygomis, tarpininkaujant geležinkeliam ir politiniai veiksmai, sujungė erdvinį ir laikinį matmenis, susiejo Ukrainos sovietinę praeitį, posocialistinę nepriklausomybę, atsinaujinusį Rusijos imperializmą ir europietiškos ateities siekius. Šie istoriniai ir geopolitiniai sluoksniai persipina su gyventojų saviorganizacija ir atsparumu, kartu susidurdami įvairiose geležinkelio transportinėse ir infrastruktūrinėse mobilumo prasmėse.'
 tags:
-- Ukraina
 - ypatinga padėtis
 - mobilumas
+- Ukraina
 projects:
 - daina2-mobilumas-migracija-covid
 featured: true

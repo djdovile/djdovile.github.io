@@ -9,17 +9,18 @@ publishDate: 2023-01-31 19:23:01.785566+00:00
 publication_types:
 - chapter
 publication:
-  name: "Transformation of Putin's Regime: Why Transitology Is Not Applicable to Post-Soviet Russia?"
+  name: 'Transformation of Putin''s Regime: Why Transitology Is Not Applicable to
+    Post-Soviet Russia?'
   short_name: ''
   volume: ''
   issue: ''
   pages: 147--175
   publisher: Vilnius University Press
 abstract: ''
-summary: Publication summary.
+summary: 
 tags:
-- russia
-- identity
+- Rusija
+- tapatybė
 featured: false
 hugoblox:
   ids: null
@@ -30,6 +31,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2007-russia-search-identity/index
 ---
 
 Jakniūnaitė, Dovilė. 2007. “Russia in Search of Identity: How the Country Is Defining Its Path.” In *Transformation of Putin‘s Regime: Why Transitology Is Not Applicable to Post-Soviet Russia?*, edited by Algimantas Jankauskas, Raimundas Lopata, and Gediminas Vitkus, 147–75. Vilnius: Vilnius University Press.

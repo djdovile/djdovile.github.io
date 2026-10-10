@@ -36,8 +36,9 @@ abstract: 'Straipsnyje keliami du tarpusavyje susiję klausimai. Pirma, kokia yr
   '
 summary: Straipsnyje keliami du tarpusavyje susiję klausimai.
 tags:
-- Academic
-- Research
+- Rusija
+- Baltijos valstybės
+- tapatybė
 featured: false
 hugoblox:
   ids: null
@@ -48,6 +49,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2013-bvir-rusija/index
 ---
 
 Jakniūnaitė, Dovilė. 2013. “Baltijos valstybės ir Rusija: liminali dvišalių santykių būsena.” *Politologija* 71: 21–45.

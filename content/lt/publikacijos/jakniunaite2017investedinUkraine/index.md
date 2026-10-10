@@ -10,7 +10,7 @@ publishDate: 2023-01-31 19:23:11.591965+00:00
 publication_types:
 - chapter
 publication:
-  name: "Neighbourhood Perceptions of the Ukraine Crisis: From Soviet Union into Eurasia?"
+  name: 'Neighbourhood Perceptions of the Ukraine Crisis: From Soviet Union into Eurasia?'
   short_name: ''
   volume: ''
   issue: ''
@@ -19,9 +19,7 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- russia
-- baltic
-- eu
+- Lietuvos užsienio politika
 featured: false
 hugoblox:
   ids: null
@@ -32,6 +30,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2017investedin-ukraine/index
 ---
 
 Jakniūnaitė, Dovilė. 2017. “Invested in Ukraine: The Struggle of Lithuania against Russia Over the Future of Europe.” In *Neighbourhood Perceptions of the Ukraine Crisis: From Soviet Union into Eurasia?*, edited by Gerhard Besier and Katarzyna Stoklosa, 119–32. Routledge.

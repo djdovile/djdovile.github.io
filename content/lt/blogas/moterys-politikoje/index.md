@@ -17,6 +17,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/moterys-politikoje/index
 ---
 
 Paraginta <a href="http://www.janeliunas.lt/" target="_blank">kolegos Tomo</a> parašiau komentarą apie Lietuvos moteris politikoje IQ Economist žurnalui. Kovo 8 d. proga redaktoriai nusprendė paskleisti mano išmintį <a href="https://web.archive.org/web/20120504064506/http://iq.lt/komentarai/moterys-lietuvos-politikoje-kas-laimi-2/" target="_blank">savo portale</a>. Belieka tik skleisti toliau.

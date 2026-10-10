@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-europos-lyderyste/index
 ---
 
 Europai nereikia lyderio ir nebus tokio dalyko kaip „Europa pagaliau apsisprendė".

@@ -32,6 +32,7 @@ image:
 projects: []
 slides: ''
 draft: true
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/example-publication/index
 ---
 
 <!-- Add the paper text or supplementary notes. Markdown, math, and code are supported. -->

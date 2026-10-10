@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-gruzija-interviu/index
 ---
 
 Graži gamta, skanus maistas, draugiški žmonės – pagrindiniai stereotipai apie gruzinus, kuriuos jie ir patys labai mėgsta. Ir tai tiesa – toje žemėje begalė itin įvairaus grožio, daug nuoširdumo ir dažnai prajuokinančio temperamento.

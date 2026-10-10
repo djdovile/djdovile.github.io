@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-desimt-prarastu-hektaru/index
 ---
 
 _Parašiau komentarą apie vieną paskutiniųjų incidentų Gruzijoje prie jos Pietų Osetijos ABL – administracinės linijos, skiriančios jos kontroliuojamas ir nekontroliuojamas ribas. Pavadinimas ten – <a href="http://www.delfi.lt/news/ringas/abroad/d-jakniunaite-naujas-rusijos-isbandymas.d?id=68493324" target="_blank" rel="noopener">„Naujas Rusijos išbandymas"</a>. Tam tikra prasme jis teisingas, nors ne tikslus – tai besitęsiantis išbandymas. Tekstas toks:_

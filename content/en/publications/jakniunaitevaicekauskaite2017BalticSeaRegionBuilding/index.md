@@ -10,7 +10,7 @@ publishDate: 2023-01-31 19:23:11.029819+00:00
 publication_types:
 - chapter
 publication:
-  name: "Borders in the Baltic Sea Region: Suturing the Ruptures"
+  name: 'Borders in the Baltic Sea Region: Suturing the Ruptures'
   short_name: ''
   volume: ''
   issue: ''
@@ -42,6 +42,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaitevaicekauskaite2017-baltic-sea-region-building/index
 ---
 
 Jakniūnaitė, Dovilė, and Živilė Marija Vaicekauskaitė. 2017. “Baltic Sea Region-Building: An Impossibility, or an Inability to Finish?” In *Borders in the Baltic Sea Region: Suturing the Ruptures*, edited by Andrey Makarychev and Alexandra Yatsyk, 103–24. London: Palgrave Macmillan UK.

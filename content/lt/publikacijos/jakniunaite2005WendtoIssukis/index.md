@@ -16,9 +16,9 @@ publication:
   pages: 79--87
   publisher: ''
 abstract: ''
-summary: Publication summary.
+summary: 
 tags:
-- TST
+- Tarptautinių santykių teorijos
 featured: false
 hugoblox:
   ids: null
@@ -29,6 +29,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2005-wendto-issukis/index
 ---
 
 Jakniūnaitė, Dovilė. 2005. “Alexanderio Wendt’o iššūkis tarptautinių santykių teorijai.” *Politologija* 40: 79–87.

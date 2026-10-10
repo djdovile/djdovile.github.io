@@ -16,6 +16,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/itikti-trumpui/index
 ---
 
 Naujasis senasis JAV prezidentas Donaldas Trumpas dar tik mėnuo valdžioje, tačiau jau spėjo sukelti nemažai nerimo ir krūpčiojimo tiek Amerikoje, tiek už jos ribų. Trumpas siekia parodyti pasauliui savo ir JAV stiprybę grasinimais, ekspansijos idėjomis ir ultimatyvių sąlygų primetimu. Pirminė reakcija Europoje, Lietuvoje ypač, – rasti būdų, kaip patikti ir įtikti Trumpui, kad tik jis mažiau žalos pridarytų.

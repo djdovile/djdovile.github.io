@@ -37,8 +37,8 @@ abstract: 'Straipsnyje siekiama pristatyti, kaip skleidžiasi su dirbtiniu intel
 summary: Straipsnyje siekiama pristatyti, kaip skleidžiasi su dirbtiniu intelektu
   susijusi geopolitinė kon...
 tags:
-- geopolitics
-- eu
+- AI
+- technologinis suverenitetas
 featured: false
 hugoblox:
   ids:
@@ -50,6 +50,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2021-digital-geopolitical-competition/index
 ---
 
 Jakniūnaitė, Dovilė, and Justinas Lingevičius. 2021. “Skaitmeninė geopolitinė konkurencija dirbtinio intelekto amžiuje: Jungtinių Amerikos Valstijų, Kinijos ir Europos Sąjungos vizijos.” *Darbai ir dienos* 76.

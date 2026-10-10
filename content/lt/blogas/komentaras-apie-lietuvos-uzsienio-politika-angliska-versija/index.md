@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/komentaras-apie-lietuvos-uzsienio-politika-angliska-versija/index
 ---
 
 English version of my commentary about Lithuanian foreign policy in 2014. Appeared in Delfi.lt at the end of December, 2014.

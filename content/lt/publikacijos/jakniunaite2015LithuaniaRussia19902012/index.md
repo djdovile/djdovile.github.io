@@ -20,8 +20,8 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- russia
-- baltic
+- Lietuvos--Rusijos santykiai
+- Lietuvos užsienio politika
 featured: false
 hugoblox:
   ids: null

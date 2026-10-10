@@ -58,6 +58,7 @@ image:
   preview_only: false
 projects: []
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/the-chain-of-emergencies-routinisation-of-the-migration-emergency-governance-in-lithuania-and-poland-in-20202023/index
 ---
 
 <!-- Add the paper text or supplementary notes. Markdown, math, and code are supported. -->

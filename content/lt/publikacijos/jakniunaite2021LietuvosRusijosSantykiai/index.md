@@ -9,7 +9,7 @@ publishDate: 2023-01-31 19:23:15.597625+00:00
 publication_types:
 - chapter
 publication:
-  name: "Lietuvos ir Rusijos sutartis: dėl tarpvalstybinių santykių pagrindų"
+  name: 'Lietuvos ir Rusijos sutartis: dėl tarpvalstybinių santykių pagrindų'
   short_name: ''
   volume: ''
   issue: ''
@@ -18,8 +18,8 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- Academic
-- Research
+- Lietuvos užsienio politika
+- Lietuvos--Rusijos santykiai
 featured: false
 hugoblox:
   ids: null
@@ -30,6 +30,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2021-lietuvos-rusijos-santykiai/index
 ---
 
 Jakniūnaitė, Dovilė. 2021. “Nuo stabiliai blogų prie jokių: Lietuvos ir Rusijos santykiai 2004-2021 metais.” *Lietuvos ir Rusijos sutartis: dėl tarpvalstybinių santykių pagrindų*, sudarė Vytautas Sinkevičius and Vladimir Jarmolenko, 163–83. Vilnius: Mykolo Riomerio Universitetas.

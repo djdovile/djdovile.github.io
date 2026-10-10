@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-protestus-rusijoje/index
 ---
 
 Po ilgesnės pertraukos parašiau <a title="Apie protestus Rusijoje Delfi.lt" href="http://www.delfi.lt/news/ringas/abroad/djakniunaite-kodel-pavasaris-rusijoje-dar-neatejo-bet-dziugauti-yra-del-ko.d?id=52945463" target="_blank">viešą komentarą</a>. Kaip, matyt, ir dauguma būsimų &#8211; apie Rusiją. Šįkart po gruodžio 9 d. protestų. Tekstas iš karto po žvaigždutėmis

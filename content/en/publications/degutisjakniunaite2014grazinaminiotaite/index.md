@@ -19,8 +19,7 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- Academic
-- Research
+- sudaryta knyga
 featured: false
 hugoblox:
   ids: null
@@ -31,6 +30,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/degutisjakniunaite2014grazinaminiotaite/index
 ---
 
 Degutis, Algirdas, and Dovilė Jakniūnaitė, eds. 2014. *Gražina Miniotaitė. Vietoj išvadų*. Vilnius: Generolo Jono Žemaičio Lietuvos karo akademija.

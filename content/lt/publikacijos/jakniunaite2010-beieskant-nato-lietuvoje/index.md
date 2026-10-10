@@ -17,9 +17,10 @@ publication:
   pages: ''
   publisher: Vilniaus universiteto leidykla
 abstract: ''
-summary: Publication summary.
+summary: 
 tags:
-- conflict
+- sudaryta knyga
+- saugumo politika
 featured: false
 hugoblox:
   ids: null
@@ -30,6 +31,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2010-beieskant-nato-lietuvoje/index
 ---
 
 Jakniūnaitė, Dovilė, and Kęstutis Paulauskas (sudarytojai). 2010. *Beieškant NATO Lietuvoje: pasiekimai, nesėkmės, perspektyvos*. Vilnius: Vilniaus universiteto leidykla.

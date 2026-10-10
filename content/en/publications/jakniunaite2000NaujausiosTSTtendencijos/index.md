@@ -31,6 +31,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2000-naujausios-tsttendencijos/index
 ---
 
 Jakniūnaitė, Dovilė. 2000. “Naujausios tendencijos tarptautinių santykių teorijoje: konstruktyvizmas, postmodernizmas ir virtualizmas.” *Politologija* 20: 52–88.

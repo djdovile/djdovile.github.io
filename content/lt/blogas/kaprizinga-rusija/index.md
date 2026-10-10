@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/kaprizinga-rusija/index
 ---
 
 Po ilgesnės pertraukos vėl išspaudžiau šį bei tą apie Rusiją – <a href="http://kauno.diena.lt/naujienos/uzsienis/ka-pasauliui-atne-e-drakonas-ir-ka-atne-gyvate-469226" target="_blank" rel="noopener">pačiame metų gale „Kauno dienoje"</a> (berods gruodžio 29 d. numeryje), paklausta Valentino Beržiūno.

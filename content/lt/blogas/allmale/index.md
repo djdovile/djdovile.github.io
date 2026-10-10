@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/allmale/index
 ---
 
 Tai nutinka vėl ir vėl ir vėl – beveik visose diskusijose, aptarinėjančiose užsienio, saugumo, Lietuvos ateities ar kitus "rimtus" reikalus televizijoje, interneto portaluose ir viešuose renginiuose. Tačiau šįkart tai užkliuvo itin smarkiai ir sukėlė diskusijų FB, nes kalbame apie organizaciją, kuri siekė atnešti į Lietuvą atvirumą, įvairumą ir, norėjosi tikėti, refleksyvumą. Tačiau ALF'as, kaip jis buvo visiems žinomas savo veiklos metais (kitaip Atviros Lietuvos fondas), mini jubiliejų šių šešių gerai pažįstamų vyrų kompanijoje, <a href="http://www.filosofija.info/kultura/atkurta-lietuva-atvirejanti-uzdarejanti-video/" target="_blank" rel="noopener">į kuriuos galima pasižiūrėti čia</a>.

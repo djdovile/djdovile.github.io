@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/prezidente-ir-moterys/index
 ---
 
 Lyčių lygybė. Klausimas, vienu mirksniu įaudrinantis, verčiantis užimti ir pareikšti poziciją. Pridėkime nuomones dėl priekabiavimo, diskusijas apie seksizmą, stereotipus, diskriminaciją ir turime mišinį, bet kada pasiruošusį išsprogdinti viešąją erdvę. Ši tema kelia iššūkių ir pagrindiniam mūsų valstybės žmogui – Prezidentei. Ne dėl to, kad ši tema jai visiškai nepatiktų, ir ne dėl to, kad ji yra aistringa moterų teisių gynėja. O dėl to, kad mes šiuo klausimu turime dvi prezidentes. 

@@ -20,6 +20,7 @@ links:
   label: Projekto puslapis
 reading_time: false
 profile: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/projektai/sienu-konceptualizacijos/index
 ---
 
 Projektas „Sienų konceptualizacijos XXI amžiuje: diskusijos ir praktikos Vidurio Rytų Europoje“ analizavo, kaip sienos suprantamos, ginčijamos ir praktiškai kuriamos regione.

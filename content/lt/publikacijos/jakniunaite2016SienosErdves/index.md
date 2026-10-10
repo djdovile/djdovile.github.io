@@ -38,7 +38,8 @@ abstract: 'Šio straipsnio empirinis kontekstas yra „įšaldytų`` konfliktų 
 summary: Šio straipsnio empirinis kontekstas yra „įšaldytų`` konfliktų Rytų Eu­ropoje
   egzistavimas teritor...
 tags:
-- energy
+- sienos
+- de facto valstybės
 featured: false
 hugoblox:
   ids: null
@@ -50,6 +51,7 @@ projects:
 - sienu-konceptualizacijos
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2016-sienos-erdves/index
 ---
 
 Jakniūnaitė, Dovilė. 2016. “Sienos ir erdvės: konceptualizacijų paieškos XXI amžiaus teritoriniams konfliktams Rytų Europoje analizuoti.” *Politologija* 83: 66–92. https://doi.org/10.15388/Polit.2016.3.10238.

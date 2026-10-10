@@ -16,6 +16,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/16-ieji-ruduo-porinkiminis-issiliejimas/index
 ---
 
 Kartais parašau kokį ilgesnį FB įrašą, kurio nesinori pamesti, kartais (o gal bus dažniausiai) iš tuštybės, kartais, nes manau, kad galima ir palikti bei google'ui darbą palengvinti. Šis po 2016 m. rinkimų, kai visi baisiausiai nustebo, kad LVŽP staiga tiek ėmė ir gavo tiek vietų Seime. Visi – reiškia visi FB'e. Ir kaip paskui greitai tapo aišku, „arogancija" ne man vienai ant liežuvio atsirado.

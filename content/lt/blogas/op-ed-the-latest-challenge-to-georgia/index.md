@@ -16,6 +16,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/op-ed-the-latest-challenge-to-georgia/index
 ---
 
 Commentary on Georgian "lost" border in _Lithuanian Tribune_ (ed.delfi.lt). Originally appeared in Lithuanian on June 15, 2015.

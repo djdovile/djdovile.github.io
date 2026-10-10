@@ -1,5 +1,5 @@
 ---
-title: Lietuvos Saugumo Politika Ir Identitetas Šiuolaikinių Saugumo Studijų Požiūriu
+title: Lietuvos saugumo politika ir identitetas šiuolaikinių saugumo studijų požiūriu
 authors:
 - me
 - Gražina Miniotaitė
@@ -19,8 +19,10 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- Academic
-- Research
+- Lieutos saugumo politika
+- Lietuvos užsienio politika
+- tapatybė
+- saugumo studijos
 featured: false
 hugoblox:
   ids: null
@@ -31,6 +33,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaiteminiotaite2001-lietuvos-saugumo-politika-identitetas/index
 ---
 
 Jakniūnaitė, Dovilė, and Gražina Miniotaitė. 2001. “Lietuvos saugumo politika ir identitetas šiuolaikinių saugumo studijų požiūriu.” *Politologija* 23: 21–43.

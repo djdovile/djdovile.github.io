@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-navalna/index
 ---
 
 Mano atsakymai į keletą klausimų apie Aleksėjų Navalną „Vilniaus dienai" (rugpj. 17 d.). Veikėjas, kuriam dar teks skirti gerokai daugiau dėmesio.

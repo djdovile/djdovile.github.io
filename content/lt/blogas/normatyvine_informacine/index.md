@@ -17,6 +17,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/normatyvine-informacine/index
 ---
 
 _Bedarydama visokių smulkesnių tekstų inventorizaciją prisiminiau visai neseną, bet mažai kam prieinamą apie vis dar šių dienų aktualijas. Parašytas bendradarbiaujant su <a href="http://politika.lt/" target="_blank" rel="noopener">Politika.lt</a>, pasirodė jų popieriniame žurnale tokiu pačiu pavadinimu._

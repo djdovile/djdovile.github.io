@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/dar-vienas/index
 ---
 
 Naujasis Seimo pirmininkas <a href="http://www.delfi.lt/news/daily/lithuania/vgedvilas-reikia-derinti-santykius-su-rusija-ir-pasirupinti-savo-zmonemis.d?id=60355799" target="_blank" rel="noopener">truputį nušnekėjo apie užsienio politiką</a>. BNS nebūtų BNS, jei nepasiteirautų politologų nuomonės (<a href="http://web.vu.lt/tspmi/d.jakniunaite/politologes-klausia-politologe-atsako/" target="_blank" rel="noopener">kaip kad jie tai daro</a>).

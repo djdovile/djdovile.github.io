@@ -33,9 +33,8 @@ abstract: 'In this article, Lithuania''s relations with Russia from 2004 to 2014
 summary: In this article, Lithuania's relations with Russia from 2004 to 2014 are
   examined.
 tags:
-- russia
-- geopolitics
-- baltic
+- Lietuvos--Rusijos santykiai
+- Lietuvos užsienio politika
 featured: false
 hugoblox:
   ids: null
@@ -46,6 +45,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2015-small-state-asymmetrical-relations/index
 ---
 
 Jakniūnaitė, Dovilė. 2015. “A Small State in the Asymmetrical Bilateral Relations: Lithuania in Lithuanian-Russian Relations since 2004.” *Baltic Journal of Political Science* 4: 70–93.

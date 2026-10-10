@@ -17,6 +17,7 @@ image:
   focal_point: smart
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/tai-apie-ka-knyga-interviu-15min-lt/index
 ---
 
 Knygos pasirodymo proga Paulius Gritėnas  iš 15min.lt pakalbino ir apie knygą, ir apie Gruziją. 

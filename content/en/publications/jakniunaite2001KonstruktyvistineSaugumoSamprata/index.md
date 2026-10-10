@@ -30,6 +30,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2001-konstruktyvistine-saugumo-samprata/index
 ---
 
 Jakniūnaitė, Dovilė. 2001. “Konstruktyvistinė saugumo samprata.” In *Seminarai 1999*, sudarė Antanas Kulakauskas and Arūnas Sverdiolas. 157-168: Strofa.

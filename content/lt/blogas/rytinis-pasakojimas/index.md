@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/rytinis-pasakojimas/index
 ---
 
 Ir toliau senienas kraunu archyvui. Vasario 11 d. nuėjau į LRT „Labas rytas". Tikslas buvo paviešinti knygą, apie kurią čia vis dar turiu parašyti. Kadangi dvylika minučių televizijoje niekas apie savo knygą neleidžia šnekėti, ypač, kai tai dešimtmečio senumo įvykiai, pašnekėjau ir apie Lietuvą tada, ir apie Rusiją, ir apie Ukrainą, ir apie politiką tiesiog. Nes kaipgi kitaip.

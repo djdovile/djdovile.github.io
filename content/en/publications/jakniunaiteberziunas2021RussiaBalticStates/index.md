@@ -10,7 +10,8 @@ publishDate: 2023-01-31 19:23:16.033391+00:00
 publication_types:
 - chapter
 publication:
-  name: "The Withdrawal of Soviet Troops from East Central Europe: National Perspectives in Comparison"
+  name: 'The Withdrawal of Soviet Troops from East Central Europe: National Perspectives
+    in Comparison'
   short_name: ''
   volume: ''
   issue: ''
@@ -32,6 +33,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaiteberziunas2021-russia-baltic-states/index
 ---
 
 Jakniūnaitė, Dovilė, and Valentinas Beržiūnas. 2021. “Russia and the Baltic States after Regaining Independence.” In *The Withdrawal of Soviet Troops from East Central Europe: National Perspectives in Comparison*, edited by Christoph Meißner and Jörg Morré, 263–78. Göttingen: Vanderhoeck & Ruprecht.

@@ -14,6 +14,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apiemoralinepanika/index
 ---
 
 Tekstas apie moralinę paniką ir jos kilmę.

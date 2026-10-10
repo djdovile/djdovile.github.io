@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/politologes-klausia-politologe-atsako/index
 ---
 
 Keistas, žinoma, tas Delfių ar BNS įprotis pradėti straipsnį <a href="http://www.delfi.lt/news/daily/lithuania/politologe-rusijos-elgesys-su-baltijos-salimis-liks-abejingas-ir-siek-tiek-provokatyvus.d?id=58662643" target="_blank" rel="noopener">„Politologė (-as): …"</a>, labai jau iš aukštybių nuomonė atrodo.

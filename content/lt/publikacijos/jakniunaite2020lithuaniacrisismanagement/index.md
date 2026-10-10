@@ -9,7 +9,8 @@ publishDate: 2023-01-31 19:23:13.368486+00:00
 publication_types:
 - chapter
 publication:
-  name: "Europe's Coherence Gap in External Crisis and Conflict Management: Political Rhetoric and Institutional Practives in the EU and Its Member States"
+  name: 'Europe''s Coherence Gap in External Crisis and Conflict Management: Political
+    Rhetoric and Institutional Practives in the EU and Its Member States'
   short_name: ''
   volume: ''
   issue: ''
@@ -18,7 +19,8 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- baltic
+- krizių valdymas
+- saugumo politika
 featured: false
 hugoblox:
   ids: null
@@ -30,6 +32,7 @@ projects:
 - bertelsmann-whole-of-government
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2020lithuaniacrisismanagement/index
 ---
 
 Jakniūnaitė, Dovilė. 2020. “Lithuania.” In *Europe’s Coherence Gap in External  Crisis and Conflict Management: Political Rhetoric and Institutional Practives in the EU and Its Member States*, edited by Bertelsmann Stiftung, 224–36. Bertelsmann Stiftung.

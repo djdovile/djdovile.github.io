@@ -14,6 +14,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/kolektyvinekalte/index
 ---
 
 Kas yra ir kaip kalbėti apie kolektyvinę tautos ar žmonių grupių kaltę ir atsakomybę. Antrasis komentaras <a href="https://www.lrt.lt/naujienos/nuomones/3/1658227/dovile-jakniunaite-kolektyvine-rusu-atsakomybe-kalte" target="_blank" rel="noopener">lrt.lt portalui apie tai</a>.

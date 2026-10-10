@@ -14,6 +14,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/kam-atsidaro-es-durys/index
 ---
 
 Europos Sąjunga ieško savęs, ją ištiko krizė, ateitis neaiški. Tai pastaraisiais metais atsikartojančios temos. Ir tai tiesa – ES reikia sustiprėti, atgauti pasitikėjimą, o ES valstybėms narėms suprasti, kas joms ES reikalinga. Tačiau žvilgtelėję už ES sienų pamatysime, kad ne visus jaudina tikra ar tariama ES krizė: šiuo metu yra bent dešimt valstybių, siekiančių tapti ES dalimi. Ir dauguma jų to siekia ne teoriškai, „ant popieriaus“, o primygtinai ir vis garsiau.

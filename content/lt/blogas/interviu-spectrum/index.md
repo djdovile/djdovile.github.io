@@ -14,6 +14,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/interviu-spectrum/index
 ---
 
 Rudens pradžioje pakalbėjau su VU Naujienų žurnaliste Agne Grinevičiūte apie knygą „Ambicingas dešimtmetis“. Išėjo visai nebloga santrauka, kaip aš galvoju apie Lietuvos užsienio politiką ir pagrindines knygos idėjas.

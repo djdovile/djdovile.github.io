@@ -14,6 +14,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/vakarai-ir-visi-kiti/index
 ---
 
 Dar vienas tekstas, pasirodęs lrt.lt portale su paantrašte „apie pasaulį, kuriam Rusijos agresija ne pati svarbiausia".

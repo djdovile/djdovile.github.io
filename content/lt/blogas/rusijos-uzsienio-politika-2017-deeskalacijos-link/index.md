@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/rusijos-uzsienio-politika-2017-deeskalacijos-link/index
 ---
 
 Prieš metų galą kiek daugiau pagalvojau apie Rusijos užsienio politiką &#8211; viskas komentare, kurį parašiau BNS (2016 gruodžio 15).

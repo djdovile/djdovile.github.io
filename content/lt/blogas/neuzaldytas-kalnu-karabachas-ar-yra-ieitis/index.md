@@ -14,6 +14,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/neuzaldytas-kalnu-karabachas-ar-yra-ieitis/index
 ---
 
 2014 metų vasarą, kai neatostogavusieji atidžiai sekė įvykius Ukrainoje ir svarstė, kaipgi viskas pasisuks po Malaizijos lėktuvo numušimo, mažai kas kreipė dėmesį, kas panašiu metu vyko Kalnų Karabache. Tuomet pačioje liepos pabaigoje smarkiai suintensyvėjo įtampa tarp Azerbaidžano ir nepriklausomybę paskelbusio nepripažinto Kalnų Karabacho. Kariniai veiksmai truko savaitę, nusinešė 30 žmonių gyvybes ir vėl sugrįžo į savo ankstesnę &#8211; nei karo, nei taikos &#8211; būseną, nustatytą 1994 metų paliaubomis.

@@ -18,7 +18,8 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- energy
+- Lietuvos užsienio politika
+
 featured: false
 hugoblox:
   ids: null
@@ -30,6 +31,7 @@ projects:
 - lietuvos-uzsienio-politika-po-2004
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2015-ambicingas-desimtmetis/index
 ---
 
 Jakniūnaitė, Dovilė (sudarytoja). 2015. *Ambicingas dešimtemtis: Lietuvos užsienio politika 2004-2014*. Vilnius: Vilniaus universiteto leidykla.

@@ -16,6 +16,7 @@ tech_stack:
 - LMT
 reading_time: false
 profile: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/projektai/beieskant-pripazinimo/index
 ---
 
 LMT mokslininkų iniciatyvų projektas, skirtas Lietuvos užsienio politikos 2015-2024 m. analizei.

@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/utopines-rusijos-zlugimo-viltys/index
 ---
 
 Kodėl idėjos apie Rusijos surimą yra naivios.

@@ -36,8 +36,7 @@ abstract: 'Vienas didžiausių priekaištų konstruktyvizmui tarptautinių santy
 summary: Vienas didžiausių priekaištų konstruktyvizmui tarptautinių santykių disciplinoje
   yra jo abstraktu...
 tags:
-- Academic
-- Research
+- Tarptautinių santykių teorijos
 featured: false
 hugoblox:
   ids: null
@@ -48,6 +47,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaitenekrasas2010konstruktyvistine-tst/index
 ---
 
-Jakniūnaitė, Dovilė, and Evaldas Nekrašas. 2010. “Kaip tirti tarptautinius santykius konstruktyvistiškai: filosofinių prielaidų ir teorinių nuostatų analizė.” *Politologija* 59: 29–58.	
+Jakniūnaitė, Dovilė, and Evaldas Nekrašas. 2010. “Kaip tirti tarptautinius santykius konstruktyvistiškai: filosofinių prielaidų ir teorinių nuostatų analizė.” *Politologija* 59: 29–58.

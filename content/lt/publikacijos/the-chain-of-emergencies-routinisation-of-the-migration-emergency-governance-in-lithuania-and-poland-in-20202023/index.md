@@ -10,10 +10,10 @@ author_notes:
 - ''
 date: 2024-06-01
 publishDate: 2026-06-07 20:11:05.540000+00:00
-peer-review: "true"
+peer-review: 'true'
 funding:
-  - funder: "LMT"
-    grant: "..."
+- funder: LMT
+  grant: '...'
 publication_types:
 - article-journal
 publication:
@@ -49,8 +49,8 @@ summary: This paper investigates the governance of emergencies in Lithuania and 
   the humanitarian crisis on the border with Belarus, and the inﬂux of Ukrainians
   ﬂeeing a full-scale Russian invasion were handled
 tags:
-- Research
-- Data
+- ypatinga padėtis
+- krizių valdymas
 featured: true
 hugoblox:
   ids:
@@ -63,7 +63,6 @@ image:
 projects:
 - daina2-mobilumas-migracija-covid
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/the-chain-of-emergencies-routinisation-of-the-migration-emergency-governance-in-lithuania-and-poland-in-20202023/index
 ---
-
-
 

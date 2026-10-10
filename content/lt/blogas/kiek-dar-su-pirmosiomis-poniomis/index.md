@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/kiek-dar-su-pirmosiomis-poniomis/index
 ---
 
 „Pirmosios ponios" yra tapusios, kaip mėgstu sakyti, mano akademiniu hobiu. Kai kurias mintis sudėjau į komentarą.

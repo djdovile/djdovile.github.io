@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-rozine-spalva/index
 ---
 
 Balandžio mėn. pradžioje parašiau tekstą apie rožinę spalvą. Nes rūpėjo ir pačiai išsiaiškinti, ir kitoms/iems, kas nėra gerai su ta “moteriška rožine” ir kodėl apie tai iš viso verta mąstyti.

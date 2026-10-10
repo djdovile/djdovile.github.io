@@ -23,8 +23,6 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- Academic
-- Research
 featured: false
 hugoblox:
   ids: null
@@ -36,5 +34,6 @@ projects:
 - eu-strat
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2017workingpaperintroducing/index
 ---
 

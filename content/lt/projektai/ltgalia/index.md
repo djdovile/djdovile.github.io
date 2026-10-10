@@ -1,6 +1,7 @@
 ---
 title: 'Mažųjų Europos valstybių įtakos matavimas: indekso konstravimas (LTgalia)'
-summary: LMT projektas, skirtas sukurti Europos mažųjų valstybių įtakos tarptautinėje erdvėje matavimo indeksą.
+summary: LMT projektas, skirtas sukurti Europos mažųjų valstybių įtakos tarptautinėje
+  erdvėje matavimo indeksą.
 date: 2026-07-02
 tags:
 - projektas
@@ -22,6 +23,7 @@ links:
   label: Projekto puslapis
 reading_time: false
 profile: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/projektai/ltgalia/index
 ---
 
 Projekto tikslas – sukurti Europos mažųjų valstybių įtakos tarptautinėje erdvėje matavimo indeksą, kuris leistų sistemiškai įvertinti Lietuvos užsienio politikos strateginius pasirinkimus, jų efektyvumą bei Lietuvos poziciją tarptautinėje aplinkoje kitų mažųjų valstybių kontekste.

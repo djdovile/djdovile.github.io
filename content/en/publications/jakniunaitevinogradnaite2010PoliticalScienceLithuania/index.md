@@ -10,7 +10,7 @@ publishDate: 2023-01-31 19:23:05.479739+00:00
 publication_types:
 - chapter
 publication:
-  name: "Political Science in Central-East Europe: Diversity and Convergence"
+  name: 'Political Science in Central-East Europe: Diversity and Convergence'
   short_name: ''
   volume: ''
   issue: ''
@@ -30,6 +30,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaitevinogradnaite2010-political-science-lithuania/index
 ---
 
 Jakniūnaitė, Dovilė, and Inga Vinogradnaitė. 2010. “Political Science in Lithuania: A Maturing Discipline.” In *Political Science in Central-East Europe: Diversity and Convergence*, edited by Rainer Eisfeld and Leslie A. Pal, 177–92. Leverkusen: Barbara Budrich.

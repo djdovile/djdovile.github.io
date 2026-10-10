@@ -32,6 +32,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaitemiglinaite2014-lithuania-un/index
 ---
 
 Miglinaitė, Raimonda, and Dovilė Jakniūnaitė. 2014. “Lithuania at the United Nations Security Council: Strategy or Accident?” *Lithuanian Foreign Policy Review* 32: 33–48.

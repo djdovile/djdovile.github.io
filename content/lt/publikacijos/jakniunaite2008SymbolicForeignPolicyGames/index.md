@@ -22,14 +22,13 @@ abstract: 'The article analyses the problems of bilateral relations between Grea
   the rules of the game. The article reveals how a seemingly simple story can become
   the long-term event of the bilateral relations, as well as demonstrates how it is
   possible to "loose" the symbolic game in foreign relations first of all because
-  of misapprehension what kind of game is played.
-
-  '
+  of misapprehension what kind of game is played.'
 summary: The article analyses the problems of bilateral relations between Great Britain
   and Russia in 2006
 tags:
-- russia
-- geopolitics
+- Rusija
+- tapatybė
+- užsienio politikos analizė
 featured: false
 hugoblox:
   ids:
@@ -41,6 +40,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2008-symbolic-foreign-policy-games/index
 ---
 
 Jakniūnaitė, Dovilė. 2009. “Symbolic Foreign Policy Games: Russian – British Relations 2006–2008.” *Lithuanian Annual Strategic Review 2009* 7: 115–31.

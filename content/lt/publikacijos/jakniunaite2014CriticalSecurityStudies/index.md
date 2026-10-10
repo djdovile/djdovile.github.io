@@ -30,9 +30,7 @@ abstract: 'This article focuses on recent developments and discussions in the fi
 summary: This article focuses on recent developments and discussions in the field
   of security studies and ...
 tags:
-- geopolitics
-- baltic
-- security
+- saugumo studijos
 featured: false
 hugoblox:
   ids:
@@ -44,6 +42,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/publikacijos/jakniunaite2014-critical-security-studies/index
 ---
 
 Jakniūnaitė, Dovilė. 2014. “Critical Security Studies in the 21st Century: Any Directions for Lithuanian Security Studies?” *Lithuanian Annual Strategic Review* 12: 33–52.

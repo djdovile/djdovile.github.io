@@ -31,6 +31,7 @@ image:
 projects: []
 slides: ''
 draft: false
+permalink: personal-files/djwebsite/dj-hugo/content/en/publications/jakniunaite2017-kaip-tapti-valstybe/index
 ---
 
 Jakniūnaitė, Dovilė. 2017. *Kaip tapti valstybe: sienos ir erdvės Gruzijos teritoriniuose konfliktuose*. Vilnius: Vilniaus universiteto leidykla.

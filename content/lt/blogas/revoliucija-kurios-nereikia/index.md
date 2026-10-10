@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/revoliucija-kurios-nereikia/index
 ---
 
 _Šį komentarą FB parašiau lapkričio 7 d. &#8211; tą dieną kalbėjo ir minėjo bolševikinės revoliucijos šimtmetį. _

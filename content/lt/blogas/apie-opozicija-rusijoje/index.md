@@ -15,6 +15,7 @@ image:
   focal_point: ''
   preview_only: false
 projects: []
+permalink: personal-files/djwebsite/dj-hugo/content/lt/blogas/apie-opozicija-rusijoje/index
 ---
 
 Liepos viduryje „Kauno dienos" žurnalistas Julijanas Gališanskis paklausė maždaug taip: „ar Rusijai pavyko teismais ir naujais įstatymais numalšinti protesto judėjimą, ar dabar matome tik laikiną štilį, o galbūt atvirkščiai – griežtos valdžios priemonės tik dar labiau kurstys visuomenės pasipriešinimą?"

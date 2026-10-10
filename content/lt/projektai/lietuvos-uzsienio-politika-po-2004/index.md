@@ -20,6 +20,7 @@ links:
   label: Projekto puslapis
 reading_time: false
 profile: false
+permalink: personal-files/djwebsite/dj-hugo/content/lt/projektai/lietuvos-uzsienio-politika-po-2004/index
 ---
 
 Projektas „Lietuvos užsienio politika po 2004 m.: tarp pokyčių ir stabilumo“ nagrinėjo Lietuvos užsienio politikos kryptis po įstojimo į Europos Sąjungą ir NATO.
