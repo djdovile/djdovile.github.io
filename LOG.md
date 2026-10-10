@@ -10,6 +10,11 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 - **Tags:** no `#` prefix on any page type; post tags use the same chip style as Publikacijos.
 - **"Atnaujinta":** no longer italic (all single layouts: publikacijos, projektai, destymas, teaching and their EN versions).
 - Homepage introduction text considered final by DJ (2026-10-10); removed from the launch to-do list.
+- **One ochre:** the darker `#a82e12` for small text was dropped (it read as a different red); `--dj-red-deep` is now an alias of `--dj-red` `#d43d1a`. If the ochre changes later, change it everywhere at once.
+- **Homepage:** plain background (no gradient band), smaller name, tighter section gaps, "Daugiau" as a left-aligned teal link, Tekstai titles like publication titles. List pages (Projektai, Dėstymas, Tekstai) use the narrower publication width.
+- **Status/type pills and filter chips** restyled to one quiet outline; cool grey boxes mapped to the warm shelf beige; all green removed.
+- **`tech_stack` removed** (template leftover that duplicated tags); project lists and pages now show topic tags (status tags excluded).
+- **CSS cleanup:** variables reduced to `--dj-paper/shelf/ink/muted/border/ochre/teal/teal-hover/measure` (merged red-deep, red-soft, shelf-strong, two measures; renamed red -> ochre, wayfinding -> teal). Keyboard focus ring is teal.
 - **Publication list labels** (PDF, DOI, Projektas, Cituoti, Duomenys): muted warm grey, ochre on hover (they read as blue in teal). The Duomenys (MIDAS) icon is now `hero/circle-stack`; icon names need the `hero/` prefix.
 - DJ's own edits to the Global Society entry committed.
 

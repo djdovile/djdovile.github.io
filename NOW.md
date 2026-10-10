@@ -45,7 +45,7 @@ Lietuviškos svetainės versijos (`/lt/`) paleidimo paruošimas ir publikacijų/
 
 ## Brand alignment: done so far (2026-10-10, later session)
 
-Applied option B: accent red `#B72818` -> ochre `#d43d1a` (`params.yaml`, `--dj-red*` in `custom.css`; deep shade `#a82e12`); nav/interface font -> Inclusive Sans (`data/fonts/seminar.yaml`, with sans fallback via `:root:root` in `custom.css`). `hugo --minify` builds clean; not yet checked in the browser. Next: review the green `#506A52` (`--dj-wayfinding*`), then check contrast of the new ochre on every page type.
+Applied option B: accent red `#B72818` -> ochre `#d43d1a` (`params.yaml`, `--dj-ochre` in `custom.css`, one ochre for fills and text); nav/interface font -> Inclusive Sans (`data/fonts/seminar.yaml`, with sans fallback via `:root:root` in `custom.css`). `hugo --minify` builds clean; not yet checked in the browser. Next: review the green `#506A52` (`--dj-wayfinding*`), then check contrast of the new ochre on every page type.
 
 ## Handoff from another session (2026-10-10): brand alignment
 

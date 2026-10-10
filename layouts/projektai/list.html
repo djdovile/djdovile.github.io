@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="max-w-4xl mx-auto py-8 px-4" x-data="{ activeFilter: '*' }">
+<div class="max-w-3xl mx-auto py-8 px-4" x-data="{ activeFilter: '*' }">
   <header class="mb-6">
     <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
       {{ .Title }}
@@ -63,7 +63,7 @@
             <div class="flex items-center gap-1.5 shrink-0">
               {{ if .Params.status }}
                 {{ $is_ongoing := or (eq .Params.status "Vykdomas") (eq .Params.status "Ongoing") }}
-                <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium {{ if $is_ongoing }}bg-emerald-50 text-emerald-800 dark:bg-emerald-950/50 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/50{{ else }}bg-stone-100 text-stone-700 dark:bg-neutral-800 dark:text-neutral-300 border border-stone-200 dark:border-neutral-700{{ end }}">
+                <span class="status-pill{{ if $is_ongoing }} status-pill--active{{ end }}">
                   {{ .Params.status }}
                 </span>
               {{ end }}
@@ -76,7 +76,14 @@
             </p>
           {{ end }}
 
-          {{ with .Params.tech_stack }}
+          {{/* Topic tags (the status tags "projektas", "vykdomi" etc. are not topics) */}}
+          {{ $topics := slice }}
+          {{ range .Params.tags }}
+            {{ if not (in (slice "projektas" "project" "vykdomi" "ongoing" "igyvendinti" "įgyvendinti" "completed") (lower .)) }}
+              {{ $topics = $topics | append . }}
+            {{ end }}
+          {{ end }}
+          {{ with $topics }}
             <div class="flex flex-wrap gap-1.5 mt-0.5">
               {{ range . }}
                 <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-normal bg-stone-100 text-stone-700 dark:bg-neutral-800 dark:text-neutral-300">

@@ -15,7 +15,7 @@
     {{/* Status badge & course level tags */}}
     <div class="flex flex-wrap items-center gap-2 mb-4">
       {{ if .Params.status }}
-        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">
+        <span class="status-pill status-pill--active">
           {{ .Params.status }}
         </span>
       {{ end }}

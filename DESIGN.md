@@ -4,8 +4,6 @@ description: A credible, clear, expert public academic profile and archive for D
   Jakniūnaitė.
 colors:
   seminar-red: '#D43D1A'
-  seminar-red-deep: '#A82E12'
-  seminar-red-soft: '#FBE9E2'
   wayfinding-accent: '#14444B'
   wayfinding-deep: '#0F3037'
   warm-paper: '#FFFAF5'
@@ -115,13 +113,11 @@ The system explicitly rejects startup/portfolio flashiness, generic Hugo Blox te
 The palette is a warm civic reading palette: paper, ink, shelves, and restrained accent marks. It should support reading and orientation before identity display.
 
 ### Primary
-- **Seminar Red** (ochre `#D43D1A`, shared with the slides and social cards; changed from red `#B72818` on 2026-10-10): The project-configured primary accent. Use it for selected filters, key calls to action, active states, and rare emphasis. It should feel like a marker in a seminar handout, not a decorative brand wash.
-- **Deep Seminar Red**: The darker companion for small text in the accent (menu hover and current page, tags). Use it where plain ochre is too weak: ochre is about 4.7:1 on white, fine for fills with white text and large text, not for small text.
-- **Soft Seminar Red**: A quiet tint for selected backgrounds, callouts, and subtle grouping when white is too bare.
+- **Seminar Red** (ochre `#D43D1A`, CSS variable `--dj-ochre`, the only red/ochre on the site: fills, text, underlines, hover, shared with the slides and social cards; changed from red `#B72818` on 2026-10-10): The project-configured primary accent. Use it for selected filters, key calls to action, active states, and rare emphasis. It should feel like a marker in a seminar handout, not a decorative brand wash.
 
 ### Secondary
-- **Quiet Wayfinding Accent** (teal `#14444B`, the slide teal; replaced the green `#506A52` on 2026-10-10): The secondary accent for functional links. It should read as institutional orientation, not as product-blue decoration.
-- **Deep Wayfinding Accent**: The stronger companion for hover on links, buttons, profile pills and tags. Hover is never ochre; ochre marks only selected and current states (menu hover and current page, selected filters, primary button) and the keyboard focus outline.
+- **Quiet Wayfinding Accent** (teal `#14444B`, CSS variables `--dj-teal` and `--dj-teal-hover`; also the keyboard focus ring, the slide teal; replaced the green `#506A52` on 2026-10-10): The secondary accent for functional links. It should read as institutional orientation, not as product-blue decoration.
+- **Deep Wayfinding Accent** (`#0F3037`): The darker teal for link hover in running text. Titles, labels, chips and the menu hover ochre instead.
 
 ### Neutral
 - **Warm Paper**: The main light background. It gives the site a reading-room temperature without becoming decorative parchment.
@@ -178,9 +174,9 @@ The current site uses Hugo Blox cards with rounded corners and visible shadow on
 ### Buttons
 - **Shape:** Small, controlled corners (4px) for primary actions and filter controls.
 - **Primary:** Seminar Red background with white text, used for selected states and rare calls to action.
-- **Hover / Focus:** Darken toward Deep Seminar Red and show a visible focus outline. The control should feel precise, not glossy.
+- **Hover / Focus:** Hover shows Seminar Red text and border; focus shows a visible teal outline. The control should feel precise, not glossy.
 - **Secondary / Ghost:** Transparent background, Study Ink or Muted Voice text, and Quiet Border when containment is needed.
-- **Attachment and cite labels (PDF, DOI, Projektas, cite):** Small bold caps in Muted Voice on the page background, with no fill; hover turns them Deep Seminar Red with an ochre border. Teal is reserved for links inside running text.
+- **Attachment and cite labels (PDF, DOI, Projektas, cite):** Small bold caps in Muted Voice on the page background, with no fill; hover turns text Seminar Red with an ochre underline (the same for the cite button). Teal is reserved for links inside running text.
 
 ### Chips
 - **Style:** Publication filters are compact chips with 4px corners, 1px borders, and label-size text.
@@ -195,12 +191,12 @@ The current site uses Hugo Blox cards with rounded corners and visible shadow on
 
 ### Inputs / Fields
 - **Style:** White or Warm Paper background, Quiet Border stroke, 4px corner radius, Study Ink text.
-- **Focus:** Seminar Red or Deep Wayfinding Accent outline with sufficient contrast.
+- **Focus:** Teal outline (`--dj-teal`) with sufficient contrast.
 - **Error / Disabled:** Error states should be explicit in text and color; disabled states must remain readable.
 
 ### Navigation
 - **Style:** Sticky centered navbar with Study Ink text, Soft Shelf or Warm Paper surface, search enabled, language switcher visible, and no theme toggle.
-- **Hover / Active:** Hover and the current page use Deep Seminar Red with an ochre underline. Use underline, weight, or restrained accent color. Do not turn the nav into a campaign header.
+- **Hover / Active:** Hover and the current page use Seminar Red with an ochre underline. Use underline, weight, or restrained accent color. Do not turn the nav into a campaign header.
 - **Mobile:** Prioritize language switching, search, and archive paths. Navigation should remain utilitarian and compact.
 
 ### Publication Type Filters

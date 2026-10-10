@@ -1,19 +1,18 @@
 :root {
-  --dj-paper: oklch(98.5% 0.012 65);
-  --dj-shelf: oklch(95.8% 0.018 66);
-  --dj-shelf-strong: oklch(93.5% 0.022 62);
-  --dj-ink: oklch(24% 0.052 52);
-  --dj-muted: oklch(45% 0.026 52);
-  --dj-border: oklch(88% 0.016 58);
-  /* Ochre accent shared with slides and social cards (#d43d1a); deep shade for small text */
-  --dj-red: #d43d1a;
-  --dj-red-deep: #a82e12;
-  --dj-red-soft: #fbe9e2;
-  /* Links: slide teal (#14444b) */
-  --dj-wayfinding: #14444b;
-  --dj-wayfinding-hover: #0f3037;
-  --dj-reading-measure: 86ch;
-  --dj-list-measure: 86ch;
+  /* Warm page surfaces */
+  --dj-paper: oklch(98.5% 0.012 65);        /* page background (params.yaml sets the live value) */
+  --dj-shelf: oklch(95.8% 0.018 66);        /* header, tags, boxes */
+  /* Text and lines */
+  --dj-ink: oklch(24% 0.052 52);            /* main text and titles */
+  --dj-muted: oklch(45% 0.026 52);          /* secondary text, metadata */
+  --dj-border: oklch(88% 0.016 58);         /* hairlines and quiet borders */
+  /* One ochre everywhere (decided 2026-10-10, same as slides and cards): selected states, hover, underlines */
+  --dj-ochre: #d43d1a;
+  /* Teal (slide teal): links in running text, "Daugiau", keyboard focus ring */
+  --dj-teal: #14444b;
+  --dj-teal-hover: #0f3037;
+  /* Maximum text width for reading and list blocks */
+  --dj-measure: 86ch;
 }
 
 /* Self-hosted italic (upright fonts are bundled from assets/dist/font via the theme) */
@@ -107,23 +106,23 @@ html:not(.dark) .nav-link {
 
 html:not(.dark) .nav-link:hover,
 html:not(.dark) .nav-link.active {
-  color: var(--dj-red-deep);
-  text-decoration-color: var(--dj-red);
+  color: var(--dj-ochre);
+  text-decoration-color: var(--dj-ochre);
 }
 
 html:not(.dark) .prose a,
 html:not(.dark) .article-style a,
 html:not(.dark) .pub-list-item a,
 html:not(.dark) .powered-by a {
-  color: var(--dj-wayfinding);
-  text-decoration-color: color-mix(in oklch, var(--dj-wayfinding) 48%, transparent);
+  color: var(--dj-teal);
+  text-decoration-color: color-mix(in oklch, var(--dj-teal) 48%, transparent);
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.2em;
 }
 
 .prose,
 .article-style {
-  max-width: var(--dj-reading-measure);
+  max-width: var(--dj-measure);
   font-size: 1.0625rem;
   line-height: 1.72;
 }
@@ -155,8 +154,8 @@ html:not(.dark) .prose a:hover,
 html:not(.dark) .article-style a:hover,
 html:not(.dark) .pub-list-item a:hover,
 html:not(.dark) .powered-by a:hover {
-  color: var(--dj-wayfinding-hover);
-  text-decoration-color: var(--dj-wayfinding-hover);
+  color: var(--dj-teal-hover);
+  text-decoration-color: var(--dj-teal-hover);
 }
 
 /* Publication entry titles behave like the other list titles: ink, ochre on hover */
@@ -171,23 +170,31 @@ html:not(.dark) .pub-list-item.view-citation > a.underline {
 }
 
 html:not(.dark) .pub-list-item.view-citation > a.underline:hover {
-  color: var(--dj-red-deep);
+  color: var(--dj-ochre);
   text-decoration: underline;
-  text-decoration-color: var(--dj-red);
+  text-decoration-color: var(--dj-ochre);
 }
 
+/* Homepage uses the same plain page background as every other page (no gradient band) */
 html:not(.dark) .resume-biography {
-  background:
-    linear-gradient(180deg, color-mix(in oklch, var(--dj-shelf) 58%, transparent), transparent 42%),
-    var(--dj-paper);
+  background: transparent;
+  padding-block: 2.5rem;
+}
+
+.home-section-bg {
+  display: none;
 }
 
 html:not(.dark) .resume-biography .portrait-title h1,
 html:not(.dark) .resume-biography h1 {
-  font-size: clamp(2.2rem, 1.45rem + 3vw, 4rem);
+  font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem);
   font-weight: 650;
-  line-height: 1.04;
-  letter-spacing: -0.018em;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+
+html:not(.dark) .resume-biography .portrait-title p.text-2xl {
+  font-size: 1.125rem;
 }
 
 html:not(.dark) .resume-biography .portrait-title h2,
@@ -198,7 +205,7 @@ html:not(.dark) .resume-biography .interests-div {
 
 html:not(.dark) .resume-biography .article-style,
 html:not(.dark) .resume-biography .prose {
-  max-width: var(--dj-reading-measure);
+  max-width: var(--dj-measure);
 }
 
 html:not(.dark) .resume-biography .avatar {
@@ -226,8 +233,8 @@ html:not(.dark) .resume-biography a.rounded-full.shadow-md {
 }
 
 html:not(.dark) .resume-biography a.rounded-full.shadow-md:hover {
-  border-color: var(--dj-wayfinding-hover);
-  color: var(--dj-wayfinding-hover);
+  border-color: var(--dj-teal-hover);
+  color: var(--dj-teal-hover);
   box-shadow: none;
   transform: none;
 }
@@ -240,8 +247,8 @@ html:not(.dark) .resume-biography .bg-primary-50 {
 }
 
 html:not(.dark) .resume-biography .bg-primary-50:hover {
-  background: var(--dj-shelf-strong);
-  border-color: color-mix(in oklch, var(--dj-wayfinding) 40%, var(--dj-border));
+  background: color-mix(in oklch, var(--dj-shelf) 88%, var(--dj-ink));
+  border-color: color-mix(in oklch, var(--dj-teal) 40%, var(--dj-border));
 }
 
 html:not(.dark) #section-markdown {
@@ -250,7 +257,7 @@ html:not(.dark) #section-markdown {
 }
 
 html:not(.dark) #section-markdown .prose {
-  max-width: var(--dj-list-measure);
+  max-width: var(--dj-measure);
 }
 
 html:not(.dark) #section-markdown .prose ul {
@@ -273,7 +280,20 @@ html:not(.dark) .hbb-section h2 {
 html:not(.dark) .pub-list-item.view-citation {
   border-top: 1px solid var(--dj-border);
   margin-bottom: 0;
-  padding-block: 0.9rem;
+  padding-block: 1.125rem;
+  /* Whole entry at the Projektai/Dėstymas title size */
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
+
+/* Archive lists start right below the filters, like Projektai (theme adds a 4-5rem top margin) */
+.pub-archive-list > .container {
+  margin-top: 0;
+}
+
+/* A little air between the citation and its PDF/DOI/cite labels */
+html:not(.dark) .pub-list-item.view-citation > .flex-wrap {
+  margin-top: 0.4rem;
 }
 
 html:not(.dark) .pub-list-item.view-citation .article-title,
@@ -288,8 +308,8 @@ html:not(.dark) .pub-list-item.view-citation h3 a {
 
 html:not(.dark) .pub-list-item.view-citation .article-metadata,
 html:not(.dark) .pub-list-item.view-citation .li-cite-author {
-  font-size: 0.875rem;
-  line-height: 1.5;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 html:not(.dark) .divide-stone-200 > :not([hidden]) ~ :not([hidden]),
@@ -298,7 +318,7 @@ html:not(.dark) .border-stone-200 {
 }
 
 html:not(.dark) .pub-icon {
-  color: var(--dj-red);
+  color: var(--dj-ochre);
 }
 
 html:not(.dark) .article-metadata,
@@ -317,24 +337,167 @@ html:not(.dark) .js-cite-clipboard {
   background: transparent;
 }
 
+/* PDF, DOI, Projektas, Duomenys and Cite: ochre text with ochre underline on hover */
 html:not(.dark) .hb-attachment-link:hover,
 html:not(.dark) .pub-list-item .hb-attachment-link:hover,
-html:not(.dark) .js-cite-clipboard:hover {
-  border-color: var(--dj-red);
-  color: var(--dj-red-deep);
+html:not(.dark) .js-cite-clipboard:hover,
+html:not(.dark) .pub-list-item .js-cite-clipboard:hover {
+  color: var(--dj-ochre);
   background: transparent;
+  text-decoration: underline;
+  text-decoration-color: var(--dj-ochre);
+}
+
+/* Filter chips (Publikacijos types, Projektai status): interface sans, no fill, quiet border,
+   as specified in DESIGN.md. The selected chip keeps the ochre fill (rule below). */
+html:not(.dark) nav[aria-label="Publication type"] > a,
+html:not(.dark) nav[aria-label="Project filter"] > button {
+  font-family: var(--hb-font-nav);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  background: transparent;
+  border-color: var(--dj-border);
+  color: var(--dj-muted);
+}
+
+html:not(.dark) nav[aria-label="Publication type"] > a:hover,
+html:not(.dark) nav[aria-label="Project filter"] > button:hover {
+  border-color: var(--dj-ochre);
+  color: var(--dj-ochre);
+}
+
+html:not(.dark) nav[aria-label="Publication type"] > a.bg-primary-600,
+html:not(.dark) nav[aria-label="Project filter"] > button.bg-primary-600 {
+  background: var(--dj-ochre);
+  border-color: var(--dj-ochre);
+  color: #fff;
+}
+
+/* Theme "stone" greys are cool neutral; the page is warm. Map boxes and tag chips to the warm shelf tones. */
+html:not(.dark) .bg-stone-100 {
+  background-color: var(--dj-shelf);
+}
+
+html:not(.dark) .bg-stone-50 {
+  background-color: color-mix(in oklch, var(--dj-shelf) 55%, var(--dj-paper));
+}
+
+/* Status and type pills (Vykdomas, Įgyvendintas, MA, BA): same quiet outline as the filter chips */
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.125rem 0.5rem;
+  border: 1px solid var(--dj-border);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--dj-muted);
+  font-family: var(--hb-font-nav);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.status-pill--active {
+  border-color: var(--dj-ochre);
+  color: var(--dj-ochre);
+}
+
+html.dark .status-pill {
+  border-color: rgb(115 115 115 / 0.5);
+  color: rgb(212 212 212);
+}
+
+/* Link to the related research project inside the publication page box */
+.related-link {
+  color: var(--dj-teal);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklch, var(--dj-teal) 48%, transparent);
+  text-underline-offset: 0.2em;
+}
+
+.related-link:hover {
+  color: var(--dj-teal-hover);
+  text-decoration-color: var(--dj-teal-hover);
 }
 
 html:not(.dark) .border-primary-600.bg-primary-600 {
-  border-color: var(--dj-red);
-  background-color: var(--dj-red);
+  border-color: var(--dj-ochre);
+  background-color: var(--dj-ochre);
 }
 
 html:not(.dark) .hover\:border-primary-600:hover {
-  border-color: var(--dj-wayfinding-hover);
+  border-color: var(--dj-teal-hover);
 }
 
 html:not(.dark) :focus-visible {
-  outline: 3px solid color-mix(in oklch, var(--dj-red) 74%, white);
+  outline: 3px solid var(--dj-teal);
   outline-offset: 3px;
+}
+
+/* ---- Homepage rhythm and consistency ---- */
+
+/* Tighter space between Apie, Naujausios publikacijos and Tekstai */
+.page-body .hbb-section {
+  padding-block: 0;
+}
+
+.page-body .hbb-section > .flex-col.items-center > .mb-6 {
+  margin-bottom: 0.5rem;
+}
+
+.page-body .hbb-section .container.max-w-3xl {
+  margin-top: 1.25rem;
+}
+
+/* Archive pages keep no gap under the filters (must stay after the rule above) */
+.pub-archive-list > .container.max-w-3xl {
+  margin-top: 0;
+}
+
+/* "Daugiau": plain left-aligned link under the list, no grey box */
+.hbb-section div.container.max-w-screen-lg:has(> .mt-10.flex.justify-center) {
+  max-width: 48rem;
+  padding-inline: 0;
+}
+
+.hbb-section .mt-10.flex.justify-center {
+  justify-content: flex-start;
+  margin-top: 0.75rem;
+}
+
+html:not(.dark) .hbb-section .mt-10.flex.justify-center > a {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  font-family: var(--hb-font-nav);
+  font-size: 0.9375rem;
+  color: var(--dj-teal);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklch, var(--dj-teal) 48%, transparent);
+  text-underline-offset: 0.2em;
+}
+
+html:not(.dark) .hbb-section .mt-10.flex.justify-center > a::after {
+  content: " →";
+}
+
+html:not(.dark) .hbb-section .mt-10.flex.justify-center > a:hover {
+  color: var(--dj-teal-hover);
+  background: transparent;
+}
+
+/* Tekstai on the homepage: titles like the publication titles (ink, quiet underline, ochre hover) */
+html:not(.dark) .pub-list-item.view-title-date a {
+  color: var(--dj-ink);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklch, var(--dj-ink) 38%, transparent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+}
+
+html:not(.dark) .pub-list-item.view-title-date a:hover {
+  color: var(--dj-ochre);
+  text-decoration-color: var(--dj-ochre);
 }
