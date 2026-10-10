@@ -86,3 +86,5 @@ dj_hugo.code-workspace
 .agents/
 .claude/
 .codex/
+# Local design-tool context (Impeccable); kept on disk, not published
+PRODUCT.md

@@ -4,6 +4,22 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 
 ---
 
+## 2026-10-10 - Brand alignment: colours, fonts, list styling
+
+Aligned the site with the slides and social cards (see `LIFEOS/USER/PRINCIPAL/BRAND_NOTE.md`).
+- **Accent:** red `#B72818` -> ochre `#d43d1a`; deep `#a82e12` for small text. Menu hover and current page stay ochre.
+- **Links, attachment/cite buttons, all other hovers:** teal `#14444b` (hover `#0f3037`); the old green `#506A52` is gone. Buttons are border-only, no fill.
+- **Fonts:** Inclusive Sans for interface text, Source Serif 4 for prose. Both self-hosted (`assets/dist/font/`, italic in `static/fonts/`); no Google requests. Check builds with `hugo --minify -d <tmp>`, because the old `public/` keeps stale pages.
+- **Author names** in publication lists are plain text (`layouts/_partials/page_metadata_authors.html`); the theme linked them to author pages that are not rendered.
+- **List titles:** Tekstai rows now match Projektai; Publikacijos titles are ink with a quiet underline and ochre hover.
+- **Global Society entry:** `doi` changed from a list to a single value, which removed the brackets from the DOI link.
+- **Cleanup:** removed `permalink:` front matter from all content files (left by the retired Basic Memory experiment; not a Hugo field). `PRODUCT.md` is now untracked and gitignored (local Impeccable context only). `DESIGN.md`, `PROJECT.md`, `CLAUDE.md` updated.
+- Commits: `00a8439`, `0946b00`, `7fd8469`, `ab91df5`, `0520591`. Not pushed at time of writing.
+
+## 2026-10-10 - Global Society article added
+
+New publication bundle `content/lt/publikacijos/giedraitytejakniunaite2026NarratingUnity/` and draft blog post `content/lt/blogas/vienybes-pasakojimai-ir-tvarkos-gynyba/` (`draft: true`). Test build passed. Committed 2026-10-10. Volume/issue/pages to fill when assigned; EN version later.
+
 ## 2026-09-17
 - **Publikacijų puslapių išdėstymas (`layouts/publikacijos/single.html`, `layouts/publications/single.html`):**
   - Grąžintas `featured` iliustracijos atvaizdavimas.
