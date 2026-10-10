@@ -44,7 +44,7 @@
   {{ end }}
 
   {{/* Last Updated Date at bottom right */}}
-  <div class="mt-8 flex justify-end text-xs text-neutral-400 dark:text-neutral-500 italic">
+  <div class="mt-8 flex justify-end text-xs text-neutral-400 dark:text-neutral-500">
     <span>
       {{ if eq site.Language.Lang "lt" }}Atnaujinta:{{ else }}Last updated:{{ end }}
       {{ if .Lastmod }}{{ .Lastmod.Format "2006-01-02" }}{{ else if .Date }}{{ .Date.Format "2006-01-02" }}{{ end }}

@@ -4,6 +4,14 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 
 ---
 
+## 2026-10-10 (later) - Post pages, tags, update line
+
+- **Tekstai post pages:** new layout `layouts/blogas/single.html` (and `layouts/blog/single.html` for EN) in the Projektai/Publikacijos style: back link, optional featured image, title, muted date, content, topic tags, "Atnaujinta". Share box and reading time removed (they came from the theme's default single).
+- **Tags:** no `#` prefix on any page type; post tags use the same chip style as Publikacijos.
+- **"Atnaujinta":** no longer italic (all single layouts: publikacijos, projektai, destymas, teaching and their EN versions).
+- Homepage introduction text considered final by DJ (2026-10-10); removed from the launch to-do list.
+- Open: PDF/DOI/cite labels in the publication list are teal `#14444b` and read as blue; colour decision pending.
+
 ## 2026-10-10 - Brand alignment: colours, fonts, list styling
 
 Aligned the site with the slides and social cards (see `LIFEOS/USER/PRINCIPAL/BRAND_NOTE.md`).
