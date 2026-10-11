@@ -19,15 +19,23 @@
         {{ end }}
       {{ end }}
     {{ end }}
-    {{ with $image }}
+    {{ $isBook := or (in .Params.publication_types "book") (in .Params.publication_types "edited-book") }}
+    {{ $cover := false }}
+    {{ if and $image $isBook }}{{ $cover = $image.Fit "720x1000 q88" }}{{ end }}
+    {{ if and $image (not $cover) }}
       <div class="mb-6 rounded-lg overflow-hidden border border-stone-200 dark:border-neutral-800 bg-stone-50 dark:bg-neutral-800/40">
-        <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="w-full h-auto object-cover max-h-96">
+        <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" class="w-full h-auto object-cover max-h-96">
         {{ with $.Params.image.caption }}
           <div class="p-2 text-xs text-center text-neutral-500 italic">{{ . | markdownify }}</div>
         {{ end }}
       </div>
     {{ end }}
 
+    <div class="{{ if $cover }}flex flex-col items-center sm:flex-row sm:items-start gap-6 sm:gap-8{{ end }}">
+    {{ with $cover }}
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ if eq site.Language.Lang "lt" }}Knygos viršelis{{ else }}Book cover{{ end }}: {{ $.Title }}" class="book-cover shrink-0 w-44 sm:w-56 h-auto rounded-sm">
+    {{ end }}
+    <div class="min-w-0">
     <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
       {{ .Title }}
     </h1>
@@ -97,6 +105,8 @@
       </div>
     </div>
     {{ end }}
+    </div>
+    </div>
   </header>
 
   {{/* Summary / Abstract */}}

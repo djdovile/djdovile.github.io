@@ -38,6 +38,16 @@ sections:
   design:
     view: citation
     show_read_time: false
+- block: book-shelf
+  content:
+    title: Knygos
+    items:
+    - page: publikacijos/jakniunaite2017KaipTaptiValstybe
+      role: Autorė
+    - page: publikacijos/jakniunaite2015AmbicingasDesimtmetis
+      role: Sudarytoja
+    - page: publikacijos/jakniunaite2007KurPrasidedaBaigiasiRusija
+      role: Autorė
 - block: collection
   content:
     title: Tekstai

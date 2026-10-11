@@ -1,5 +1,5 @@
 ---
-title: 'Ambicingas dešimtemtis: Lietuvos užsienio politika 2004-2014'
+title: 'Ambicingas dešimtmetis: Lietuvos užsienio politika 2004-2014'
 authors:
 - me
 author_notes:
@@ -33,4 +33,4 @@ slides: ''
 draft: false
 ---
 
-Jakniūnaitė, Dovilė (sudarytoja). 2015. *Ambicingas dešimtemtis: Lietuvos užsienio politika 2004-2014*. Vilnius: Vilniaus universiteto leidykla.
+Jakniūnaitė, Dovilė (sudarytoja). 2015. *Ambicingas dešimtmetis: Lietuvos užsienio politika 2004-2014*. Vilnius: Vilniaus universiteto leidykla.
