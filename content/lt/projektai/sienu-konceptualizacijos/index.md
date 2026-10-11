@@ -5,8 +5,8 @@ date: 2026-07-02
 tags:
 - projektas
 - igyvendinti
-- Sienos
-- Teritorija
+- sienos
+- teritorija
 - Vidurio Rytų Europa
 status: Įgyvendintas
 links:

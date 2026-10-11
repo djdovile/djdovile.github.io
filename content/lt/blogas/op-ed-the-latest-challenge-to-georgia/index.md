@@ -4,7 +4,6 @@ subtitle: ''
 summary: ''
 authors: []
 tags:
-- Georgia
 - Gruzija
 categories: []
 date: 2015-07-29 21:53:05+00:00

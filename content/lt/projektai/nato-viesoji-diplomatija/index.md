@@ -6,7 +6,7 @@ tags:
 - projektas
 - igyvendinti
 - NATO
-- Saugumo politika
+- saugumo politika
 - Lietuvos užsienio politika
 status: Įgyvendintas
 reading_time: false

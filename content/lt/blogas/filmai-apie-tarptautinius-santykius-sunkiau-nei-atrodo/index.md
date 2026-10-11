@@ -3,7 +3,10 @@ title: Filmai apie tarptautinius santykius -- sunkiau nei atrodo
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- tarptautinių santykių teorijos
+- kinas
+- rekomendacijos
 categories: []
 date: 2018-04-02 11:45:38+02:00
 lastmod: null

@@ -18,7 +18,7 @@ publication:
 abstract: ''
 summary: 
 tags:
-- Recenzija
+- recenzija
 - mokslas Lietuvoje
 - demokratija
 featured: false

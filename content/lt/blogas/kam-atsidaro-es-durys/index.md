@@ -3,7 +3,9 @@ title: Kam atsidaro ES durys?
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- Europos Sąjunga
+- Rytų partnerystė
 categories: []
 date: 2018-10-01 10:09:39+02:00
 lastmod: null

@@ -18,7 +18,7 @@ publication:
 abstract: ''
 summary: 'Tekstas Hanso Morgenthau knygos „Politika tarp valstybių: kova dėl galios ir taikos“ lietuviškame leidime.'
 tags:
-- Tarptautinių santykių teorijos
+- tarptautinių santykių teorijos
 featured: false
 hugoblox:
   ids: null

@@ -3,7 +3,10 @@ title: Besipiktinančiųjų visuomenė
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- pasipiktinimas
+- socialiniai tinklai
+- zeitgeist
 categories: []
 date: 2022-12-10 11:52:00+00:00
 lastmod: null

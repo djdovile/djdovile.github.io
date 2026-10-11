@@ -4,7 +4,7 @@ subtitle: ''
 summary: ''
 authors: []
 tags:
-- Feminizmas
+- feminizmas
 categories: []
 date: 2018-12-05 10:28:23+02:00
 lastmod: null

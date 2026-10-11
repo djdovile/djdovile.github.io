@@ -5,7 +5,7 @@ summary: ''
 authors:
 - admin
 tags:
-- Tarptautinių santykių teorijos
+- tarptautinių santykių teorijos
 categories:
 - Straipsnis
 date: 2012-08-31 16:12:57+02:00

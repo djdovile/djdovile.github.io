@@ -3,7 +3,8 @@ title: Raganos, smėlis Lukiškių aikštėje ir kiti pavojingi dalykai
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- moralinė panika
 categories: []
 date: 2024-08-11 19:37:00+00:00
 lastmod: null

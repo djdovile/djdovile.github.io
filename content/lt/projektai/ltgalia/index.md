@@ -6,9 +6,9 @@ date: 2026-07-02
 tags:
 - projektas
 - vykdomi
-- Mažosios valstybės
-- Įtakos indeksas
-- Užsienio politika
+- mažosios valstybės
+- įtakos indeksas
+- užsienio politika
 - LMT
 status: Vykdomas
 links:

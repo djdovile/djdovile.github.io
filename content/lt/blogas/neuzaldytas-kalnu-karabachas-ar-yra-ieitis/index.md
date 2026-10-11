@@ -3,7 +3,10 @@ title: Neužšaldytas Kalnų Karabachas -- ar yra išeitis?
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- de facto valstybės
+- Kalnų Karabachas
+- Pietų Kaukazas
 categories: []
 date: 2016-05-23 11:23:59+02:00
 lastmod: null

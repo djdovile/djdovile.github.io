@@ -6,7 +6,7 @@ tags:
 - projektas
 - igyvendinti
 - Europos Sąjunga
-- Užsienio politika
+- užsienio politika
 - COST
 status: Įgyvendintas
 reading_time: false

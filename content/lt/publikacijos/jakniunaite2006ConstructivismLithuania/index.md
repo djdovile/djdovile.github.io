@@ -18,8 +18,8 @@ publication:
 abstract: ''
 summary: 
 tags:
-- Tarptautinių santykių teorijos
-- Mokslas Lietuvoje
+- tarptautinių santykių teorijos
+- mokslas Lietuvoje
 featured: false
 hugoblox:
   ids: null

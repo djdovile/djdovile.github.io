@@ -3,7 +3,9 @@ title: Diplomatija karo metu
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- Rusijos karas Ukrainoje
+- diplomatija
 categories: []
 date: 2022-08-29 19:24:00+00:00
 lastmod: null

@@ -4,7 +4,7 @@ subtitle: ''
 summary: ''
 authors: []
 tags:
-- Pasaulio politika
+- pasaulio politika
 categories: []
 date: 2022-11-02 11:54:00+00:00
 lastmod: null

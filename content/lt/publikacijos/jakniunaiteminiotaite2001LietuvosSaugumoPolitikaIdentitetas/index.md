@@ -19,7 +19,7 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- Lieutos saugumo politika
+- Lietuvos saugumo politika
 - Lietuvos užsienio politika
 - tapatybė
 - saugumo studijos

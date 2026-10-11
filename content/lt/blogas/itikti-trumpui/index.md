@@ -5,7 +5,7 @@ summary: ''
 authors: []
 tags:
 - Lietuvos užsienio politika
-- Pasaulio politika
+- pasaulio politika
 categories: []
 date: 2025-02-14 11:33:54+00:00
 lastmod: null

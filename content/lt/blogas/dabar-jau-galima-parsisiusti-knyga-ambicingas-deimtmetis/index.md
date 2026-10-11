@@ -3,7 +3,8 @@ title: Dabar jau galima parsisiųsti knygą „Ambicingas dešimtmetis”
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- Lietuvos užsienio politika
 categories: []
 date: 2016-05-26 12:30:26+00:00
 lastmod: null

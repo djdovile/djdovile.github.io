@@ -3,7 +3,10 @@ title: Kolektyvinė rusų kaltė
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- Rusija
+- Rusijos karas Ukrainoje
+- kolektyvinė atsakomybė
 categories: []
 date: 2022-04-03 19:14:00+00:00
 lastmod: null

@@ -3,7 +3,10 @@ title: Vakarai ir visi kiti
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- Vakarai
+- tarptautinė politika
+- Rusijos karas Ukrainoje
 categories: []
 date: 2022-05-25 19:18:00+00:00
 lastmod: null

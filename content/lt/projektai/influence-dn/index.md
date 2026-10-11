@@ -6,7 +6,7 @@ tags:
 - projektas
 - vykdomi
 - Rusijos įtaka
-- Doktorantūra
+- doktorantūra
 - ES projektas
 status: Vykdomas
 reading_time: false

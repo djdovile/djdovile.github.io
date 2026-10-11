@@ -18,7 +18,7 @@ publication:
 abstract: ''
 summary: 
 tags:
-- Tarptautinių santykių teorijos
+- tarptautinių santykių teorijos
 featured: false
 hugoblox:
   ids: null

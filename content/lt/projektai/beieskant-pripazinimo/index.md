@@ -7,7 +7,7 @@ tags:
 - projektas
 - vykdomi
 - Lietuvos užsienio politika
-- Pripažinimas
+- pripažinimas
 - LMT
 status: Vykdomas
 reading_time: false

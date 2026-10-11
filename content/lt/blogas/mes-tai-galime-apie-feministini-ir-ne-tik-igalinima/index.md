@@ -3,7 +3,9 @@ title: Mes tai galime?! Apie feministinį (ir ne tik) įgalinimą
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- feminizmas
+- įgalinimas
 categories: []
 date: 2017-03-25 22:31:34+02:00
 lastmod: null

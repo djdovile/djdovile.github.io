@@ -5,7 +5,7 @@ summary: ''
 authors:
 - me
 tags:
-- Feminizmas
+- feminizmas
 categories:
 - Komentaras
 date: 2012-03-09 21:57:54+02:00

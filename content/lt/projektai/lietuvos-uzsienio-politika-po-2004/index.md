@@ -6,7 +6,7 @@ tags:
 - projektas
 - igyvendinti
 - Lietuvos užsienio politika
-- Saugumo politika
+- saugumo politika
 - LMT
 status: Įgyvendintas
 links:

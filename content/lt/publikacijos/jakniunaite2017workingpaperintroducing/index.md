@@ -23,6 +23,9 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
+- Europos Sąjunga
+- Rytų partnerystė
+- Rusija
 featured: false
 hugoblox:
   ids: null

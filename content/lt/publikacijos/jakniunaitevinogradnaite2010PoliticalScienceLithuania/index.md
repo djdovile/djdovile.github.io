@@ -19,7 +19,7 @@ publication:
 abstract: ''
 summary: 
 tags:
-- Mokslas Lietuvoje
+- mokslas Lietuvoje
 featured: false
 hugoblox:
   ids: null

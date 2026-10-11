@@ -3,7 +3,8 @@ title: Dar viena „Ambicingo dešimtmečio“ apžvalga
 subtitle: ''
 summary: ''
 authors: []
-tags: []
+tags:
+- Lietuvos užsienio politika
 categories: []
 date: 2015-12-14 12:03:42+02:00
 lastmod: null

@@ -36,7 +36,7 @@ abstract: 'Vienas didžiausių priekaištų konstruktyvizmui tarptautinių santy
 summary: Vienas didžiausių priekaištų konstruktyvizmui tarptautinių santykių disciplinoje
   yra jo abstraktu...
 tags:
-- Tarptautinių santykių teorijos
+- tarptautinių santykių teorijos
 featured: false
 hugoblox:
   ids: null
