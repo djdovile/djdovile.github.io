@@ -111,6 +111,8 @@ def check_project(path, fm):
     check_dates(path, fm)
     status = fm.get("status")
     tags = fm.get("tags") or []
+    if not re.fullmatch(r"\d{4}(-\d{2}(-\d{2})?)?", str(fm.get("start") or "")):
+        add("ERROR", path, '`start` (project start date, e.g. "2025-10-01") is missing; the project list is sorted by it')
     if status not in PROJECT_STATUS:
         add("ERROR", path, f"`status` is {status!r}, expected one of {sorted(PROJECT_STATUS)}")
     topic = [t for t in tags if t not in ("projektas", "vykdomi", "igyvendinti")]
@@ -127,6 +129,8 @@ def check_course(path, fm):
     check_dates(path, fm)
     tags = fm.get("tags") or []
     status = fm.get("status")
+    if status == "Dėstytas" and not re.fullmatch(r"\d{4}", str(fm.get("last_taught") or "")):
+        add("ERROR", path, '`last_taught` (year, e.g. "2021") is missing; past courses are sorted by it')
     if status not in COURSE_STATUS:
         add("ERROR", path, f"`status` is {status!r}, expected one of {sorted(COURSE_STATUS)} (exact case)")
     if fm.get("reading_time") is not False:

@@ -17,7 +17,11 @@
     {{ end }}
   </header>
 
-  {{ $courses := .RegularPages.ByDate.Reverse }}
+  {{/* Taught now first (A-Z), then past courses by last_taught, newest first */}}
+  {{ $current := slice "Dėstomas" "Teaching" }}
+  {{ $now := sort (where .RegularPages "Params.status" "in" $current) "Title" }}
+  {{ $past := sort (where .RegularPages "Params.status" "not in" $current) "Params.last_taught" "desc" }}
+  {{ $courses := $now | append $past }}
   {{ if gt (len $courses) 0 }}
     <div class="flex flex-col border-t border-stone-200 dark:border-neutral-700/60 divide-y divide-stone-200 dark:divide-neutral-700/60">
       {{ range $courses }}
