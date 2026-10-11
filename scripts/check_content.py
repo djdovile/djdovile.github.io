@@ -225,9 +225,12 @@ def check_mirror():
         b = load(os.path.join(CONTENT, "en/publications", s, "index.md"))
         if not a or not b:
             continue
-        for k in ("publication_types", "date", "draft"):
+        for k in ("publication_types", "date"):
             if str(a.get(k)) != str(b.get(k)):
                 add("ERROR", f"content/lt/publikacijos/{s}", f"`{k}` differs between LT ({a.get(k)!r}) and EN ({b.get(k)!r})")
+        for lang, fm in (("LT", a), ("EN", b)):
+            if fm.get("draft") is True:
+                add("WARN", f"content/lt/publikacijos/{s}", f"{lang} version is a draft awaiting review")
         da = ((a.get("hugoblox") or {}).get("ids") or {}).get("doi")
         db = ((b.get("hugoblox") or {}).get("ids") or {}).get("doi")
         if da != db:

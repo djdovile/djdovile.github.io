@@ -54,8 +54,7 @@ tags:
 featured: true
 hugoblox:
   ids:
-    doi:
-    - 10.33067/SE.4.2024.8
+    doi: 10.33067/SE.4.2024.8
 image:
   caption: ' '
   focal_point: ''
