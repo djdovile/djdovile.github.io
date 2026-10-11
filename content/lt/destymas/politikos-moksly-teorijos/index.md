@@ -2,9 +2,8 @@
 title: 'Politikos mokslų teorijos'
 summary: 'Doktorantūros dalykas politikos mokslų doktorantams'
 date: 2021-09-01
+last_taught: "2021"
 tags:
-- doktorantura
-- dėstymas
 - socialinių mokslų tyrimai ir metodologija
 status: Dėstytas
 reading_time: false

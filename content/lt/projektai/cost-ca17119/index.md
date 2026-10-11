@@ -2,12 +2,10 @@
 title: 'COST Action CA17119 „ES užsienio politika, susidurianti su nauja tikrove“'
 summary: 'Europos tinklaveikos veikla apie ES užsienio politiką.'
 date: 2022-06-01
+start: "2018-01-01"
 tags:
-- projektas
-- igyvendinti
 - Europos Sąjunga
-- užsienio politika
-- COST
+- užsienio politikos analizė
 status: Įgyvendintas
 reading_time: false
 profile: false

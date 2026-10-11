@@ -2,10 +2,10 @@
 title: 'Įvadas į tarptautinę politiką'
 summary: 'Įvadas į tarptautinių santykių studijas. VU bendrauniversitetinių studijų dalykas.'
 date: 2016-09-01
+last_taught: "2016"
 tags:
 - bakalauro
-- dėstymas
-- tarptautinė politika
+- pasaulio politika
 status: Dėstytas
 reading_time: false
 profile: false

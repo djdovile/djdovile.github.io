@@ -2,10 +2,10 @@
 title: Tarptautinių santykių teorijos (BA)
 summary: Įvadas į esmines tarptautinių santykių teorijas, politikos mokslų bakalaurams.
 date: 2026-07-02
+last_taught: "2019"
 tags:
 - bakalauro
-- dėstymas
-- tarptautinių santykių teorija
+- tarptautinių santykių teorijos
 status: Dėstytas
 reading_time: false
 profile: false

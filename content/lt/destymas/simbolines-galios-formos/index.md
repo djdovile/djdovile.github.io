@@ -5,7 +5,6 @@ summary: Kursas apie klasikinę ir šiuolaikinę galios sampratą, simbolinę ga
 date: 2026-07-02
 tags:
 - magistrantura
-- dėstymas
 - socialinė teorija
 status: Dėstomas
 reading_time: false

@@ -5,8 +5,7 @@ summary: Pažangus tarptautinių santykių teorijų kursas magistrantams, nagrin
 date: 2026-07-02
 tags:
 - magistrantura
-- dėstymas
-- tarptautinių santykių teorija
+- tarptautinių santykių teorijos
 status: Dėstomas
 reading_time: false
 profile: false

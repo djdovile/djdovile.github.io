@@ -1,7 +1,8 @@
 ---
 title: EU-STRAT
 summary: H2020 projektas apie Europos Sąjungą ir Rytų partnerystės šalis.
-date: 2026-07-02
+date: 2026-07-02
+start: "2016-01-01"
 tags:
 - Europos Sąjunga
 - Rytų partnerystė
@@ -15,7 +16,10 @@ reading_time: false
 profile: false
 ---
 
-H2020 projektas „Europos Sąjunga ir Rytų partnerystės šalys: vidaus ir išorės analizė bei strateginis įvertinimas“ tyrė ES ir Rytų partnerystės šalių santykius, vidaus pokyčius ir išorinės politikos aplinką.
+ES bendrosios tyrimų programos Horizontas 2020 projektas „Europos Sąjunga ir Rytų partnerystės šalys: vidaus ir išorės analizė bei strateginis įvertinimas“ (EU-STRAT)
 
-**Trukmė:** 2016-2019 m.  
+Projektas tyrė ES ir Rytų partnerystės šalių santykius, vidaus pokyčius ir išorinės politikos aplinką.
+
+**Trukmė:** 2016-2019 m. 
 **Mano vaidmuo:** projekto vykdytoja.
+

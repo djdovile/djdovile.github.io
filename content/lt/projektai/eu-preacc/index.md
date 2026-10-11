@@ -2,12 +2,10 @@
 title: 'EU-PREACC: Vidurio ir Rytų Europos pasirengimo stoti į ES patirties perkėlimas'
 summary: '7-osios bendrosios programos mobilumo ir tinklaveikos projektas apie ES stojimo patirties perkėlimą į Moldovą ir Gruziją.'
 date: 2017-06-01
+start: "2013-01-01"
 tags:
-- projektas
-- igyvendinti
 - Europos Sąjunga
-- Moldova
-- Gruzija
+- Gruzija (Sakartvelas)
 status: Įgyvendintas
 reading_time: false
 profile: false

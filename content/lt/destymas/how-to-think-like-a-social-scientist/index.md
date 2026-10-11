@@ -4,7 +4,6 @@ summary: Studijų įgūdžių, kritinio mąstymo ir kursas, dėstomas anglų kal
 date: 2026-07-02
 tags:
 - bakalauro
-- dėstymas
 status: Dėstomas
 reading_time: false
 profile: false

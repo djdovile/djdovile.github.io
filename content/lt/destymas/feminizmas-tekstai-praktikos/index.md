@@ -2,10 +2,10 @@
 title: 'Feminizmas: tekstai ir praktika'
 summary: Sužažindinome su feministinės teorijos raidą, pagrindiniais tekstais, rodėme, kaip taikyti feminizmo įžvalgas socialinių bei politinių reiškinių analizei.
 date: 2026-10-11
+last_taught: "2024"
 tags:
 - bakalauro
 - feminizmas
-- dėstymas
 status: Dėstytas
 reading_time: false
 profile: false
