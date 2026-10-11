@@ -37,14 +37,11 @@ links:
   - icon: academicons/researchgate-square
     url: https://www.researchgate.net/profile/Dovile-Jakniunaite
     label: ResearchGate
+  - icon: hero/rss
+    url: blogas/index.xml
+    label: RSS (Tekstai)
 
-interests:
-  - užsienio ir saugumo politikos analizė
-  - Lietuvos užsienio ir saugumo politika
-  - Vidurio Rytų Europos tapatybė ir saugumas
-  - tarptautinė tvarka ir jos transformacija
-  - sienų ir mobilumo studijos
-  - ypatingos padėties valdysena
+interests: [] # section removed from the homepage 2026-10-11 (repeated the biography)
 
 # education:
 #   - degree:

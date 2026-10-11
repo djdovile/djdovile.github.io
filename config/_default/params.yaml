@@ -89,7 +89,7 @@ hugoblox:
     search: true
     theme_toggle: false
     theme_picker: false
-    language_switcher: true
+    language_switcher: false # off while the English site is hidden
     # Call-to-action button
     cta:
       enable: false
@@ -103,7 +103,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false # off while the English site is hidden
     # Custom footer text (HTML supported)
     text: " "
 

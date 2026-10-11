@@ -4,6 +4,14 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 
 ---
 
+## 2026-10-11 - Footer, links, photo, menu bar, homepage cleanup
+
+- **Footer:** "Sukurta su Hugo ir Hugo Blox" with short links (hugo.chat promo button removed; overrides in `layouts/_partials/site_footer.html` and `components/footers/minimal.html`); row of own links (email, LinkedIn, Scholar, ORCID, ResearchGate, RSS of Tekstai `/lt/blogas/index.xml`) read from `data/authors/me.yaml`, also in the homepage column. More space between the icon row and the CC logos.
+- **Language switch hidden** (header and footer) while the English site is not public; set `language_switcher: true` in `params.yaml` to bring it back.
+- **Profile photo:** replaced the file with a baked-in checkerboard by the real transparent cutout, cropped square (800x800); beige backdrop behind it.
+- **Menu bar:** same cream as the page (page background defined once, `#fffaf5`), hairline only, slimmer, same font sizes.
+- **Homepage:** "Apie ką rašau ir kalbu" section removed (`interests: []` in the author files); the labels were not links and repeated the biography.
+
 ## 2026-10-10 (CV check) - Content added from the LT CV
 
 Compared `Jakniunaite_CV-LT_2026.docx` with the site (not copied into the repo).

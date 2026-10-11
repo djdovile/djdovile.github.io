@@ -1,6 +1,6 @@
 :root {
   /* Warm page surfaces */
-  --dj-paper: oklch(98.5% 0.012 65);        /* page background (params.yaml sets the live value) */
+  --dj-paper: #fffaf5;                      /* page background; same value as surfaces.background in params.yaml */
   --dj-shelf: oklch(95.8% 0.018 66);        /* header, tags, boxes */
   /* Text and lines */
   --dj-ink: oklch(24% 0.052 52);            /* main text and titles */
@@ -78,10 +78,20 @@ h1.page-title,
   font-family: var(--hb-font-nav);
 }
 
+/* Menu bar: same cream as the page, only a hairline below; slimmer, same font sizes */
 html:not(.dark) .page-header {
   border-bottom: 1px solid color-mix(in oklch, var(--dj-border) 82%, transparent);
-  background: color-mix(in oklch, var(--dj-shelf) 92%, transparent);
-  backdrop-filter: blur(10px);
+  background: var(--dj-paper);
+}
+
+html:not(.dark) .header {
+  background-color: transparent;
+  padding-block: 0.1rem;
+  box-shadow: none;
+}
+
+html:not(.dark) .nav-link {
+  padding-block: 0.4rem;
 }
 
 html:not(.dark) #site-header,
@@ -246,9 +256,10 @@ html:not(.dark) .resume-biography .bg-primary-50 {
   border-color: var(--dj-border);
 }
 
+/* They are plain labels, not links: no hover effect */
 html:not(.dark) .resume-biography .bg-primary-50:hover {
-  background: color-mix(in oklch, var(--dj-shelf) 88%, var(--dj-ink));
-  border-color: color-mix(in oklch, var(--dj-teal) 40%, var(--dj-border));
+  background: var(--dj-shelf);
+  border-color: var(--dj-border);
 }
 
 html:not(.dark) #section-markdown {
@@ -513,4 +524,22 @@ html:not(.dark) .pub-list-item.view-title-date {
 html:not(.dark) .resume-biography .prose,
 html:not(.dark) .resume-biography .article-style {
   line-height: 1.7;
+}
+
+/* ---- Footer: row of own links (same as the homepage), muted, ochre on hover ---- */
+.footer-links {
+  margin-bottom: 1.5rem;
+}
+
+.footer-links a {
+  color: var(--dj-muted);
+}
+
+.footer-links a:hover {
+  color: var(--dj-ochre);
+}
+
+/* Profile photo: neutral warm backdrop (visible once the photo has a real transparent background) */
+html:not(.dark) .resume-biography .avatar {
+  background: var(--dj-shelf);
 }

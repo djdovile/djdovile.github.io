@@ -1,0 +1,41 @@
+{{/* Footer: language switch (off while the English site is hidden), own links, license notice.
+     Overrides the theme's minimal footer. The links are the same ones as on the homepage (author profile "me"). */}}
+{{ $show_translations := site.Params.hugoblox.footer.language_switcher | default true }}
+{{ if .IsTranslated | and $show_translations }}
+<div class="mx-auto flex gap-3 py-2 px-4">
+  <div class="font-bold">
+    {{- partial "functions/get_icon" (dict "name" "globe-alt" "attributes" `class="inline-block pr-1" style="height: 1em"`) -}}
+    {{ i18n "languages" }}:
+  </div>
+  <div class="font-bold">{{ index hugo.Data.languages .Lang }}</div>
+  {{ range .Translations }}
+  <div><a href="{{ .Permalink }}">{{ index hugo.Data.languages .Lang }}</a></div>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ $profile := partial "functions/get_author_profile" (dict "slug" "me") }}
+{{ with $profile.links }}
+<ul class="footer-links flex flex-wrap justify-center gap-x-7 gap-y-3 py-4 text-xl list-none m-0 p-0">
+  {{ range . }}
+    {{ $url := .url }}
+    {{ $scheme := (urls.Parse $url).Scheme }}
+    {{ if not $scheme }}{{ if not (hasPrefix $url "#") }}{{ $url = $url | relLangURL }}{{ end }}{{ end }}
+    <li>
+      <a href="{{ $url | safeURL }}" aria-label="{{ .label | default .icon }}" title="{{ .label | default .icon }}"
+         {{ if in (slice "http" "https") $scheme }}target="_blank" rel="me noopener noreferrer"{{ end }}>
+        {{- partial "functions/get_icon" (dict "name" (.icon | default "hero/link") "attributes" "style=\"height: 1em;\"") -}}
+      </a>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ with site.Params.hugoblox.footer.text }}
+<p class="text-center">
+  {{ . | markdownify | emojify }}
+</p>
+{{ end }}
+
+{{/* Display copyright license. */}}
+{{ partial "site_footer_license" . }}
