@@ -2,7 +2,8 @@
 title: Tarptautinė politika pagal Hansą Morgenthau
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags: 
  - tarptautinių santykių teorijos
 categories: []

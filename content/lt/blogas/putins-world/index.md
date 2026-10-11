@@ -2,7 +2,8 @@
 title: How Putin's world makes sense
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []

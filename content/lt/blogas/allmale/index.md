@@ -2,7 +2,8 @@
 title: Kodėl gi taip užkliūna „all male panels”?
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - feminizmas
 categories: []

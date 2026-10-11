@@ -2,7 +2,8 @@
 title: Kodėl klysta naujojo Šaltojo karo pranašai
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Lietuvos užsienio politika
 - pasaulio politika

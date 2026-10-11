@@ -2,7 +2,8 @@
 title: Pakelto antakio ilgesys
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - simbolinė galia
 - Jungtinė Karalystė

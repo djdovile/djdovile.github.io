@@ -2,7 +2,8 @@
 title: Pamirštas jubiliejus
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - feminizmas
 categories: []

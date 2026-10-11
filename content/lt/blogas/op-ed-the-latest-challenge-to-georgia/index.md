@@ -2,7 +2,8 @@
 title: Op-ed on the latest challenge to Georgia in Lithuanian Tribune
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Gruzija
 categories: []

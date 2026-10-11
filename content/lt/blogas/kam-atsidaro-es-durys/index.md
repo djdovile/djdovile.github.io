@@ -2,7 +2,8 @@
 title: Kam atsidaro ES durys?
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Europos Sąjunga
 - Rytų partnerystė

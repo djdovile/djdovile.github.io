@@ -2,7 +2,8 @@
 title: Neužšaldytas Kalnų Karabachas -- ar yra išeitis?
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - de facto valstybės
 - Kalnų Karabachas

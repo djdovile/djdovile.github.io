@@ -2,7 +2,8 @@
 title: 'Rudeniniai pasirodymai: pabėgeliai, Rusija, Ukraina ir Junckeris'
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - pabėgeliai
 - Rusija

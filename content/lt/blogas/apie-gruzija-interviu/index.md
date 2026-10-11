@@ -2,7 +2,8 @@
 title: Apie Gruziją – interviu ir šis bei tas
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Gruzija
 categories: []

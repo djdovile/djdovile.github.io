@@ -3,7 +3,8 @@ title: Dar kartą apie Lietuvos ir Rusijos santykius – Interviu „Kauno diena
   vasaros gale
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Lietuvos užsienio politika
 - Rusija

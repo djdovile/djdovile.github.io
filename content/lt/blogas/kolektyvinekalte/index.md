@@ -2,7 +2,8 @@
 title: Kolektyvinė rusų kaltė
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 - Rusijos karas Ukrainoje

@@ -2,7 +2,8 @@
 title: Įtikti Trumpui
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Lietuvos užsienio politika
 - pasaulio politika

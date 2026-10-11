@@ -2,7 +2,8 @@
 title: Besipiktinančiųjų visuomenė
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - pasipiktinimas
 - socialiniai tinklai

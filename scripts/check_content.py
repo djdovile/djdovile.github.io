@@ -145,6 +145,8 @@ def check_post(path, fm):
     if blank(fm.get("tags")):
         add("WARN", path, "no tags")
     authors = fm.get("authors") or []
+    if not authors:
+        add("WARN", path, "no `authors` (use `me`)")
     if "admin" in authors:
         add("WARN", path, "author is `admin`; use `me` or leave empty")
     if "lastmod" in fm and fm["lastmod"] is not None and as_datetime(fm["lastmod"]) is None:

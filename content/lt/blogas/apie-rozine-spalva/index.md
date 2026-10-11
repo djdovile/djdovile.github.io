@@ -2,7 +2,8 @@
 title: Apie rožinę spalvą
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - feminizmas
 categories: []

@@ -2,7 +2,8 @@
 title: Apie dešimt prarastų hektarų
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Gruzija
 categories: []

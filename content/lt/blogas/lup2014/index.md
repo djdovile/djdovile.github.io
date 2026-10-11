@@ -2,7 +2,8 @@
 title: Apie 2014 m. Lietuvos užsienio politiką – komentaras Delfi'ams
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Lietuvos užsienio politika
 categories: []

@@ -2,7 +2,8 @@
 title: Kas atsitiko Sakartvelui?
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Gruzija
 categories: []

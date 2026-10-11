@@ -2,7 +2,8 @@
 title: Apie protestus Rusijoje
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []

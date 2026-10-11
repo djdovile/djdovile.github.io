@@ -2,7 +2,8 @@
 title: Rytinis pasakojimas apie knygą (šiek tiek) ir aktualijas (daug)
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Lietuvos užsienio politika
 categories: []

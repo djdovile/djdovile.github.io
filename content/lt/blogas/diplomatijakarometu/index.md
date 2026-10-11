@@ -2,7 +2,8 @@
 title: Diplomatija karo metu
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusijos karas Ukrainoje
 - diplomatija

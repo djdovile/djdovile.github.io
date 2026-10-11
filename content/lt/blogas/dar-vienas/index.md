@@ -2,7 +2,8 @@
 title: Dar vienas politologo komentaras
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Lietuvos užsienio politika
 categories: []

@@ -2,7 +2,8 @@
 title: Kodėl jie neprotestuoja?
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []

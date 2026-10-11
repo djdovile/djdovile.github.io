@@ -2,7 +2,8 @@
 title: Prezidentė ir moterys
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - feminizmas
 categories: []

@@ -2,7 +2,8 @@
 title: Kam prisireikė feministinės užsienio politikos?
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - feminizmas
 categories: []

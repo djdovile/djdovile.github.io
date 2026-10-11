@@ -2,7 +2,8 @@
 title: Vienybės pasakojimai ir tvarkos gynyba
 subtitle: ''
 summary: Žurnale Global Society išėjo mūsų su Ieva Giedraityte straipsnis apie tai, kaip Vakarų lyderiai pirmąjį karo mėnesį pasakojo apie Rusijos invaziją.
-authors: []
+authors:
+- me
 tags:
 - strateginiai naratyvai
 - tarptautinė tvarka

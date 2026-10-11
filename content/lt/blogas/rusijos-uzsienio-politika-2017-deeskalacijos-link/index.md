@@ -2,7 +2,8 @@
 title: Rusijos užsienio politika 2017 – deeskalacijos link
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []

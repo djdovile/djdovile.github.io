@@ -2,7 +2,8 @@
 title: Apie perspektyvos turėjimą
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - pasaulio politika
 categories: []

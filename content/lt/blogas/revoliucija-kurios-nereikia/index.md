@@ -2,7 +2,8 @@
 title: Revoliucija, kurios nereikia
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []

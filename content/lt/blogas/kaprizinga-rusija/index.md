@@ -2,7 +2,8 @@
 title: Trumpas pasirodymas „Kauno dienoje” apie „kaprizingąją Rusiją”
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []

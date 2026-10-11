@@ -2,7 +2,8 @@
 title: Komentaras apie Lietuvos užsienio politiką – angliška versija
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Lietuvos užsienio politika
 categories: []

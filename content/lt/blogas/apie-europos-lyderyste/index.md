@@ -2,7 +2,8 @@
 title: Apie Europos lyderystę
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - pasaulio politika
 categories: []

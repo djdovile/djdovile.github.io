@@ -2,7 +2,8 @@
 title: Apie valstybių sienas su Laurynu Jonavičiumi (Žinių radijuje)
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - sienos
 categories:

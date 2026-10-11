@@ -2,7 +2,8 @@
 title: Ar kas bijo Aleksėjaus Navalno?
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []

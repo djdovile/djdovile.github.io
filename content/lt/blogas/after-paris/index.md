@@ -2,7 +2,8 @@
 title: After Paris
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - priešai
 - tapatybė

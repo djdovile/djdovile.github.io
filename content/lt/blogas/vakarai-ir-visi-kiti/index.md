@@ -2,7 +2,8 @@
 title: Vakarai ir visi kiti
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Vakarai
 - tarptautinė politika

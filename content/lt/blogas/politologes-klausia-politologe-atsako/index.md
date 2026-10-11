@@ -2,7 +2,8 @@
 title: Politologės klausia, politologė atsako
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []

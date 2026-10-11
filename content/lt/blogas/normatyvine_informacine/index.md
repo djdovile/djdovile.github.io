@@ -2,7 +2,8 @@
 title: Normatyvinė galia prieš informacinę
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - ES
 - propaganda

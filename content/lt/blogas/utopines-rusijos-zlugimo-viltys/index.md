@@ -2,7 +2,8 @@
 title: Utopinės Rusijos žlugimo viltys
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []

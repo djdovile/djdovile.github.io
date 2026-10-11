@@ -2,7 +2,8 @@
 title: Ko Amerika nori iš pasaulio?
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - pasaulio politika
 categories: []

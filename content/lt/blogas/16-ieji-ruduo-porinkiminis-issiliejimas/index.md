@@ -2,7 +2,8 @@
 title: '16-ieji, ruduo: porinkiminis išsiliejimas'
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Facebook
 - Lietuva

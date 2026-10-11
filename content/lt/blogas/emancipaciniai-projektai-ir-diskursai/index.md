@@ -2,7 +2,8 @@
 title: Emancipaciniai projektai ir diskursai
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - feminizmas
 categories: []

@@ -2,7 +2,8 @@
 title: Eilinį kartą apie Rusiją, ir apie mus, aišku
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Lietuvos užsienio politika
 - Rusija

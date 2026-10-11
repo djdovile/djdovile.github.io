@@ -2,7 +2,8 @@
 title: Premjera – Dovilė šneka rusiškai
 subtitle: ''
 summary: ''
-authors: []
+authors:
+- me
 tags:
 - Rusija
 categories: []
