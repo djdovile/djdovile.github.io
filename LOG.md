@@ -4,6 +4,16 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 
 ---
 
+## 2026-10-11 - Pre-push check, tags, authors, publication fixes (pushed `c634f92`)
+
+- **Pre-push check:** `scripts/check_content.py`, run as `pnpm run check` (front matter) or `pnpm run check:build` (also builds to a temp folder: Google font links, DOI brackets, broken internal links). Reports only; exit 1 on errors. Rules: required fields and exact `status` on projects/courses/posts/publications, no `permalink`/`tech_stack`, tag hygiene, single-value DOI, `projects:` must exist, LT/EN publication twins, hidden future dates, every post has an author. `projektas`/`vykdomi`/`igyvendinti`/`kursas` tags are not required (the filter reads `status`). Documented in `CLAUDE.md`.
+- **Publications:** Chain of Emergencies DOI is now a single value (was a list printing `[brackets]`); EN draft of Narrating Unity added (`draft: true`); EN Jaroszewicz "Seeing Like a Train" renamed to the LT folder name and aligned (author `me`, date, volume/issue/pages, project); EN `example-publication` deleted. Rule (in `CLAUDE.md`): a new publication in one language gets a `draft: true` twin in the other for DJ to review.
+- **Tags:** missing tags added to 13 posts and the 2017 working paper per DJ's corrections; common-noun tags lowercase site-wide (names of states, regions and persons keep capitals); `Lieutos` typo, `Georgia` to `Gruzija`, `russia` to `Russia`, `Lietuvos--Rusijos` to `Lietuvos-Rusijos`.
+- **Authors:** `me` on all posts (was empty or `admin`).
+- **Courses:** Feminizmas date set, `dėstytas` capitalised, BA IR theory folder renamed to ASCII `tarptautiniu-santykiu-teorijos-b`; DJ's course/project list edits committed.
+
+---
+
 ## 2026-10-11 - Session close
 - Brand alignment finished and pushed (ochre `#d43d1a`, teal links, self-hosted fonts); CV-derived publications, projects and courses added; `permalink:` and `tech_stack:` removed; CLAUDE.md gotchas written.
 - DJ: first version is ready; she will review content and tags herself, deploy afterwards, and change things only if bugs appear.
