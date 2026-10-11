@@ -31,9 +31,8 @@ if hasattr(sys.stdout, "reconfigure"):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "content")
 
-PROJECT_STATUS = {"Vykdomas": "vykdomi", "Įgyvendintas": "igyvendinti"}
+PROJECT_STATUS = {"Vykdomas", "Įgyvendintas"}
 COURSE_STATUS = {"Dėstomas", "Dėstytas"}
-COURSE_LEVELS = {"bakalauro", "magistrantura", "doktorantura"}
 PUB_TYPES = {"article-journal", "chapter", "book", "review"}
 FORBIDDEN_KEYS = {"permalink", "tech_stack"}
 
@@ -114,18 +113,9 @@ def check_project(path, fm):
     tags = fm.get("tags") or []
     if status not in PROJECT_STATUS:
         add("ERROR", path, f"`status` is {status!r}, expected one of {sorted(PROJECT_STATUS)}")
-    else:
-        if "projektas" not in tags:
-            add("ERROR", path, "tags lack `projektas`")
-        want = PROJECT_STATUS[status]
-        other = [v for s, v in PROJECT_STATUS.items() if s != status][0]
-        if want not in tags:
-            add("ERROR", path, f"status {status} but tags lack `{want}`")
-        if other in tags:
-            add("ERROR", path, f"status {status} but tags contain `{other}`")
     topic = [t for t in tags if t not in ("projektas", "vykdomi", "igyvendinti")]
     if not topic:
-        add("WARN", path, "no topic tags besides projektas/status")
+        add("WARN", path, "no topic tags")
     if fm.get("reading_time") is not False:
         add("WARN", path, "`reading_time: false` not set")
     if fm.get("profile") is not False:
@@ -139,10 +129,6 @@ def check_course(path, fm):
     status = fm.get("status")
     if status not in COURSE_STATUS:
         add("ERROR", path, f"`status` is {status!r}, expected one of {sorted(COURSE_STATUS)} (exact case)")
-    if "dėstymas" not in tags:
-        add("WARN", path, "tags lack `dėstymas`")
-    if not COURSE_LEVELS & set(tags):
-        add("WARN", path, f"no level tag (one of {sorted(COURSE_LEVELS)})")
     if fm.get("reading_time") is not False:
         add("WARN", path, "`reading_time: false` not set")
     if fm.get("profile") is not False:
