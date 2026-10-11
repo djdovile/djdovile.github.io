@@ -23,7 +23,7 @@ summary: 'Recenzija knygai: Gediminas Vitkus, 2006, *Diplomatinė aporija: tarpt
 tags:
   - Rusija
   - recenzija
-  - Mokslas Lietuvoje
+  - mokslas Lietuvoje
 featured: false
 hugoblox:
   ids: null

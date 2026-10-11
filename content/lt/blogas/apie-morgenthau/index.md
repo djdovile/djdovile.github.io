@@ -4,7 +4,7 @@ subtitle: ''
 summary: ''
 authors: []
 tags: 
- - Tarptautinių santykių teorijos
+ - tarptautinių santykių teorijos
 categories: []
 date: 2017-03-31 13:00:22+02:00
 lastmod: null
