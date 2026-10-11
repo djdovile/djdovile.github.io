@@ -33,7 +33,7 @@ CONTENT = os.path.join(ROOT, "content")
 
 PROJECT_STATUS = {"Vykdomas", "Įgyvendintas"}
 COURSE_STATUS = {"Dėstomas", "Dėstytas"}
-PUB_TYPES = {"article-journal", "chapter", "book", "review"}
+PUB_TYPES = {"article-journal", "chapter", "book", "edited-book", "review", "report"}
 FORBIDDEN_KEYS = {"permalink", "tech_stack"}
 
 findings = []  # (level, path, message)

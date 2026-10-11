@@ -59,10 +59,10 @@
   translation: Trumpai
 
 - id: callout_info
-  translation: Info
+  translation: Trumpai
 
 - id: callout_todo
-  translation: Todo
+  translation: Dėmesio
 
 - id: callout_tip
   translation: Patarimas
@@ -89,7 +89,7 @@
   translation: Pavyzdys
 
 - id: callout_quote
-  translation: Ciata
+  translation: Citata
 
 - id: callout_important
   translation: Svarbu
@@ -162,7 +162,7 @@
   translation: Renginys
 
 - id: btn_calendar
-  translation: Calendar
+  translation: Kalendorius
 
 - id: btn_registration
   translation: Registracija
@@ -313,6 +313,9 @@
 
 - id: pub_book
   translation: Knyga
+
+- id: pub_edited_book
+  translation: Sudarytas leidinys
 
 - id: pub_chapter
   translation: Knygos skyrius

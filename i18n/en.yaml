@@ -381,6 +381,9 @@
 - id: pub_book
   translation: Book
 
+- id: pub_edited_book
+  translation: Edited volume
+
 - id: pub_chapter
   translation: Book section
 
