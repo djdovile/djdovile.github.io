@@ -14,6 +14,6 @@
   {{- range $items -}}
     {{- $label := cond (eq $lang "lt") .label_lt .label_en -}}
     {{- $isActive := eq $active .key -}}
-    <a class="rounded border px-3 py-1.5 text-xs no-underline transition-colors {{ if $isActive }}border-primary-600 bg-primary-600 text-white font-medium{{ else }}border-stone-300 dark:border-neutral-700 bg-stone-50/60 dark:bg-neutral-800/40 text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600{{ end }}" href="{{ .url | relLangURL }}">{{ $label }}</a>
+    <a class="filter-btn rounded border px-3 py-1.5 no-underline transition-colors {{ if $isActive }}border-primary-600 bg-primary-600 text-white font-medium{{ else }}border-stone-300 dark:border-neutral-700 bg-stone-50/60 dark:bg-neutral-800/40 text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600{{ end }}" href="{{ .url | relLangURL }}">{{ $label }}</a>
   {{- end -}}
 </nav>

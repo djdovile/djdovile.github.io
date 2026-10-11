@@ -22,21 +22,21 @@
     <button 
       @click="activeFilter = '*'" 
       :class="activeFilter === '*' ? 'border-primary-600 bg-primary-600 text-white font-medium' : 'border-stone-300 dark:border-neutral-700 bg-stone-50/60 dark:bg-neutral-800/40 text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600'"
-      class="rounded border px-3 py-1.5 text-xs transition-colors cursor-pointer"
+      class="filter-btn rounded border px-3 py-1.5 transition-colors cursor-pointer"
     >
       {{ if eq site.Language.Lang "lt" }}Visi{{ else }}All{{ end }}
     </button>
     <button 
       @click="activeFilter = 'vykdomi'" 
       :class="activeFilter === 'vykdomi' ? 'border-primary-600 bg-primary-600 text-white font-medium' : 'border-stone-300 dark:border-neutral-700 bg-stone-50/60 dark:bg-neutral-800/40 text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600'"
-      class="rounded border px-3 py-1.5 text-xs transition-colors cursor-pointer"
+      class="filter-btn rounded border px-3 py-1.5 transition-colors cursor-pointer"
     >
       {{ if eq site.Language.Lang "lt" }}Vykdomi{{ else }}Ongoing{{ end }}
     </button>
     <button 
       @click="activeFilter = 'igyvendinti'" 
       :class="activeFilter === 'igyvendinti' ? 'border-primary-600 bg-primary-600 text-white font-medium' : 'border-stone-300 dark:border-neutral-700 bg-stone-50/60 dark:bg-neutral-800/40 text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600'"
-      class="rounded border px-3 py-1.5 text-xs transition-colors cursor-pointer"
+      class="filter-btn rounded border px-3 py-1.5 transition-colors cursor-pointer"
     >
       {{ if eq site.Language.Lang "lt" }}Įgyvendinti{{ else }}Completed{{ end }}
     </button>

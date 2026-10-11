@@ -543,3 +543,10 @@ html:not(.dark) .resume-biography .article-style {
 html:not(.dark) .resume-biography .avatar {
   background: var(--dj-shelf);
 }
+
+/* Filter and sort buttons (Publikacijos, Projektai, Temos): Inclusive Sans, one size everywhere */
+.filter-btn {
+  font-family: var(--hb-font-nav);
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
