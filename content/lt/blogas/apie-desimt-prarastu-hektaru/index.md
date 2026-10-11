@@ -2,10 +2,10 @@
 title: Apie dešimt prarastų hektarų
 subtitle: ''
 summary: ''
-authors:
+authors:
 - me
 tags:
-- Gruzija
+- Gruzija (Sakartvelas)
 categories: []
 date: 2015-07-20 16:43:58+00:00
 lastmod: null

@@ -2,10 +2,10 @@
 title: Apie Gruziją – interviu ir šis bei tas
 subtitle: ''
 summary: ''
-authors:
+authors:
 - me
 tags:
-- Gruzija
+- Gruzija (Sakartvelas)
 categories: []
 date: 2015-09-10 10:58:40+00:00
 lastmod: null

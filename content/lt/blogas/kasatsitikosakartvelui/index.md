@@ -2,10 +2,10 @@
 title: Kas atsitiko Sakartvelui?
 subtitle: ''
 summary: ''
-authors:
+authors:
 - me
 tags:
-- Gruzija
+- Gruzija (Sakartvelas)
 categories: []
 date: 2022-07-05 19:22:00+00:00
 lastmod: null

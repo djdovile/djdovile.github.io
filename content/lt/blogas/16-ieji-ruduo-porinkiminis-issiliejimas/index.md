@@ -2,11 +2,10 @@
 title: '16-ieji, ruduo: porinkiminis išsiliejimas'
 subtitle: ''
 summary: ''
-authors:
+authors:
 - me
 tags:
 - Facebook
-- Lietuva
 categories: []
 date: 2016-11-02 19:25:28+00:00
 lastmod: null

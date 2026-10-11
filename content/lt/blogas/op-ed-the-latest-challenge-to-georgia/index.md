@@ -2,10 +2,10 @@
 title: Op-ed on the latest challenge to Georgia in Lithuanian Tribune
 subtitle: ''
 summary: ''
-authors:
+authors:
 - me
 tags:
-- Gruzija
+- Gruzija (Sakartvelas)
 categories: []
 date: 2015-07-29 21:53:05+00:00
 lastmod: null

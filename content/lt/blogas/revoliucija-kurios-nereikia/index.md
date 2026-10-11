@@ -2,7 +2,7 @@
 title: Revoliucija, kurios nereikia
 subtitle: ''
 summary: ''
-authors:
+authors:
 - me
 tags:
 - Rusija
@@ -18,7 +18,7 @@ image:
 projects: []
 ---
 
-_Šį komentarą FB parašiau lapkričio 7 d. &#8211; tą dieną kalbėjo ir minėjo bolševikinės revoliucijos šimtmetį. _
+Šį komentarą FB parašiau lapkričio 7 d. &#8211; tą dieną kalbėjo ir minėjo bolševikinės revoliucijos šimtmetį.
 
 Šiandien &#8211; Spalio revoliucijos šimtmetis, daug kas kalba, visaip, o manęs LRT radijas šįryt paklausė apie dabartinės Rusijos valdžios santykį su ta revoliucija. Sumąsčiau štai ką.
 

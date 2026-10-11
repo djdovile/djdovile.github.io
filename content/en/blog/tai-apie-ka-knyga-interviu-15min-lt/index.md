@@ -5,9 +5,8 @@ summary: ''
 authors:
 - me
 tags:
-- Gruzija/Sakartvelas
+- Gruzija (Sakartvelas)
 - de facto valstybės
-- sudarytos knygos
 categories:
 - Pokalbiai
 date: 2017-12-10 19:13:45+02:00
