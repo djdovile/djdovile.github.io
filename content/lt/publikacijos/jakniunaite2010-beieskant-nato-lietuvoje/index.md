@@ -8,7 +8,7 @@ author_notes:
 date: 2010-01-01
 publishDate: 2023-01-31 19:23:04.445349+00:00
 publication_types:
-- book
+- edited-book
 publication:
   name: Vilniaus universiteto leidykla
   short_name: ''
