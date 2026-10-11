@@ -1,12 +1,14 @@
 # dj_hugo
 
-Last updated: 2026-08-25 (evening)
+Last updated: 2026-10-11
 
 Purpose, commands, and architecture (tech stack, content/layout structure, build gotchas) live in `CLAUDE.md`. This file tracks project status, decisions, and next actions only — the continuity layer.
 
 ## Current State
 
-`MyProjects/dj_hugo` is the canonical workspace for DJ's Hugo personal webpage. The older `MyHugoPage` folder should not be treated as the active source.
+This repo (`1_Projektai (personal)/DJwebsite/dj_hugo`) is the canonical workspace for DJ's Hugo personal webpage. The older `MyHugoPage` folder is not the active source.
+
+**Status 2026-10-11:** the first Lithuanian version is built and pushed to `main` (GitHub Pages at `djdovile.github.io`). DJ is reviewing content and tags by hand before deploying for real; further changes only for bugs. The English site and language switch are hidden for now. Open: connect `www.jakniunaite.lt` and change `baseURL`; review the draft post `vienybes-pasakojimai-ir-tvarkos-gynyba`; contrast check of ochre/teal and dark mode. Current short status is in `NOW.md`.
 
 The site is bilingual, with Lithuanian as the default language and English as the second language. Lithuanian-first content is the current priority; English parity can follow later.
 
