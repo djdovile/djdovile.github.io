@@ -8,9 +8,9 @@ author_notes:
 date: 2014-01-01
 publishDate: 2023-01-31 19:22:57.605330+00:00
 publication_types:
-- book
+- edited-book
 publication:
-  name: Generolo Jono Žemaičio Lietuvos karo akademija
+  name: 
   short_name: ''
   volume: ''
   issue: ''
@@ -19,7 +19,8 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- sudarytos knygos
+- Gražina Miniotaitė
+- Lietuvos saugumo politika
 featured: false
 hugoblox:
   ids: null
@@ -32,4 +33,4 @@ slides: ''
 draft: false
 ---
 
-Degutis, Algirdas, and Dovilė Jakniūnaitė, eds. 2014. *Gražina Miniotaitė. Vietoj išvadų*. Vilnius: Generolo Jono Žemaičio Lietuvos karo akademija.
+Degutis, Algirdas, and Dovilė Jakniūnaitė, sud. 2014. *Gražina Miniotaitė. Vietoj išvadų*. Vilnius: Generolo Jono Žemaičio Lietuvos karo akademija.

@@ -8,16 +8,16 @@ authors:
 - Laurynas Jonavičius
 author_notes:
 - ''
-date: 2020-03-01
+date: 2021-01-01
 publishDate: 2023-01-31 19:23:16.867666+00:00
 publication_types:
 - article-journal
 publication:
   name: East European Politics
   short_name: ''
-  volume: ''
-  issue: ''
-  pages: 1--24
+  volume: '37'
+  issue: '1'
+  pages: 65-88
   publisher: ''
 abstract: ''
 summary: Publication summary....

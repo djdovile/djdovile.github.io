@@ -31,4 +31,6 @@ slides: ''
 draft: false
 ---
 
-Jakniūnaitė, Dovilė. 2011. “Tragiška politikos vizija pagal Hansą Morgenthau” [Tragic vision of politics according to Hans Morgenthau]. In *Politika tarp valstybių: kova dėl galios ir taikos* [Politics among Nations: The Struggle for Power and Peace], by Hans Morgenthau, 11–16. Margi raštai.
+Jakniūnaitė, Dovilė. 2011. “Tragiška politikos vizija pagal Hansą Morgenthau” 
+
+Įvadas Hanso Morgenthau knygai *Politika tarp valstybių: kova dėl galios ir taikos*, Vilnius: Margi raštai, p. 11–16. 

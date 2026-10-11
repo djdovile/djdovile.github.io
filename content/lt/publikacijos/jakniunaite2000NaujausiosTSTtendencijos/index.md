@@ -11,16 +11,19 @@ publication:
   name: Politologija
   short_name: ''
   volume: '20'
-  issue: ''
+  issue: '4'
   pages: 52--88
   publisher: ''
+peer_reviewed: true
+open_access: true
+license: CC-BY-4.0
 abstract: ''
 summary: 
 tags:
 - tarptautinių santykių teorijos
 featured: false
 hugoblox:
-  ids: null
+  ids: 
 image:
   caption: ' '
   focal_point: ''
@@ -31,3 +34,5 @@ draft: false
 ---
 
 Jakniūnaitė, Dovilė. 2000. “Naujausios tendencijos tarptautinių santykių teorijoje: konstruktyvizmas, postmodernizmas ir virtualizmas.” *Politologija* 20: 52–88.
+
+

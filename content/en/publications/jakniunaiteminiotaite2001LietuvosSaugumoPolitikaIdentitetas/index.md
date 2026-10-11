@@ -13,7 +13,7 @@ publication:
   name: Politologija
   short_name: ''
   volume: '23'
-  issue: ''
+  issue: '3'
   pages: 21--43
   publisher: ''
 abstract: ''

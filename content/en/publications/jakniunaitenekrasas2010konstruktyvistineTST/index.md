@@ -14,21 +14,21 @@ publication:
   name: Politologija
   short_name: ''
   volume: '59'
-  issue: ''
+  issue: '3'
   pages: 29--58
   publisher: ''
 abstract: 'Vienas didžiausių priekaištų konstruktyvizmui tarptautinių santykių disciplinoje
   yra jo abstraktumas ir nesugebėjimas ką substantyvaus pasakyti apie pasaulio politiką.
-  Šiame straipsnyje siekiama parodyti, kad konstrukty­vizmas nėra tipiška tarptautinių
+  Šiame straipsnyje siekiama parodyti, kad konstruktyvizmas nėra tipiška tarptautinių
   santykių ar užsienio politikos analizės teorija. Konstruktyvizmas tarptautiniuose
   santykiuose yra tai, ką kiekvienas tyrėjas konstruktyvistas iš jo padaro, remdamasis
   keliais pamatiniais teiginiais apie socialinės tikrovės analizę. Siekiant parodyti,
-  kaip tarptautinių santykių dis­ciplinoje, atsispiriant nuo pagrindinių konstruktyvistinės
+  kaip tarptautinių santykių disciplinoje, atsispiriant nuo pagrindinių konstruktyvistinės
   socialinio pasaulio analizės principų, formuluojama konstruktyvistinė teorija, pirma,
-  atskleidžia­mi metateoriniai konstruktyvizmo pagrindai ir problemos, kylančios taikant
+  atskleidžiami metateoriniai konstruktyvizmo pagrindai ir problemos, kylančios taikant
   jas tolesniuose tyrimuose, antra, išskiriami trys pamatiniai konstruktyvizmo kaip
   metateorijos teiginiai (intersubjektyvus reikšmių konstravimas; idėjų svarba materialiam
-  pasauliui suprasti; veikėjo ir struktūros sąveikos proceso abipu­siškumas) ir parodoma,
+  pasauliui suprasti; veikėjo ir struktūros sąveikos proceso abipusiškumas) ir parodoma,
   kokią formą jie įgauna ir kaip taikomi konkretesniuose teoriniuose svarstymuose
   ir tyrimuose.
 
@@ -40,7 +40,8 @@ tags:
 - Research
 featured: false
 hugoblox:
-  ids: null
+  ids: 
+    doi: 10.15388/Polit.2010.3.8298
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

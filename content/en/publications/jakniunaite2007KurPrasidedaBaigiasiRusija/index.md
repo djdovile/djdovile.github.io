@@ -1,5 +1,5 @@
 ---
-title: 'Kur prasideda ir baigiasi Rusija: kaimynystė tarptautinj̇e politikoje'
+title: 'Kur prasideda ir baigiasi Rusija: kaimynystė tarptautinėje politikoje'
 authors:
 - me
 author_notes:

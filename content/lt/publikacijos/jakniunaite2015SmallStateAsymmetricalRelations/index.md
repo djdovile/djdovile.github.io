@@ -35,9 +35,15 @@ summary: In this article, Lithuania's relations with Russia from 2004 to 2014 ar
 tags:
 - Lietuvos-Rusijos santykiai
 - Lietuvos užsienio politika
+- mažosios valstybės
+links:
+- type: custom
+  url: https://www.zurnalai.vu.lt/BJPS/article/view/8880/6613
+  name: Parsisųsti
 featured: false
 hugoblox:
-  ids: null
+  ids: 
+    doi: 10.15388/BJPS.2015.0.8880
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

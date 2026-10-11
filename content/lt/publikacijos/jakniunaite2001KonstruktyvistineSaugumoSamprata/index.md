@@ -13,12 +13,13 @@ publication:
   short_name: ''
   volume: ''
   issue: ''
-  pages: ''
+  pages: '157-168'
   publisher: Strofa
 abstract: ''
 summary: 
 tags:
 - tarptautinių santykių teorijos
+- saugumo studijos
 featured: false
 hugoblox:
   ids: null

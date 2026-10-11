@@ -1,5 +1,5 @@
 ---
-title: 'Beieškant NATO Lietuvoje: Pasiekimai, Nesėkmṡ, Perspektyvos'
+title: 'Beieškant NATO Lietuvoje: Pasiekimai, Nesėkmės, Perspektyvos'
 authors:
 - me
 - Kęstutis Paulauskas
@@ -19,8 +19,7 @@ publication:
 abstract: ''
 summary: 
 tags:
-- sudaryta knyga
-- saugumo politika
+- Lietuvos saugumo politika
 featured: false
 hugoblox:
   ids: null

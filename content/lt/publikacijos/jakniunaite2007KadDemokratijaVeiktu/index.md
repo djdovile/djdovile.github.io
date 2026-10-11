@@ -12,7 +12,7 @@ publication:
   name: Politologija
   short_name: ''
   volume: '47'
-  issue: ''
+  issue: '3'
   pages: 135--140
   publisher: ''
 abstract: ''
@@ -34,3 +34,5 @@ draft: false
 ---
 
 Jakniūnaitė, Dovilė. 2007. “Kad demokratija veiktų pilietinės galios beieškant.” *Politologija* 47: 135–40.
+
+Recenzuojama knyga: [Neatrasta galia: Lietuvos pilietinės visuomenės žemėlapis](https://www.lituanistika.lt/content/5616) Vilnius : Versus aureus, 2006 (Rūta Žiliukaitė, Ainė Ramonaitė, Laima Nevinskaitė, Vida Beresnevičiūtė, Inga Vinogradnaitė)

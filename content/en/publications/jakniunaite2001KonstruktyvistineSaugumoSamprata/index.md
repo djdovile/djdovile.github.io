@@ -13,7 +13,7 @@ publication:
   short_name: ''
   volume: ''
   issue: ''
-  pages: ''
+  pages: '157-168'
   publisher: Strofa
 abstract: ''
 summary: Publication summary.

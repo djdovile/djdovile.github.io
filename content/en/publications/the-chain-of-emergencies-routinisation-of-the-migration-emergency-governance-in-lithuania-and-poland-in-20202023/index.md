@@ -15,9 +15,9 @@ publication_types:
 publication:
   name: Studia Europejskie – Studies in European Affairs
   short_name: ''
-  volume: ''
-  issue: ''
-  pages: ''
+  volume: '24'
+  issue: '4'
+  pages: '171-197'
   publisher: ''
 abstract: 'This paper investigates the governance of emergencies in Lithuania and
   Poland from 2020 to 2023, focusing on how multiple crises, namely, the COVID-19

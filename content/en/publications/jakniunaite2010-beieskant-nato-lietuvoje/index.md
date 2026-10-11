@@ -1,5 +1,5 @@
 ---
-title: 'Beieškant NATO Lietuvoje: Pasiekimai, Nesėkmṡ, Perspektyvos'
+title: 'Beieškant NATO Lietuvoje: Pasiekimai, Nesėkmės, Perspektyvos'
 authors:
 - me
 - Kęstutis Paulauskas

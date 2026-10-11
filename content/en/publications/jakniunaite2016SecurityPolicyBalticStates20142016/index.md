@@ -23,7 +23,8 @@ tags:
 - security
 featured: false
 hugoblox:
-  ids: null
+  ids: 
+    doi: 10.1515/jobs-2016-0041
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

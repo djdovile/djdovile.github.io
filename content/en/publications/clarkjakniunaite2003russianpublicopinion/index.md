@@ -23,7 +23,8 @@ tags:
 - Russia
 featured: false
 hugoblox:
-  ids: null
+  ids: 
+    isbn: 9780313051784
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

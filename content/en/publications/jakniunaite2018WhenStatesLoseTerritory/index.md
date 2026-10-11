@@ -31,12 +31,13 @@ summary: In this article I analyse how Georgia, as a political entity, coped wit
   the de facto loss of two...
 tags:
 - sienos
-- Gruzija/Sakartvelas
+- Gruzija (Sakartvelas)
 - de facto valstybės
 - Rusijos užsienio politika
 featured: false
 hugoblox:
-  ids: null
+  ids: 
+    doi: 10.15388/BJPS.2017.6.11594
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

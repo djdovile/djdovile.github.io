@@ -20,10 +20,15 @@ summary: Publication summary.
 tags:
 - Baltijos valstybės
 - užsienio politikos analizė
-- saugumo politika
+- Lietuvos saugumo politika
+links:
+- type: custom
+  url: https://journalonbalticsecurity.com/journal/JOBS/article/66/info
+  name: Parsisiųsti
 featured: false
 hugoblox:
-  ids: null
+  ids: 
+    doi: 10.1515/jobs-2016-0041
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''
@@ -34,3 +39,4 @@ draft: false
 ---
 
 Jakniūnaitė, Dovilė. 2016. “Changes in Security Policy and Perceptions of the Baltic States 2014 – 2016.” *Journal of Baltic Security* 2 (2): 6–34.
+

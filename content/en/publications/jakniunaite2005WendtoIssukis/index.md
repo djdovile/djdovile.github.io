@@ -12,8 +12,8 @@ publication:
   name: Politologija
   short_name: ''
   volume: '40'
-  issue: ''
-  pages: 79--87
+  issue: '4'
+  pages: 79-87
   publisher: ''
 abstract: ''
 summary: Publication summary.

@@ -19,9 +19,9 @@ publication_types:
 publication:
   name: Studia Europejskie – Studies in European Affairs
   short_name: ''
-  volume: ''
-  issue: ''
-  pages: ''
+  volume: '24'
+  issue: '4'
+  pages: '171-197'
   publisher: ''
 abstract: 'This paper investigates the governance of emergencies in Lithuania and
   Poland from 2020 to 2023, focusing on how multiple crises, namely, the COVID-19
@@ -52,6 +52,10 @@ tags:
 - ypatinga padėtis
 - krizių valdymas
 featured: true
+links:
+- type: custom
+  url: https://journalse.com/the-chain-of-emergencies-routinisation-of-the-migration-emergency-governance-in-lithuania-and-poland-in-2020-2023/
+  name: Parsisiųsti
 hugoblox:
   ids:
     doi: 10.33067/SE.4.2024.8
@@ -63,4 +67,6 @@ projects:
 - daina2-mobilumas-migracija-covid
 draft: false
 ---
+
+
 

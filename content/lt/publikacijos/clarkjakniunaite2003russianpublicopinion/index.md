@@ -23,7 +23,8 @@ tags:
 - Rusija
 featured: false
 hugoblox:
-  ids: null
+  ids: 
+    isbn: 9780313051784
 image:
   caption: ' '
   focal_point: ''

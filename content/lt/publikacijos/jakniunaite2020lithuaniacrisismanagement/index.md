@@ -20,8 +20,12 @@ abstract: ''
 summary: Publication summary.
 tags:
 - krizių valdymas
-- saugumo politika
+- Lietuvos saugumo politika
 featured: false
+links:
+- type: custom
+  url: https://www.wga-project.eu/2020/Lithuania
+  name: Parsisiųsti
 hugoblox:
   ids: null
 image:

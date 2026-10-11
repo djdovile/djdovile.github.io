@@ -32,11 +32,16 @@ summary: In this article I analyse how Georgia, as a political entity, coped wit
 tags:
 - de facto valstybės
 - sienos
-- Gruzija/Sakartvelas
+- Gruzija (Sakartvelas)
 - Rusijos užsienio politika
+links:
+- type: custom
+  url: https://www.zurnalai.vu.lt/BJPS/article/view/11594
+  name: Parsisiųsti
 featured: false
 hugoblox:
-  ids: null
+  ids: 
+    doi: 10.15388/BJPS.2017.6.11594
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

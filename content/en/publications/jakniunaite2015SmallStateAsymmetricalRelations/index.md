@@ -38,7 +38,8 @@ tags:
 - baltic
 featured: false
 hugoblox:
-  ids: null
+  ids: 
+    doi: 10.15388/BJPS.2015.0.8880
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''

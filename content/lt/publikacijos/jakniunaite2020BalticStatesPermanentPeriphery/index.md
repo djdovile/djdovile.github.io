@@ -17,7 +17,7 @@ publication:
   pages: 223--242
   publisher: Peter Lang
 abstract: ''
-summary: Publication summary.
+summary: 
 tags:
 - Baltijos valstybės
 - tapatybė

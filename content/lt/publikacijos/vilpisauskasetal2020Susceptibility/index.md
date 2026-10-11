@@ -8,19 +8,19 @@ authors:
 - Laurynas Jonavičius
 author_notes:
 - ''
-date: 2020-03-01
+date: 2021-01-01
 publishDate: 2023-01-31 19:23:16.867666+00:00
 publication_types:
 - article-journal
 publication:
   name: East European Politics
   short_name: ''
-  volume: ''
-  issue: ''
-  pages: 1--24
+  volume: '37'
+  issue: '1'
+  pages: 65-88
   publisher: ''
 abstract: ''
-summary: Publication summary....
+summary: 
 tags:
 - Ukraina
 - Baltarusija
@@ -38,4 +38,5 @@ slides: ''
 draft: false
 ---
 
-Vilpišauskas, Ramūnas, Dovilė Jakniūnaitė, Marta Jaroszewicz, and Laurynas Jonavičius. 2020. “Susceptibility of Ukrainian and Belarussian Domestic Actors to External Actors’ Approaches: Puzzling Patterns of Transition.” *East European Politics*, March, 1–24.
+
+Vilpišauskas, R., Jakniūnaitė, D., Jaroszewicz, M., & Jonavičius, L. (2021). Susceptibility of Ukrainian and Belarusian domestic actors to external actors’ approaches: puzzling patterns of transition. East European Politics, 37(1), 65–88. 

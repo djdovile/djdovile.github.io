@@ -20,7 +20,7 @@ summary: Publication summary.
 tags:
 - sienos
 - de facto valstybės
-- Gruzija/Sakartvelas
+- Gruzija (Sakartvelas)
 featured: false
 hugoblox:
   ids: null

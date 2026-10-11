@@ -19,7 +19,7 @@ publication:
 abstract: ''
 summary: 'Įvadas straipsnių rinkiniui apie Lietuvos narystę NATO.'
 tags:
-- saugumo politika
+- Lietuvos saugumo politika
 featured: false
 hugoblox:
   ids: null

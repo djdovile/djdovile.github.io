@@ -10,7 +10,7 @@ publishDate: 2023-01-31 19:23:07.013836+00:00
 publication_types:
 - article-journal
 publication:
-  name: Lietuvos metinė strateginė ̇apžvalga 2013-2014
+  name: Lietuvos metinė strateginė apžvalga 2013-2014
   short_name: ''
   volume: '12'
   issue: ''

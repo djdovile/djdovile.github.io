@@ -1,6 +1,5 @@
 ---
-title: Working Paper Introducing the Analytical Framework for Comparing Approaches
-  and Strategies of the Selected External Actors
+title: Working Paper Introducing the Analytical Framework for Comparing Approaches and Strategies of the Selected External Actors
 authors:
 - me
 - Laurynas Jonavičius
@@ -12,21 +11,25 @@ author_notes:
 date: 2017-01-01
 publishDate: 2023-01-31 19:23:12.524768+00:00
 publication_types:
-- article-journal
+- report
 publication:
-  name: ''
+  name: 'EU-STRAT working paper'
   short_name: ''
   volume: ''
   issue: ''
   pages: ''
   publisher: ''
 abstract: ''
-summary: Publication summary.
+summary: 
 tags:
 - Europos Sąjunga
 - Rytų partnerystė
 - Rusija
 featured: false
+links:
+- type: custom
+  url: https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b10571b1&appId=PPGMS
+  name: Parsisiųst
 hugoblox:
   ids: null
 image:

@@ -12,7 +12,7 @@ publication:
   name: Politologija
   short_name: ''
   volume: '71'
-  issue: ''
+  issue: '3'
   pages: 21--45
   publisher: ''
 abstract: 'Straipsnyje keliami du tarpusavyje susiję klausimai. Pirma, kokia yra Baltijos

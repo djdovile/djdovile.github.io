@@ -13,7 +13,7 @@ publication:
   name: Politologija
   short_name: ''
   volume: '20'
-  issue: ''
+  issue: '4'
   pages: 52--88
   publisher: ''
 abstract: ''
@@ -23,7 +23,7 @@ tags:
 - Research
 featured: false
 hugoblox:
-  ids: null
+  ids: 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
   focal_point: ''
