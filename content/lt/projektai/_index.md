@@ -1,5 +1,5 @@
 ---
 title: Projektai
-summary: Vykdomi ir įgyvendinti mokslinių tyrimų projektai.
+summary: Dabartiniai ir įgyvendinti mokslinių tyrimų projektai.
 ---
 

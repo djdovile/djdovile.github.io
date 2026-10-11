@@ -1,11 +1,10 @@
 ---
 title: How to Think Like a Social Scientist
-summary: Bakalauro studijų įgūdžių ir socialinių mokslų mąstysenos kursas, dėstomas
-  anglų kalba.
+summary: Studijų įgūdžių, kritinio mąstymo ir kursas, dėstomas anglų kalba Globalių iššūkių programos pirmakursiams
 date: 2026-07-02
 tags:
-- kursas
 - bakalauro
+- dėstymas
 status: Dėstomas
 reading_time: false
 profile: false

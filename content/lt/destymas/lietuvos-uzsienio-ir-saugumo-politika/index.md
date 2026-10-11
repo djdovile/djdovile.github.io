@@ -1,9 +1,8 @@
 ---
 title: 'Lietuvos užsienio ir saugumo politika'
-summary: 'Bakalauro dalykas Generolo Jono Žemaičio Lietuvos karo akademijoje.'
+summary: 'Apie Lietuvos užsienio politiką ir saugumą Generolo Jono Žemaičio Lietuvos karo akademijoje kariūnams.'
 date: 2015-09-01
 tags:
-- kursas
 - bakalauro
 status: Dėstytas
 reading_time: false
@@ -12,4 +11,4 @@ profile: false
 
 Dalykas Generolo Jono Žemaičio Lietuvos karo akademijoje.
 
-**Dėsčiau:** 2015 m.
+Dėsčiau 2015 m.
