@@ -4,6 +4,20 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 
 ---
 
+## 2026-10-12 - Local work after `c634f92` (17 commits, not pushed)
+
+- **Publication types:** `edited-book` and `report` added (LT "Sudarytas leidinys", EN "Edited volume", filter buttons, check script). "Beieškant NATO Lietuvoje" set to `edited-book` (editors Jakniūnaitė, Paulauskas).
+- **cite.bib:** generator/checker `scripts/cite_bib.py` (`pnpm cite`, `cite:write`, `cite:check`); 12 new files LT+EN; damaged characters repaired, DOIs added, editors moved to `editor`.
+- **Publications, projects, courses:** DJ's page edits kept; `start` on all projects, `last_taught` on past courses; lists sorted by those fields (projects by `start`, courses current A-Z then past by `last_taught`); title/label rows no longer wrap; `.filter-btn` on the filters.
+- **Tags:** cleanup across posts, projects, courses, publications (status tags removed, merges, no `/` in tags). Topics pages (`layouts/tags/{taxonomy,term}.html`, frequency/A-Z toggle, type label per item, `tag_label.html`).
+- **Dates:** `enableGitInfo` with front-matter `lastmod` first. "Atnaujinta" follows the last commit of the page's `index.md`; the dev server reads git once at start.
+- **Book covers:** `featured.jpg` for five books (LT+EN): Georgia and NATO as supplied, Russia straightened from a photo, Ambicingas cropped from a small photo (soft), Miniotaite from a photo. Book pages show the cover beside the title (`layouts/{publikacijos,publications}/single.html`, `.book-cover` in `custom.css`). Home page: new `book-shelf` block (`layouts/_partials/hbx/blocks/book-shelf/block.html`) "Knygos" between publications and Tekstai: Georgia, Ambicingas, Russia. Typo "dešimtemtis" fixed.
+- **Book page texts:** Miniotaite page carries the collection preface (from DJ's PDF; "Minionaitės" and "Lietuvių" fixed); Ambicingas page carries the contents (no page numbers, no appendices), DJ's two chapters linked with `relref`.
+- **CLAUDE.md:** gotchas for sort fields, publication types, tag rules, git dates, `.filter-btn`, dev server.
+
+
+---
+
 ## 2026-10-11 - Pre-push check, tags, authors, publication fixes (pushed `c634f92`)
 
 - **Pre-push check:** `scripts/check_content.py`, run as `pnpm run check` (front matter) or `pnpm run check:build` (also builds to a temp folder: Google font links, DOI brackets, broken internal links). Reports only; exit 1 on errors. Rules: required fields and exact `status` on projects/courses/posts/publications, no `permalink`/`tech_stack`, tag hygiene, single-value DOI, `projects:` must exist, LT/EN publication twins, hidden future dates, every post has an author. `projektas`/`vykdomi`/`igyvendinti`/`kursas` tags are not required (the filter reads `status`). Documented in `CLAUDE.md`.
