@@ -1,0 +1,16 @@
+{{- /* The tag as the author wrote it (Hugo title-cases term pages: "De Facto Valstybės"). If pages spell it differently, the most common spelling wins. Args: key, pages, fallback. */ -}}
+{{- $key := .key -}}
+{{- $counts := dict -}}
+{{- range .pages -}}
+  {{- range .Params.tags -}}
+    {{- if or (eq (lower .) (lower $key)) (eq (urlize .) $key) -}}
+      {{- $counts = merge $counts (dict . (add (index $counts . | default 0) 1)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $label := .fallback -}}
+{{- $best := 0 -}}
+{{- range $name, $n := $counts -}}
+  {{- if gt $n $best }}{{ $label = $name }}{{ $best = $n }}{{ end -}}
+{{- end -}}
+{{- return $label -}}

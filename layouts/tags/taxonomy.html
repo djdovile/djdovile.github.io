@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+{{/* All topics, most used first; a button switches to A-Z (plain script, the page works without it). */}}
+{{ $lt := eq site.Language.Lang "lt" }}
+{{ $btn := "filter-btn rounded border px-3 py-1.5 transition-colors cursor-pointer" }}
+
+<div class="max-w-3xl mx-auto py-8 px-4">
+  <header class="mb-6">
+    <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
+      {{ if $lt }}Temos{{ else }}Topics{{ end }}
+    </h1>
+    <nav class="mt-6 flex flex-wrap gap-2" aria-label="{{ if $lt }}Rūšiavimas{{ else }}Sort{{ end }}">
+      <button type="button" data-sort="count" aria-pressed="true" class="{{ $btn }} border-primary-600 bg-primary-600 text-white font-medium">{{ if $lt }}Pagal dažnumą{{ else }}By frequency{{ end }}</button>
+      <button type="button" data-sort="name" aria-pressed="false" class="{{ $btn }} border-stone-300 dark:border-neutral-700 bg-stone-50/60 dark:bg-neutral-800/40 text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600">{{ if $lt }}Abėcėlės tvarka{{ else }}A–Z{{ end }}</button>
+    </nav>
+  </header>
+
+  <ul id="tag-list" class="list-none p-0 m-0 border-t border-stone-200 dark:border-neutral-700/60 sm:columns-2 gap-x-10">
+    {{ range .Data.Terms.ByCount }}
+      {{ $name := partial "tag_label.html" (dict "key" .Page.Data.Term "pages" .Pages "fallback" .Page.Title) }}
+      <li data-name="{{ $name }}" data-count="{{ .Count }}" class="break-inside-avoid flex items-baseline justify-between gap-4 py-1.5 border-b border-stone-200 dark:border-neutral-700/60">
+        <a href="{{ .Page.RelPermalink }}" class="min-w-0 text-neutral-900 dark:text-neutral-100 no-underline hover:text-primary-600 dark:hover:text-primary-400 transition">{{ $name }}</a>
+        <span class="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">{{ .Count }}</span>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+
+<script>
+  (function () {
+    var list = document.getElementById('tag-list');
+    if (!list) return;
+    var buttons = document.querySelectorAll('[data-sort]');
+    var on = ['border-primary-600', 'bg-primary-600', 'text-white', 'font-medium'];
+    var off = ['border-stone-300', 'bg-stone-50/60', 'text-neutral-700'];
+    var lang = document.documentElement.lang || 'lt';
+    function sortBy(mode) {
+      var items = Array.prototype.slice.call(list.children);
+      items.sort(function (a, b) {
+        var byName = a.dataset.name.localeCompare(b.dataset.name, lang, { sensitivity: 'base' });
+        if (mode === 'name') return byName;
+        return (b.dataset.count - a.dataset.count) || byName;
+      });
+      items.forEach(function (li) { list.appendChild(li); });
+      buttons.forEach(function (btn) {
+        var active = btn.dataset.sort === mode;
+        btn.setAttribute('aria-pressed', active);
+        on.forEach(function (c) { btn.classList.toggle(c, active); });
+        off.forEach(function (c) { btn.classList.toggle(c, !active); });
+      });
+    }
+    buttons.forEach(function (btn) { btn.addEventListener('click', function () { sortBy(btn.dataset.sort); }); });
+  })();
+</script>
+
+{{ end }}

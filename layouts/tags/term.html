@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+{{/* Tag page: a plain list (title, date, a few lines), not cards. Mixed content, so the date is chosen per section. */}}
+{{ $lt := eq site.Language.Lang "lt" }}
+{{ $items := slice }}
+{{ range .Pages }}
+  {{ $sec := .Section }}
+  {{ $key := .Date.Format "2006-01-02" }}
+  {{ $when := .Date.Format "2006-01-02" }}
+  {{ $type := cond $lt "Tekstas" "Post" }}
+  {{ if in (slice "publikacijos" "publications") $sec }}
+    {{ $type = cond $lt "Publikacija" "Publication" }}
+    {{ $when = .Date.Format "2006" }}
+  {{ else if in (slice "projektai" "projects") $sec }}
+    {{ $type = cond $lt "Projektas" "Project" }}
+    {{ $when = "" }}
+    {{ with .Params.start }}{{ $key = . }}{{ end }}
+  {{ else if in (slice "destymas" "teaching") $sec }}
+    {{ $type = cond $lt "Dėstymas" "Teaching" }}
+    {{ $when = "" }}
+    {{ with .Params.last_taught }}{{ $key = printf "%s-12-31" . }}{{ else }}{{ $key = "9999" }}{{ end }}
+  {{ end }}
+  {{ $text := .Params.summary }}
+  {{ if not $text }}{{ $text = .Params.abstract }}{{ end }}
+  {{ if not $text }}{{ $text = .Summary | plainify }}{{ end }}
+  {{ if hasPrefix $text "Publication summary" }}{{ $text = "" }}{{ end }}
+  {{ $text = $text | markdownify | plainify }}
+  {{ $items = $items | append (dict "page" . "key" $key "when" $when "type" $type "text" $text) }}
+{{ end }}
+
+<div class="max-w-3xl mx-auto py-8 px-4">
+  <header class="mb-6">
+    <p class="text-sm text-neutral-500 dark:text-neutral-400 mb-1">{{ if $lt }}Tema{{ else }}Topic{{ end }}</p>
+    <h1 class="page-title text-3xl lg:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 mb-3">
+      {{ partial "tag_label.html" (dict "key" .Data.Term "pages" .Pages "fallback" .Title) }}
+    </h1>
+  </header>
+
+  {{ if gt (len $items) 0 }}
+    <div class="flex flex-col border-t border-stone-200 dark:border-neutral-700/60 divide-y divide-stone-200 dark:divide-neutral-700/60">
+      {{ range sort $items "key" "desc" }}
+        <article class="py-4.5 flex flex-col gap-1.5">
+          <div class="flex items-baseline justify-between gap-4">
+            <h2 class="min-w-0 text-lg font-semibold text-neutral-900 dark:text-neutral-100 m-0">
+              <a href="{{ .page.RelPermalink }}" class="hover:text-primary-600 dark:hover:text-primary-400 transition">
+                {{ .page.Title }}
+              </a>
+            </h2>
+            <span class="text-neutral-500 dark:text-neutral-400 text-sm whitespace-nowrap shrink-0">{{ .type }}</span>
+          </div>
+          {{ with .when }}<p class="text-sm text-neutral-500 dark:text-neutral-400 m-0">{{ . }}</p>{{ end }}
+          {{ with .text }}
+            <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed m-0 line-clamp-3">{{ . }}</p>
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+
+{{ end }}
