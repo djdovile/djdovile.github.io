@@ -4,6 +4,13 @@ Chronologinis atliktų darbų, sprendimų ir pakeitimų žurnalas.
 
 ---
 
+## 2026-10-11 - Session close
+- Brand alignment finished and pushed (ochre `#d43d1a`, teal links, self-hosted fonts); CV-derived publications, projects and courses added; `permalink:` and `tech_stack:` removed; CLAUDE.md gotchas written.
+- DJ: first version is ready; she will review content and tags herself, deploy afterwards, and change things only if bugs appear.
+- Offered, not started: pre-push check script (front matter, no permalink/tech_stack, no Google fonts, internal links, DOI brackets).
+
+---
+
 ## 2026-10-11 - Footer, links, photo, menu bar, homepage cleanup
 
 - **Footer:** "Sukurta su Hugo ir Hugo Blox" with short links (hugo.chat promo button removed; overrides in `layouts/_partials/site_footer.html` and `components/footers/minimal.html`); row of own links (email, LinkedIn, Scholar, ORCID, ResearchGate, RSS of Tekstai `/lt/blogas/index.xml`) read from `data/authors/me.yaml`, also in the homepage column. More space between the icon row and the CC logos.
