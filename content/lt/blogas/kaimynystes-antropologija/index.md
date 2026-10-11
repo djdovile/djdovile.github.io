@@ -3,7 +3,7 @@ title: Mėgėjiška kaimynystės antropologija ir truputis užsienio politikos
 subtitle: ''
 summary: ''
 authors:
-- admin
+- me
 tags:
 - tapatybė
 - Lietuvos užsienio politika

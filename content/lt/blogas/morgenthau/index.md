@@ -3,7 +3,7 @@ title: H. Morgenthau lietuviškai
 subtitle: ''
 summary: ''
 authors:
-- admin
+- me
 tags:
 - tarptautinių santykių teorijos
 categories:
