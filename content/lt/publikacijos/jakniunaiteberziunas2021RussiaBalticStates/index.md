@@ -22,7 +22,7 @@ summary: Publication summary.
 tags:
 - Rusija
 - Baltijos valstybės
-- Lietuvos--Rusijos santykiai
+- Lietuvos-Rusijos santykiai
 featured: false
 hugoblox:
   ids:

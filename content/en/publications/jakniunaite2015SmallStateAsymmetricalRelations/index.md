@@ -33,7 +33,7 @@ abstract: 'In this article, Lithuania''s relations with Russia from 2004 to 2014
 summary: In this article, Lithuania's relations with Russia from 2004 to 2014 are
   examined.
 tags:
-- russia
+- Russia
 - geopolitics
 - baltic
 featured: false

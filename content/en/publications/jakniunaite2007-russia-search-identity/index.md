@@ -19,7 +19,7 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- russia
+- Russia
 - identity
 featured: false
 hugoblox:

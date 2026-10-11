@@ -20,7 +20,7 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- russia
+- Russia
 - baltic
 featured: false
 hugoblox:

@@ -28,7 +28,7 @@ abstract: 'The article analyses the problems of bilateral relations between Grea
 summary: The article analyses the problems of bilateral relations between Great Britain
   and Russia in 2006
 tags:
-- russia
+- Russia
 - geopolitics
 featured: false
 hugoblox:

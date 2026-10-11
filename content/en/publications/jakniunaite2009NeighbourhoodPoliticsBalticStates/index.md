@@ -18,7 +18,7 @@ publication:
 abstract: ''
 summary: Publication summary.
 tags:
-- russia
+- Russia
 - baltic
 - eu
 featured: false

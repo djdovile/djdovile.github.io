@@ -19,7 +19,7 @@ abstract: ''
 summary: Publication summary.
 tags:
 - Lietuvos užsienio politika
-- Lietuvos--Rusijos santykiai
+- Lietuvos-Rusijos santykiai
 featured: false
 hugoblox:
   ids: null
