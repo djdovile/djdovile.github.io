@@ -20,6 +20,7 @@ Run from repo root (`pnpm` is the package manager):
 Deploy: push to `main` runs `.github/workflows/deploy.yml` (GitHub Pages); confirm a green run in the Actions tab. Netlify is an unused alternate.
 
 - `pnpm run check` — pre-push consistency check of front matter (projects, courses, posts, publications, LT/EN mirror); `pnpm run check:build` also builds into a temp folder and checks Google font links, DOI brackets and broken internal links. Needs Python with PyYAML. Reports only, exit 1 on errors; rules live in `scripts/check_content.py`.
+- `pnpm run cite` previews which publications have no `cite.bib` (the "Cite" link needs one); `pnpm run cite:write` creates the missing ones from the front matter (never overwrites); `pnpm run cite:check` checks existing files against the front matter (broken characters, wrong type, DOI, year, authors, LT/EN twins). A new file is a draft: read it once. Rules live in `scripts/cite_bib.py`.
 
 There is no test suite. Verification is a clean `pnpm run build` plus manual checks against `DESIGN.md`/`PRODUCT.md` intent (see Working Notes below).
 

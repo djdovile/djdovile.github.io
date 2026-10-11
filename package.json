@@ -9,7 +9,10 @@
     "build": "hugo --minify && pnpm run pagefind",
     "pagefind": "pagefind --site public",
     "check": "python scripts/check_content.py",
-    "check:build": "python scripts/check_content.py --build"
+    "check:build": "python scripts/check_content.py --build",
+    "cite": "python scripts/cite_bib.py",
+    "cite:write": "python scripts/cite_bib.py --write",
+    "cite:check": "python scripts/cite_bib.py --check"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
