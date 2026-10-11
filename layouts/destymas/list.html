@@ -26,8 +26,8 @@
     <div class="flex flex-col border-t border-stone-200 dark:border-neutral-700/60 divide-y divide-stone-200 dark:divide-neutral-700/60">
       {{ range $courses }}
         <article class="py-4.5 flex flex-col gap-1.5">
-          <div class="flex flex-wrap items-baseline justify-between gap-2">
-            <h2 class="text-lg font-semibold text-neutral-900 dark:text-neutral-100 m-0">
+          <div class="flex items-baseline justify-between gap-4">
+            <h2 class="min-w-0 text-lg font-semibold text-neutral-900 dark:text-neutral-100 m-0">
               <a href="{{ .RelPermalink }}" class="hover:text-primary-600 dark:hover:text-primary-400 transition">
                 {{ .Title }}
               </a>
